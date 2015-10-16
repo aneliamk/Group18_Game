@@ -89,7 +89,6 @@ def normalise_input(user_input):
 
     """
     no_punct = remove_punct(user_input)
-    print(no_punct)
     # Remove punctuation and convert to lower case
     no_punct = remove_punct(user_input).lower()
     
