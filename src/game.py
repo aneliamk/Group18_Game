@@ -4,7 +4,7 @@ from map import rooms
 from player import *
 from items import *
 from gameparser import *
-
+from colorama import Fore, Back, Style
 
 
 def list_of_items(items):
@@ -55,8 +55,8 @@ def print_room_items(room):
 
     """
     if len(room["items"])>0:
-        print ("There is " + list_of_items(room["items"]) + " here.")
-        print ("")
+        print (Fore.RED+"There is " + list_of_items(room["items"]) + " here.")
+        print (Style.RESET_ALL+"")
 
 
 def print_inventory_items(items):
@@ -127,7 +127,7 @@ def print_room(room):
     """
     # Display room name
     print()
-    print(room["name"].upper())
+    print(Fore.BLUE+room["name"].upper()+Style.RESET_ALL))
     print()
     # Display room description
     print(room["description"])
