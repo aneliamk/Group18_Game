@@ -12,7 +12,7 @@ room_halls = {
 
     "exits":  {"south": "Pryzm", "west": "Kebab", "cab": "Cab", "room": "Your room"},
 
-    "items": []
+    "items": [item_tequila_shot]
 }
 
 #Dorm ---------------------------------------------------------

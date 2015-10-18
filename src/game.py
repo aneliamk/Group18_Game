@@ -32,7 +32,6 @@ def list_of_items(items):
     return s
     
 
-
 def print_room_items(room):
     """This function takes a room as an input and nicely displays a list of items
     found in this room (followed by a blank line). If there are no items in
@@ -74,6 +73,11 @@ def print_inventory_items(items):
         print ("You have " + list_of_items(items) + ".")
         print ("")
 
+def print_player_attributes(health, alcohol_bar):
+    print ("You have " + str(health) + " health.")
+    print ("")
+    print ("You have " + str(alcohol_bar) + " percent alcohol in your system. ")
+    print ("")
 
 def print_room(room):
     """This function takes a room as an input and nicely displays its name
@@ -249,7 +253,6 @@ def execute_go(direction):
         print("You cannot go there.")
 
 
-
 def execute_take(item_id):
     """This function takes an item_id as an argument and moves this item from the
     list of items in the current room to the player's inventory. However, if
@@ -265,13 +268,21 @@ def execute_take(item_id):
 
     for item in items:
         if item["id"] == item_id:
-            ok = True
-            if (get_inventory_mass() + item["mass"]) <= max_mass:
-               items.remove(item)
-               inventory.append(item)
+
+            if item["health"] != 0 or item["alcohol_bar"] != 0:
+                global health
+                global alcohol_bar
+                health += item ["health"]
+                alcohol_bar += item["alcohol_bar"]
 
             else:
-                print("You are over-encumbered, you will need to drop an item")
+                ok = True
+                if (get_inventory_mass() + item["mass"]) <= max_mass:
+                   items.remove(item)
+                   inventory.append(item)
+
+                else:
+                    print("You are over-encumbered, you will need to drop an item")
 
     if (ok == False):
         print("You cannot take that.")
@@ -373,6 +384,7 @@ def main():
         # Display game status (room description, inventory etc.)
         print_room(current_room)
         print_inventory_items(inventory)
+        print_player_attributes(health, alcohol_bar)
 
         # Show the menu with possible actions and ask the player
         command = menu(current_room["exits"], current_room["items"], inventory)
