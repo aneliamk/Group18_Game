@@ -5,7 +5,6 @@ from player import *
 from items import *
 from gameparser import *
 from colorama import Fore, Back, Style
-# -*- coding: utf-8 -*-
 
 def list_of_items(items):
     """This function takes a list of items (see items.py for the definition) and
