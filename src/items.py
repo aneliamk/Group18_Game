@@ -98,5 +98,7 @@ item_tequila_shot = {
 
     "health": -5,
 
-    "alcohol_bar": 10
+    "alcohol_bar": 10,
+
+    "price": 2
 }

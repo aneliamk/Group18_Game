@@ -73,10 +73,12 @@ def print_inventory_items(items):
         print ("You have " + list_of_items(items) + ".")
         print ("")
 
-def print_player_attributes(health, alcohol_bar):
+def print_player_attributes(health, alcohol_bar, player_money):
     print ("You have " + str(health) + " health.")
     print ("")
     print ("You have " + str(alcohol_bar) + " percent alcohol in your system. ")
+    print ("")
+    print ("You have " + str(player_money) + " pounds. ")
     print ("")
 
 def print_room(room):
@@ -272,8 +274,18 @@ def execute_take(item_id):
             if item["health"] != 0 or item["alcohol_bar"] != 0:
                 global health
                 global alcohol_bar
-                health += item ["health"]
-                alcohol_bar += item["alcohol_bar"]
+                global player_money
+                if (player_money - item["price"]) >= 0:
+                    health += item ["health"]
+                    alcohol_bar += item["alcohol_bar"]
+                    player_money -= item["price"]
+                    if health > 100:
+                        health = 100
+                else:
+                    print("You don't have enough money to buy that.")
+
+                
+
 
             else:
                 ok = True
@@ -384,7 +396,7 @@ def main():
         # Display game status (room description, inventory etc.)
         print_room(current_room)
         print_inventory_items(inventory)
-        print_player_attributes(health, alcohol_bar)
+        print_player_attributes(health, alcohol_bar, player_money)
 
         # Show the menu with possible actions and ask the player
         command = menu(current_room["exits"], current_room["items"], inventory)
