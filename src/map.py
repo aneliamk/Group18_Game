@@ -37,7 +37,7 @@ room_kebab = {
 
     "description":
     """Good choice. Kfw (Kebab for the win). You have a choice of buying a
-    ‘Thick Sausage Kebab’ or a ‘Long Sausage Kebab’. Mama is getting impatient,
+    \'Thick Sausage Kebab\' or a \'Long Sausage Kebab\'. Mama is getting impatient,
     what are you going to go for?""",
 
     "exits":  {"west": "SU", "east": "Halls" , "cab": "Cab"},
@@ -391,8 +391,8 @@ room_cab = {
 
     "description":
     """You get in the taxi and the aroma of faux leather overwhelms
-your senses. Taxi driver with the ID reading ‘Justin Sider’ turns
-to you and asks Where would you like to go?”.""",
+your senses. Taxi driver with the ID reading \'Justin Sider\' turns
+to you and asks Where would you like to go?.""",
 
     "exits": {"pryzm": "Pryzm",
               "glam": "Glam",
@@ -405,7 +405,6 @@ to you and asks Where would you like to go?”.""",
 
     "items": []
 }
-
 
 
 rooms = {
