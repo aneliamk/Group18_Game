@@ -167,4 +167,35 @@ item_Water={
     "price":0,
     "points":-1
 }
+
+item_sambuca_shot = {
+    
+    "id" : "sambuca",
+
+    "name" : "a Sambuca shot",
+
+    "description": "A shot of Sambuca.",
+
+    "health": -10,
+
+    "alcohol_bar": 10,
+    
+    "price": 2
+}
+
+
+item_jagerbomb_shot = {
+    
+    "id" : "jagerbomb",
+
+    "name" : "a Jagerbomb shot",
+
+    "description": "A shot of Jagerbomb.",
+
+    "health": -5,
+
+    "alcohol_bar": 10,
+    
+    "price": 2
+}
 >>>>>>> 65ce4683c0c49fa605e1a76be0f9c9fb55bc1aa2
