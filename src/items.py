@@ -118,13 +118,13 @@ item_tequila_shot = {
     "price": 2
 }
 item_WKD={
-    "id":"WKD",
-    "name":"a WKD",
+    "id": "WKD",
+    "name": "a WKD",
     "description": "this is WKD",
-    "mass":0,
-    "health":-10,
+    "mass": 0,
+    "health": -10,
     "alcohol_bar": 10,
-    "price":3
+    "price": 3
 }
 item_Vodka={
     "id":"Vodka",

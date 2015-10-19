@@ -128,8 +128,8 @@ def print_room(room):
     # Display room name
     print("\n" * 40)
     print ("*" * 80 + "\n")
-    print ("#" * 80 + "\n")
-    print ("*" * 80 + "\n")
+    print ("-" * 80 + "\n")
+    print ("*" * 80 + "\n" * 3)
     print(Fore.BLUE+room["name"].upper()+Style.RESET_ALL)
     print()
     # Display room description
