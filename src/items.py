@@ -98,14 +98,12 @@ item_tequila_shot = {
 
     "health": -5,
 
-<<<<<<< HEAD
     "alcohol_bar": 10,
 
     "price": 2
 }
-=======
-    "alcohol_bar": 10
-}
+
+
 
 item_tequila_shot = {
     
