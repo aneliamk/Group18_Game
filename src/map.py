@@ -286,7 +286,7 @@ room_pryzm_curve = {
 
     "description":
     """Interesting choice. Many do not even know this room exists. You are rewarded with good music, a
-quiet(ish) bar and not being surrounded by ‘Cheeky Archbishop of Banterbury Top Lads’ that you
+quiet(ish) bar and not being surrounded by \'Cheeky Archbishop of Banterbury Top Lads\' that you
 usually find in Pryzm.""",
 
     "exits":  {"entrance": "Pryzm", "house": "Pryzm House", "disco": "Pryzm Disco"},
@@ -300,7 +300,7 @@ room_pryzm_house = {
 
     "description":
     """We’re not actually sure about the name of this room but it’s
-pretty busy and the strobe lighting probably isn't good for
+pretty busy and the strobe lighting probably isn\'t good for
 your epilepsy.
 -
 Nope this really isn’t helping your epilepsy. You collapse to
