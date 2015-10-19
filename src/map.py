@@ -407,7 +407,6 @@ to you and asks Where would you like to go?.""",
 }
 
 
-
 rooms = {
     "Your room": room_dorm,
     "Halls": room_halls,
