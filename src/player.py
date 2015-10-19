@@ -3,9 +3,11 @@ from map import rooms
 
 inventory = [item_id, item_laptop, item_money]
 
-health = 50
+health = 100
 
 alcohol_bar = 35
+
+player_money = 50
 
 
 max_mass = 3.0

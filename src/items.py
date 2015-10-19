@@ -98,6 +98,12 @@ item_tequila_shot = {
 
     "health": -5,
 
+<<<<<<< HEAD
+    "alcohol_bar": 10,
+
+    "price": 2
+}
+=======
     "alcohol_bar": 10
 }
 
@@ -163,3 +169,4 @@ item_Water={
     "price":0,
     "points":-1
 }
+>>>>>>> 65ce4683c0c49fa605e1a76be0f9c9fb55bc1aa2
