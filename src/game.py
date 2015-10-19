@@ -5,7 +5,7 @@ from player import *
 from items import *
 from gameparser import *
 from colorama import Fore, Back, Style
-
+# -*- coding: utf-8 -*-
 
 def list_of_items(items):
     """This function takes a list of items (see items.py for the definition) and
@@ -126,11 +126,14 @@ def print_room(room):
     Note: <BLANKLINE> here means that doctest should expect a blank line.
     """
     # Display room name
-    print()
+    print("\n" * 40)
+    print ("*" * 80 + "\n")
+    print ("#" * 80 + "\n")
+    print ("*" * 80 + "\n")
     print(Fore.BLUE+room["name"].upper()+Style.RESET_ALL)
     print()
     # Display room description
-    print(room["description"].encode("utf-8"))
+    print(room["description"])
     #.encode("utf-8") AFTER DESCRIPTION IF IT DOESN'T WORK ON OTHER COMPUTER
     print()
 

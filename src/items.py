@@ -144,7 +144,7 @@ item_Desperados={
     "alcohol_bar": 10,
     "price":3
 }
-item_Jack Daniels={
+item_Jack_Daniels={
     "id":"Jack Daniels",
     "name":"Jack Daniels shot",
     "description": "a shot of Jack Daniels",
@@ -160,6 +160,6 @@ item_Water={
     "mass":0,
     "health":+10,
     "alcohol_bar": 10,
-    "price":0
+    "price":0,
     "points":-1
 }
