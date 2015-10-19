@@ -127,10 +127,10 @@ def print_room(room):
     """
     # Display room name
     print()
-    print(Fore.BLUE+room["name"].upper()+Style.RESET_ALL))
+    print(Fore.BLUE+room["name"].upper()+Style.RESET_ALL)
     print()
     # Display room description
-    print(room["description"])
+    print(room["description"].encode("utf-8"))
     #.encode("utf-8") AFTER DESCRIPTION IF IT DOESN'T WORK ON OTHER COMPUTER
     print()
 
