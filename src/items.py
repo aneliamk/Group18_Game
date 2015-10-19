@@ -175,7 +175,7 @@ item_sambuca_shot = {
     "name" : "a Sambuca shot",
 
     "description": "A shot of Sambuca.",
-
+    "mass": 0,
     "health": -10,
 
     "alcohol_bar": 10,
@@ -191,7 +191,7 @@ item_jagerbomb_shot = {
     "name" : "a Jagerbomb shot",
 
     "description": "A shot of Jagerbomb.",
-
+    "mass": 0,
     "health": -5,
 
     "alcohol_bar": 10,

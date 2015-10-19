@@ -9,8 +9,8 @@ alcohol_bar = 35
 
 player_money = 50
 
+max_mass = 4
 
-max_mass = 3.0
 # Start game at the uni halls
 current_room = rooms["Halls"]
 
