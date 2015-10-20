@@ -76,7 +76,7 @@ item_tequila_shot = {
 }
 
 item_WKD={
-    "id": "WKD",
+    "id": "wkd",
     "name": "a WKD",
     "description": "this is WKD",
     "mass": 0,
@@ -86,8 +86,8 @@ item_WKD={
     "points": 1
 }
 
-item_Vodka={
-    "id":"Vodka",
+item_vodka={
+    "id":"vodka",
     "name":"a shot of Vodka",
     "description": "this is Vodka",
     "mass":0,
@@ -97,8 +97,8 @@ item_Vodka={
     "points": 1
     }
 
-item_Desperados={
-    "id":"Desperados",
+item_desperados={
+    "id":"desperados",
     "name":"a Desperados",
     "description": "this is Desperados",
     "mass":0,
@@ -108,8 +108,8 @@ item_Desperados={
     "points": 1
 }
 
-item_Jack_Daniels={
-    "id":"Jack Daniels",
+item_jack_daniels={
+    "id":"jack daniels",
     "name":"Jack Daniels shot",
     "description": "a shot of Jack Daniels",
     "mass":0,
@@ -119,13 +119,13 @@ item_Jack_Daniels={
     "points": 1
 }
 
-item_Water={
-    "id":"Water",
+item_water={
+    "id":"water",
     "name":"a glass of Water",
     "description": "bal bla",
     "mass":0,
     "health":+10,
-    "alcohol_bar": 10,
+    "alcohol_bar": 00,
     "price":0,
     "points": -1
 }

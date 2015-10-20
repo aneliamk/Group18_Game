@@ -245,7 +245,14 @@ def execute_go(direction):
     global rooms
     exits = current_room["exits"]
     if is_valid_exit(exits, direction):
-        current_room = rooms[exits[direction]]
+        if rooms[exits[direction]]["special"] != "":
+            key = riddle(rooms[exits[direction]])
+            if key == 1:
+                current_room = rooms[exits[direction]]
+            elif key == 2:
+                return
+        elif rooms[exits[direction]]["special"] == "":
+            current_room = rooms[exits[direction]]
         print(current_room["name"])
     else:
         print("You cannot go there.")
@@ -449,7 +456,8 @@ def win():
 
 
 def end_game():
-    input("Press any key to continue: " + ("\n" * 20))
+    input("Press any key to restart game: ")
+    print("\n" * 40)
     global current_room
     global inventory
     current_room = rooms["Halls"]
@@ -466,8 +474,33 @@ def end_game():
     victory_points = 0
 
 
+def riddle(val):
+    check = False  
+    while check == False:
+          print(val["special"])
+          x = input("What is the answer? ")
+          x = x.lower() #parser
+          if val["answer"] == x:
+              check = True
+              print("Correct - you are allowed in.")
+              key = 1
+          elif x == "back":
+               check = True
+               print("ok")
+               key = 2
+          else:
+              print("That is wrong!")
+          return key
+
+
 # This is the entry point of our program
 def main():
+    print("\n" * 40)
+    print("""Welcome to XXX. The aim is to visit many bars and clubs in Cardiff 
+and have a great night returning to your room in Halls safe and sound. But be 
+careful - if you go anywhere you shouldn't, get too drunk, return to your room to 
+early or get into trouble with the law then you will lose the game. Think about 
+each move you make and you will be sure to succeed. ENJOY!""")
 
     # Main game loop
     while True:

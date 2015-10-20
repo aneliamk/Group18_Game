@@ -15,7 +15,11 @@ You can go inside to your room or venture out into Cardiff.""",
 
     "items": [item_tequila_shot, item_biscuits, item_pen],
 
-    "points": 2
+    "victory_points": 0,
+
+    "special": "",
+
+    "answer": ""
 }
 
 #Dorm ---------------------------------------------------------
@@ -27,12 +31,15 @@ room_dorm = {
     """The familiar feel of halls. With dirty dishes and empty bottles of vodka 
 you are happy to be home. """,
 
-    #when you return here and enter the room, you win
-
     "exits": {"outside": "Halls"},
 
     "items": [],
-    "points": 2
+
+    "victory_points": 0,
+
+    "special": "",
+
+    "answer": ""
 }
 
 #Mama Kebab ---------------------------------------------------
@@ -48,7 +55,11 @@ what are you going to go for?""",
     "exits":  {"west": "SU", "east": "Halls" , "cab": "Cab"},
 
     "items": [],
-    "points": 2
+    "victory_points": 2,
+
+    "special": "" ,
+
+    "answer": ""
 }
 
 #Student Union ------------------------------------------------
@@ -68,14 +79,19 @@ you want to go?""",
     },
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 room_su_dancefloor = {
     "name": "Student's Union Dancefloor",
 
     "description":
-    """The cheap drinks and young girls have drawn you in. You look around Y Plas
+    """The cheap drinks have drawn you in. You look around Y Plas
 and see a wallet on the floor. The bar is busy but well staffed and drinks
 here are cheaper than elsewhere. What do you do next?""",
 
@@ -85,7 +101,12 @@ here are cheaper than elsewhere. What do you do next?""",
     },
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 room_su_bar = {
@@ -105,8 +126,13 @@ The young bar man looks at you, “What do you want Fresher?” """,
     "dancefloor": "SU Dancefloor"
     },
 
-    "items": [],#need to add dictionary of drinks i think, not sure about how the menu will print also.
-    "points": 2
+    "items": [item_sambuca_shot, item_tequila_shot, item_vodka, item_jagerbomb_shot, item_water], #need to add dictionary of drinks i think, not sure about how the menu will print also.
+    
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 #-------------------------------------------------------
@@ -145,7 +171,12 @@ room_tiger = {
                },
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 
@@ -163,7 +194,12 @@ the cuffs around your wrists and takes you to the police station.""",
     "exits":  { "wonder": "Tiger Wonder", "entrance": "Tiger Tiger"},
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 
@@ -178,7 +214,12 @@ substance on the floor. You can pick up the package or leave it.""",
     "exits": {"club": "Tiger Club", "entrance": "Tiger Tiger"},
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 # Live Lounge -------------------------------------------------
@@ -187,13 +228,19 @@ room_lounge = {
     "name": "Live Lounge",
 
     "description":
-    """As soon as you approach the bar, you see Kirill and Matt doing Russian 
-Standard shots counting in binary. Do you run? Or join them?""",
+    """Free entry here, it's your lucky day! As soon as you approach the bar, you see 
+Kirill and Matt doing Russian Standard shots counting in binary. Do you run? Or join 
+them?""",
 
     "exits":  {"north": "SU", "east": "Tiger Tiger", "cab": "Cab"},
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 #--------------------------------------------------------------
@@ -216,7 +263,7 @@ room_lounge_bar = {
     "exits":  {},
 
     "items": []
-    "points": 2
+    "victory_points": 2
 }
 
 room_lounge_hide = {
@@ -229,7 +276,7 @@ room_lounge_hide = {
     "exits":  {"north": "SU", "east": "Tiger Tiger", "cab": "Cab"},
 
     "items": []
-    "points": 2
+    "victory_points": 2
 }
 
 """
@@ -247,7 +294,12 @@ potential trouble makers.""",
     "exits":  {"south": "McDonalds", "east":"Pryzm Entrance", "west":"Tiger Tiger", "cab":"Cab", "inside": "Glam Bar"},
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 room_glam_bar = {
@@ -255,11 +307,21 @@ room_glam_bar = {
 
     "description":
     """Good ol’ Glam. Some love it, some hate it. You decided to come here so 
-complain. You head straight for the bar and look at the menu.""",
+complain. You head straight for the bar and look at the menu.\n
+Glam Menu:
+WKD - £3
+Vodka - £2
+Desperados - £3
+Jack Daniels - £3
+Water - Free""",
 
     "exits": {"outside": "Glam"},
 
-    "items": []
+    "items": [item_WKD, item_vodka, item_desperados, item_jack_daniels, item_water],
+
+    "special": "" ,
+
+    "answer": ""
 }
 
 # Pryzm -------------------------------------------------
@@ -280,7 +342,12 @@ choice is yours.""",
                },
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 
@@ -301,7 +368,12 @@ can head back outside.""",
                },
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 
@@ -316,7 +388,12 @@ you know it you’ve pulled. Great work.""",
     "exits":  {"entrance": "Pryzm Entrance", "curve": "Pryzm Curve", "house": "Pryzm House"},
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 
@@ -331,7 +408,12 @@ Banterbury Top Lads\' that you usually find in Pryzm.""",
     "exits":  {"entrance": "Pryzm Entrance", "house": "Pryzm House", "disco": "Pryzm Disco"},
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 
@@ -346,7 +428,12 @@ declining""",
     "exits":  {"entrance": "Pryzm Entrance", "curve": "Pryzm Curve", "disco": "Pryzm Disco"},
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 }
 
 #McDonalds ----------------------------------------------------
@@ -367,7 +454,12 @@ Happy Meal - £5\n
     "exits":  {"north": "Glam", "east":"Pryzm Entrance", "west":"Tiger Tiger", "cab":"Cab"},
 
     "items": [],
-    "points": 2
+
+    "victory_points": 2,
+
+    "special": "",
+
+    "answer": ""
 } #need to add the 'would you like fries with that', im not sure how.
 
 #KFC ----------------------------------------------------------
@@ -385,7 +477,12 @@ great ordeal?!\n
     "exits":  {},
     
     "items": [],
-    "points": 0
+
+    "victory_points": 0,
+
+    "special": "",
+
+    "answer": ""
 
 }
 
@@ -404,7 +501,11 @@ cell and locks the door. \n
 
     "exits":  {},
 
-    "items": []
+    "items": [],
+
+    "special": "",
+
+    "answer": ""
 }
 
 #Cab---------------------------------------------------------
@@ -426,7 +527,11 @@ would like to go?.""",
               "halls": "Halls",
               "kfc": "KFC"},
 
-    "items": []
+    "items": [],
+
+    "special": "",
+
+    "answer": ""
 }
 
 
