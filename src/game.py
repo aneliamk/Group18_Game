@@ -345,6 +345,22 @@ def execute_command(command):
         print("This makes no sense.")
 
 
+def trigger_trigger(val, current_room, inventory):
+    player["health"] = player["health"] + val["health effect"]
+    if val["item"] != "": 
+       destroy(val, inventory)
+    if val["room change"] != "no":
+       current_room = "room change"
+    player["alcohole bar"] = player["alcohole bar"] + val["drink"]
+    print(val["description"])
+
+
+def check_trigger(current_room, inventory, triggers):
+    for val in triggers:
+        if ((player["health"] == triggers[val]["health"] or triggers[val]["health"] == -1) and (current_room == triggers[val]["room"] or triggers[val]["room"] == "any") and (triggers[val]["item"] in inventory or triggers[val]["item"] == "")):
+           trigger_trigger(inventory, current_room, triggers[val])
+
+
 def menu(exits, room_items, inv_items):
     """This function, given a dictionary of possible exits from a room, and a list
     of items found in the room and carried by the player, prints the menu of
@@ -383,49 +399,64 @@ def move(exits, direction):
     return rooms[exits[direction]]
 
 
-"""def check_victory():
-    if player["victory_points"] <= 8 and current_room == rooms["Halls"] and "keys" in inventory:
-        win()
-    elif player["health"] <= 0:
-        lose()        
-        print("you have drunck too much and your drunck body is on the floor good luck next time")
-    elif player["victory_points"] <= 8 and current_room == rooms["Halls"] and "keys" not in inventory: 
-        print("You had a great night out full of adventure and (mostly) drunkness. BUT WAIT YOU DONT HAVE YOUR KEYS, you sleep on the cold hard ground")
-        lose()
-    elif current_room == rooms("Prison"):
-        print("what ever you did it was serious")
-        lose()
-    elif player["alcohole bar"] >= 100:
+def check_victory():
+    if victory_points <= 8 and current_room == rooms["Your room"] and "keys" in inventory:
+        win(inventory, current_room)
+    elif health <= 0:
+        print("""You have drunk too much! 
+            You are unresponsive and have slipped into a state on unconsciousness.""")
+        lose(inventory, current_room)        
+    elif victory_points <= 8 and current_room == rooms["Your room"] and "keys" not in inventory: 
+        lose(inventory, current_room)
+        print("""You had a great night out full of adventure and (mostly) drunkness. 
+            BUT WAIT YOU DONT HAVE YOUR KEYS, you sleep on the cold hard ground, 
+            what a sad way to end your night.""")
+    elif current_room == rooms["Police"]:
+        print("""What ever you did it must have been serious! 
+            You cannot continue your night.""")
+        lose(inventory, current_room)
+    elif alcohol_bar >= 100:
         print("to much alcohole")
-        lose()
+        lose(inventory, current_room)
     elif current_room == rooms["KFC"]:
-        print("ITS CLOSED YOU DIE OF SHAME")
-        lose()"""
+        print("")
+        lose(inventory, current_room)
 
 
-def lose(inventory, current_room, player):
+def lose(inventory, current_room):
     print(" __     ______  _    _   _      ____   _____ ______") 
     print(" \ \   / / __ \| |  | | | |    / __ \ / ____|  ____|")
     print("  \ \_/ / |  | | |  | | | |   | |  | | (___ | |__   ")
     print("   \   /| |  | | |  | | | |   | |  | |\___ \|  __|  ")
     print("    | | | |__| | |__| | | |___| |__| |____) | |____ ")
     print("    |_|  \____/ \____/  |______\____/|_____/|______|")
-    end_game(inventory,current_room, player)
+    return end_game(inventory, current_room)
 
 
-def win(inventory, current_room, player):
+def win(inventory, current_room):
     print(" __     ______  _    _  __          _______ _   _ ")
     print(" \ \   / / __ \| |  | | \ \        / /_   _| \ | |")
     print("  \ \_/ / |  | | |  | |  \ \  /\  / /  | | |  \| |")
     print("   \   /| |  | | |  | |   \ \/  \/ /   | | | . ` |")
     print("    | | | |__| | |__| |    \  /\  /   _| |_| |\  |")
     print("    |_|  \____/ \____/      \/  \/   |_____|_| \_|")
-    end_game(inventory,current_room, player)
+    return end_game(inventory, current_room)
 
 
-def end_game(inventory, current_room, player):
+def end_game(inventory, current_room):
+    input("Press any key to continue: ")
     current_room = rooms["Halls"]
-    inventory = [id, laptop, keys]
+    inventory = [item_id, item_laptop, item_money]
+    global health 
+    health = 100
+    global alcohol_bar 
+    alcohol_bar = 35
+    global player_money 
+    player_money = 50
+    global max_mass
+    max_mass = 4
+    global victory_points 
+    victory_points = 0
 
 
 # This is the entry point of our program
@@ -437,13 +468,14 @@ def main():
         print_room(current_room)
         print_inventory_items(inventory)
         print_player_attributes(health, alcohol_bar, player_money)
-
+        #check_trigger()
         # Show the menu with possible actions and ask the player
         command = menu(current_room["exits"], current_room["items"], inventory)
 
         # Execute the player's command
         execute_command(command)
-        #check_victory()
+
+        check_victory()
 
 
 
