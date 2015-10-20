@@ -8,7 +8,7 @@ room_halls = {
     "name": "Outside University Halls",
 
     "description":
-    """  """,
+    """You are outside your halls. A few drunk students stumble by heading for a night out in Cardiff.""",
 
     "exits":  {"south": "Pryzm", "west": "Kebab", "cab": "Cab", "room": "Your room"},
 
