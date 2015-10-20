@@ -13,7 +13,7 @@ You can go inside to your room or venture out into Cardiff.""",
 
     "exits":  {"south": "Pryzm Entrance", "west": "Kebab", "cab": "Cab", "room": "Your room"},
 
-    "items": [item_tequila_shot, item_biscuits, item_pen],
+    "items": [],
 
     "victory_points": 0,
 

@@ -264,35 +264,45 @@ def execute_take(item_id):
     there is no such item in the room, this function prints
     "You cannot take that."
     """
+    global current_room
+    global max_mass
+
     ok = False
-    for item in current_room["items"]:
+    items = current_room["items"]
+
+    for item in items:
         if item["id"] == item_id:
+
+            item_name = item["name"]
+
             if item["health"] != 0 or item["alcohol_bar"] != 0:
                 global health
                 global alcohol_bar
                 global player_money
                 if (player_money - item["price"]) >= 0:
-                    health += item["health"]
+                    ok = True
+                    health += item ["health"]
                     alcohol_bar += item["alcohol_bar"]
                     player_money -= item["price"]
-                    ok = True 
-                elif player_money - item["price"] < 0:
-                    print("You do not have enough money to get this.")
-            elif len(inventory) > 3:
-                print("You are carrying too many items! What do you want to drop?") 
-                dropped_item = input()
-                dropped_item = normalise_input(dropped_item)
-                execute_drop(dropped_item)
-            else:
-                current_room["items"].remove(item)
-                inventory.append(item)
-                ok = True
+                    
+                    if health > 100:
+                        health = 100
+                else:
+                    print("You don't have enough money to buy that.")
 
-            taken_item = item["name"]
+            else:
+                ok = True
+                if (get_inventory_mass() + item["mass"]) <= max_mass:
+                   items.remove(item)
+                   inventory.append(item)
+
+                else:
+                    print("You are over-encumbered, you will need to drop an item")
+
     if (ok == False):
         print("You cannot take that.")
     else:
-        print("You take " + taken_item)
+        print("You just toke " + item["name"])
     
 
 def execute_drop(item_id):
