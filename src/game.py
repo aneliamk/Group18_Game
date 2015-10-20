@@ -74,7 +74,7 @@ def print_inventory_items(items):
 def print_player_attributes(health, alcohol_bar, player_money):
     print ("You have " + Fore.GREEN + str(health) + Style.RESET_ALL + " health.")
     print ("You have " + Fore.YELLOW + str(player_money) + Style.RESET_ALL + " pounds. ")
-    print ("You have " + Fore.RED + str(victory_points) + Style.RESET_ALL + "  victory points. ")
+    print ("You have " + Fore.RED + str(victory_points) + Style.RESET_ALL + " victory points. ")
     print ("")
 
 def print_room(room):
@@ -416,13 +416,13 @@ def move(exits, direction):
 
 
 def check_victory():
-    if victory_points <= 8 and current_room == rooms["Your room"] and "keys" in inventory:
+    if victory_points >= 8 and current_room == rooms["Your room"] and item_keys in inventory:
         win()
     elif health <= 0:
         print("""You have drunk too much! 
             You are unresponsive and have slipped into a state on unconsciousness.""")
         lose()        
-    elif current_room == rooms["Your room"] and "keys" not in inventory: 
+    elif current_room == rooms["Your room"] and item_keys not in inventory: 
         print("""You had a great night out full of adventure and (mostly) drunkness. BUT WAIT YOU DONT HAVE YOUR KEYS, you sleep on the cold hard ground, what a sad way to end your night.""")
         lose()
     elif current_room == rooms["Police"]:
@@ -471,7 +471,7 @@ def end_game():
     global current_room
     global inventory
     current_room = rooms["Halls"]
-    inventory = [item_id, item_laptop, item_money]
+    inventory = [item_keys, item_phone, item_id]
     global health 
     health = 100
     global alcohol_bar 
@@ -494,13 +494,15 @@ def riddle(val):
               check = True
               print("Correct - you are allowed in.")
               key = 1
+              return key
           elif x == "back":
                check = True
                print("ok")
                key = 2
+               return key
           else:
               print("That is wrong!")
-          return key
+              input("Press enter to try again...") 
 
 
 # This is the entry point of our program

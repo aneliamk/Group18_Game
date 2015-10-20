@@ -135,5 +135,46 @@ item_water={
 
 # ----------------------------------------------------------------
 # FOOD - INCREASES HEALTH
+item_nuggets = { 
+    "id": "nuggets",
+    "name": "9 McNuggets",
+    "description": "Whether these are made with chicken or not, no one knows.",
+    "health": +15,
+    "alcohol_bar": -5,
+    "price": 5,
+    "points": 0
+}
+
+item_big_mac = {
+    "id": "bigmac",
+    "name": "a Big Mac",
+    "description": "The triple bun, double patty legendary burger that is basically the ultimate drunk snack and hangover cure.",
+    "health": +15,
+    "alcohol_bar": -5,
+    "price": 5,
+    "points": 0
+}
+
+item_mcflurry = {
+    "id": "mcflurry",
+    "name": "a McFlurry",
+    "description": "",
+    "health": +5,
+    "alcohol_bar": -5,
+    "price": 1,
+    "points": 0
+}
+
+item_happy_meal = {
+    "id": "happymeal",
+    "name": "a Happy Meal",
+    "description": "A Small burger, no more than 10 chips and a tiny drink. Happy meal? more like inadequate meal.",
+    "health": +15,
+    "alcohol_bar": -5,
+    "price": 5,
+    "points": 0
+}
+
+
 # TO BE COMPLETED :)
 

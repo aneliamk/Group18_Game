@@ -137,7 +137,7 @@ The young bar man looks at you, “What do you want Fresher?” """,
     },
 
     "items": [item_sambuca_shot, item_tequila_shot, item_vodka, item_jagerbomb_shot, item_water], 
-    
+
     "special": "",
 
     "answer": "",
@@ -315,18 +315,9 @@ potential trouble makers. Entry here costs £5.""",
 
     "victory_points": 2,
 
-    "special": """You want to go into Glam but the bouncer is standing at the front door
-blocking your way. 01001. "What’s the password?" the guard asks you. 
+    "special": "",
 
-You think for a second. A lad goes up to the bouncer. The bouncer says 
-"00010". The lad replies "2" and is let in. 
-
-A young lady approached a second later. The bouncer says 00101, she repies 5. 
-She was also let in. 
-
-You approach the bouncer again, "10011". What is your reply?""",
-
-    "answer": "11",
+    "answer": "",
 
     "cost": 0
 }
@@ -344,9 +335,18 @@ room_glam_pay = {
 
     "victory_points": 2,
 
-    "special": """ """,
+    "special": """You want to go into Glam but the bouncer is standing at the front door
+blocking your way. "01001. What’s the password?" the guard asks you. 
 
-    "answer": "",
+You think for a second. A lad goes up to the bouncer. The bouncer says 
+"00010". The lad replies "2" and is let in. 
+
+A young lady approached a second later. The bouncer says 00101, she repies 5. 
+She was also let in. 
+
+You approach the bouncer again, "10011". What is your reply? """,
+
+    "answer": "11",
 
     "cost": 5
 }
@@ -369,19 +369,9 @@ Water - Free""",
 
     "items": [item_WKD, item_vodka, item_desperados, item_jack_daniels, item_water],
 
-    "special": 
-"""You want to go into Glam but the bouncer is standing at the front door
-blocking your way. "01001. What’s the password?" the guard asks you. 
+    "special": "",
 
-You think for a second. A lad goes up to the bouncer. The bouncer says 
-"00010". The lad replies "2" and is let in. 
-
-A young lady approached a second later. The bouncer says 00101, she repies 5. 
-She was also let in. 
-
-You approach the bouncer again, "10011". What is your reply? """,
-
-    "answer": "11",
+    "answer": "",
 
     "cost": 0
 }
@@ -400,7 +390,7 @@ choice is yours. Entry costs £5.""",
                "east": "KFC",
                "west": "Glam",
                "cab": "Cab",
-               "inside": "Pryzm Tills"
+               "pay": "Pryzm Tills"
                },
 
     "items": [],
@@ -409,7 +399,9 @@ choice is yours. Entry costs £5.""",
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+
 }
 
 
@@ -537,7 +529,7 @@ Happy Meal - £5\n
 
     "exits":  {"north": "Glam", "east":"Pryzm Entrance", "west":"Tiger Tiger", "cab":"Cab"},
 
-    "items": [],
+    "items": [item_nuggets, item_big_mac, item_mcflurry, item_happy_meal],
 
     "victory_points": 1,
 
