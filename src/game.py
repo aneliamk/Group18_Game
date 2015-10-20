@@ -449,7 +449,7 @@ def win():
 
 
 def end_game():
-    input("Press any key to continue: ")
+    input("Press any key to continue: " + ("\n" * 20))
     global current_room
     global inventory
     current_room = rooms["Halls"]

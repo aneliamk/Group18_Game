@@ -309,9 +309,9 @@ room_pryzm_disco = {
     "name": "Pryzm - The Disco area",
 
     "description":
-    """Great choice. Only here can you do the Macarena and YMCA and not look like a total d*ck. Your
-mighty fine hips attract a plethora of female attention and before you know it you’ve pulled. Great
-work.""",
+    """Great choice. Only here can you do the Macarena and YMCA and not look like a 
+total d*ck. Your mighty fine hips attract a plethora of female attention and before 
+you know it you’ve pulled. Great work.""",
 
     "exits":  {"entrance": "Pryzm Entrance", "curve": "Pryzm Curve", "house": "Pryzm House"},
 
@@ -324,9 +324,9 @@ room_pryzm_curve = {
     "name": "Pryzm - Curve area",
 
     "description":
-    """Interesting choice. Many do not even know this room exists. You are rewarded with good music, a
-quiet(ish) bar and not being surrounded by \'Cheeky Archbishop of Banterbury Top Lads\' that you
-usually find in Pryzm.""",
+    """Interesting choice. Many do not even know this room exists. You are rewarded 
+with good music, a quiet(ish) bar and not being surrounded by \'Cheeky Archbishop of 
+Banterbury Top Lads\' that you usually find in Pryzm.""",
 
     "exits":  {"entrance": "Pryzm Entrance", "house": "Pryzm House", "disco": "Pryzm Disco"},
 
@@ -339,12 +339,9 @@ room_pryzm_house = {
     "name": "Pryzm - House area",
 
     "description":
-    """We’re not actually sure about the name of this room but it’s
-pretty busy and the strobe lighting probably isn\'t good for
-your epilepsy.
--
-Nope this really isn’t helping your epilepsy. You collapse to
-the floor and the room goes black. GAME OVER.""",
+    """We’re not actually sure about the name of this room but it’s pretty busy and 
+the strobe lighting probably isn\'t good for your epilepsy. You feel your health 
+declining""",
 
     "exits":  {"entrance": "Pryzm Entrance", "curve": "Pryzm Curve", "disco": "Pryzm Disco"},
 
@@ -358,12 +355,12 @@ room_mc = {
     "name": "McDonalds",
 
     "description":
-    """Fair, you wanted to find somewhere close and cheap but now
-you have to eat shit served in paper containers.\n
-McMenu:\n
-9 McNuggets - £5\n
-Big Mac - £5\n
-McFlurry - £1\n
+    """Fair, you wanted to find somewhere close and cheap but now you have to eat 
+shit served in paper containers.\n
+McMenu:
+9 McNuggets - £5
+Big Mac - £5
+McFlurry - £1
 Happy Meal - £5\n
 “Can I help you?”, the voice of the worker behind the counter screams at you.""",
 
@@ -379,38 +376,19 @@ room_kfc = {
     "name": "KFC",
 
     "description":
-    """You arrive to the locked doors of KFC, tears dripping down your
-face you collapse into a heap on the floor. You should have
-known that KFC closes at 11:00pm but you didn’t think it
-through. How can you continue with your night after this great
-ordeal?!\n
------\n
-GAME OVER.""",
+    """You arrive to the locked doors of KFC, tears dripping down your face you 
+collapse into a heap on the floor. You should have known that KFC closes at 11:00pm 
+but you didn’t think it through. How can you continue with your night after this 
+great ordeal?!\n
+-----\n""",
 
     "exits":  {},
     
     "items": [],
-    "points": 2
+    "points": 0
 
 }
 
-#Alcohol Detention Centre -----------------------------------
-
-room_detention = {
-    "name": "Alcohol Detention Centre",
-
-    "description":
-    """Uh-oh. You shouldn’t have had that last drink. You got way too drunk and now you’re in the alcohol
-detention centre. They gave you magical medicine, you can now continue your night. Your health
-has been restored to 100%, but your fun points have been affected badly. (Return player to outside
-Pryzm with health of 100 but -5 points)""",
-
-    "exits":  {"cab":"Cab"},
-
-
-    "items": [],
-    "points": -5
-}
 
 #Police Station ---------------------------------------------
 
@@ -418,11 +396,11 @@ room_police = {
     "name": "Police Station",
 
     "description":
-    """Bright lights blind you as PC Bacon unlocks your handcuffs and hands your over to Detective Lou
-Tennant, they look at you like you’re a piece of chewing gum stuck to the sole of a shoe. With great
-pleasure he throws you into the overnight cell and locks the door. \n
-    --- \n
-    GAME OVER.""",
+    """Bright lights blind you as PC Bacon unlocks your handcuffs and hands your 
+over to Detective Lou Tennant, they look at you like you’re a piece of chewing gum 
+stuck to the sole of a shoe. With great pleasure he throws you into the overnight 
+cell and locks the door. \n
+----- \n""",
 
     "exits":  {},
 
@@ -435,9 +413,9 @@ room_cab = {
     "name": "Dragon Taxis",
 
     "description":
-    """You get in the taxi and the aroma of faux leather overwhelms
-your senses. Taxi driver with the ID reading \'Justin Sider\' turns
-to you and asks Where would you like to go?.""",
+    """You get in the taxi and the aroma of faux leather overwhelms your senses. 
+Taxi driver with the ID reading \'Justin Sider\' turns to you and asks where you
+would like to go?.""",
 
     "exits": {"pryzm": "Pryzm Entrance",
               "glam": "Glam",
@@ -480,8 +458,6 @@ rooms = {
     "McDonalds": room_mc,
 
     "KFC": room_kfc,
-
-    "Alcohol Detention": room_detention,
 
     "Police": room_police,
     
