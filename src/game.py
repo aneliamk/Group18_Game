@@ -54,8 +54,7 @@ def print_room_items(room):
 
     """
     if len(room["items"])>0:
-        print (Fore.RED+"There is " + list_of_items(room["items"]) + " here.")
-        print (Style.RESET_ALL+"")
+        print ("There is " + list_of_items(room["items"]) + " here.\n")
 
 
 def print_inventory_items(items):
@@ -73,11 +72,9 @@ def print_inventory_items(items):
         print ("")
 
 def print_player_attributes(health, alcohol_bar, player_money):
-    print ("You have " + str(health) + " health.")
-    print ("")
-    print ("You have " + str(alcohol_bar) + " percent alcohol in your system. ")
-    print ("")
-    print ("You have " + str(player_money) + " pounds. ")
+    print ("You have " + Fore.GREEN + str(health) + Style.RESET_ALL + " health.")
+    print ("You have " + Fore.RED + str(alcohol_bar) + Style.RESET_ALL + " percent alcohol in your system. ")
+    print ("You have " + Fore.YELLOW + str(player_money) + Style.RESET_ALL + " pounds. ")
     print ("")
 
 def print_room(room):
@@ -129,9 +126,7 @@ def print_room(room):
     # Display room name
     print("\n" * 40)
     print ("*" * 80 + "\n")
-    print ("-" * 80 + "\n")
-    print ("*" * 80 + "\n" * 3)
-    print(Fore.BLUE+room["name"].upper()+Style.RESET_ALL)
+    print(Back.WHITE + Fore.BLACK + " " + room["name"].upper() + " " + Style.RESET_ALL)
     print()
     # Display room description
     print(room["description"])
@@ -171,7 +166,7 @@ def print_exit(direction, leads_to):
     >>> print_exit("south", "MJ and Simon's room")
     GO SOUTH to MJ and Simon's room.
     """
-    print("GO " + direction.upper() + " to " + leads_to + ".")
+    print(Fore.GREEN + "GO " + direction.upper() + " to " + leads_to + "." + Style.RESET_ALL)
 
 
 def print_menu(exits, room_items, inv_items):
@@ -204,22 +199,21 @@ def print_menu(exits, room_items, inv_items):
     What do you want to do?
 
     """
-    print("You can:")
+    print(Style.BRIGHT + "You can:" + Style.RESET_ALL)
     # Iterate over available exits
     for direction in exits:
         # Print the exit name and where it leads to
         print_exit(direction, exit_leads_to(exits, direction))
 
-    #
     for item in room_items:
-        print ("TAKE " + item["id"].upper() + " to take " + item["name"] + ".")
+        print (Fore.RED + "TAKE " + item["id"].upper() + " to take " + item["name"] + "." + Style.RESET_ALL)
 
     for item in inv_items:
-        print ("DROP " + item["id"].upper() + " to drop your " + item["name"] + ".")
+        print (Fore.YELLOW + "DROP " + item["id"].upper() + " to drop your " + item["name"] + "." + Style.RESET_ALL)
 
     #
     
-    print("What do you want to do?")
+    print(Style.BRIGHT + "What do you want to do?" + Style.RESET_ALL)
 
 
 def is_valid_exit(exits, chosen_exit):
@@ -264,42 +258,37 @@ def execute_take(item_id):
     "You cannot take that."
     """
 
-    global current_room
     global max_mass
 
     ok = False
-    items = current_room["items"]
-
-    for item in items:
+    for item in current_room["items"]:
         if item["id"] == item_id:
-
             if item["health"] != 0 or item["alcohol_bar"] != 0:
                 global health
                 global alcohol_bar
                 global player_money
                 if (player_money - item["price"]) >= 0:
-                    health += item ["health"]
+                    health += item["health"]
                     alcohol_bar += item["alcohol_bar"]
                     player_money -= item["price"]
-                    if health > 100:
-                        health = 100
+                    ok = True          
+                elif (get_inventory_mass() + item["mass"]) <= max_mass:
+                   current_room["items"].remove(item)
+                   inventory.append(item)
+                elif (get_inventory_mass() + item["mass"]) > max_mass:
+                    print("You are over-encumbered, you will need to drop an item")
                 else:
                     print("You don't have enough money to buy that.")
-
-                
-
-
-            else:
+                    return
+            elif (get_inventory_mass() + item["mass"]) <= max_mass:
+                current_room["items"].remove(item)
+                inventory.append(item)
                 ok = True
-                if (get_inventory_mass() + item["mass"]) <= max_mass:
-                   items.remove(item)
-                   inventory.append(item)
-
-                else:
-                    print("You are over-encumbered, you will need to drop an item")
-
+            taken_item = item["name"]
     if (ok == False):
         print("You cannot take that.")
+    else:
+        print("You take " + taken_item)
     
 
 def execute_drop(item_id):
@@ -314,9 +303,13 @@ def execute_drop(item_id):
             inventory.remove(item)
             current_room["items"].append(item)
             ok = True
-
+        else:
+            pass
     if (ok == False):
         print("You cannot drop that.")
+    else:
+        pass
+    return
     
 
 def execute_command(command):
@@ -365,7 +358,7 @@ def menu(exits, room_items, inv_items):
     print_menu(exits, room_items, inv_items)
 
     # Read player's input
-    user_input = input("> ")
+    user_input = input(Fore.MAGENTA + "> " + Style.RESET_ALL)
 
     # Normalise the input
     normalised_user_input = normalise_input(user_input)
@@ -390,6 +383,51 @@ def move(exits, direction):
     return rooms[exits[direction]]
 
 
+"""def check_victory():
+    if player["victory_points"] <= 8 and current_room == rooms["Halls"] and "keys" in inventory:
+        win()
+    elif player["health"] <= 0:
+        lose()        
+        print("you have drunck too much and your drunck body is on the floor good luck next time")
+    elif player["victory_points"] <= 8 and current_room == rooms["Halls"] and "keys" not in inventory: 
+        print("You had a great night out full of adventure and (mostly) drunkness. BUT WAIT YOU DONT HAVE YOUR KEYS, you sleep on the cold hard ground")
+        lose()
+    elif current_room == rooms("Prison"):
+        print("what ever you did it was serious")
+        lose()
+    elif player["alcohole bar"] >= 100:
+        print("to much alcohole")
+        lose()
+    elif current_room == rooms["KFC"]:
+        print("ITS CLOSED YOU DIE OF SHAME")
+        lose()"""
+
+
+def lose(inventory, current_room, player):
+    print(" __     ______  _    _   _      ____   _____ ______") 
+    print(" \ \   / / __ \| |  | | | |    / __ \ / ____|  ____|")
+    print("  \ \_/ / |  | | |  | | | |   | |  | | (___ | |__   ")
+    print("   \   /| |  | | |  | | | |   | |  | |\___ \|  __|  ")
+    print("    | | | |__| | |__| | | |___| |__| |____) | |____ ")
+    print("    |_|  \____/ \____/  |______\____/|_____/|______|")
+    end_game(inventory,current_room, player)
+
+
+def win(inventory, current_room, player):
+    print(" __     ______  _    _  __          _______ _   _ ")
+    print(" \ \   / / __ \| |  | | \ \        / /_   _| \ | |")
+    print("  \ \_/ / |  | | |  | |  \ \  /\  / /  | | |  \| |")
+    print("   \   /| |  | | |  | |   \ \/  \/ /   | | | . ` |")
+    print("    | | | |__| | |__| |    \  /\  /   _| |_| |\  |")
+    print("    |_|  \____/ \____/      \/  \/   |_____|_| \_|")
+    end_game(inventory,current_room, player)
+
+
+def end_game(inventory, current_room, player):
+    current_room = rooms["Halls"]
+    inventory = [id, laptop, keys]
+
+
 # This is the entry point of our program
 def main():
 
@@ -405,6 +443,7 @@ def main():
 
         # Execute the player's command
         execute_command(command)
+        #check_victory()
 
 
 
