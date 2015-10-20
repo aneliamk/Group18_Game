@@ -5,6 +5,7 @@ from player import *
 from items import *
 from gameparser import *
 from colorama import Fore, Back, Style
+from trigger import *
 
 def list_of_items(items):
     """This function takes a list of items (see items.py for the definition) and
@@ -361,20 +362,27 @@ def execute_command(command):
         print("This makes no sense.")
 
 
-def trigger_trigger(val, current_room, inventory):
-    player["health"] = player["health"] + val["health effect"]
-    if val["item"] != "": 
+def trigger_trigger(val):
+    global health
+    global current_room
+    global alcohol_bar    
+    global inventory
+    health = health + val["health effect"]
+    if val["item"] != "":
+        
        destroy(val, inventory)
-    if val["room change"] != "no":
-       current_room = "room change"
-    player["alcohole bar"] = player["alcohole bar"] + val["drink"]
+    if val["room change"] != "":
+       current_room = rooms["room change"]
+    alcohol_bar = alcohol_bar + val["drink"]
     print(val["description"])
+    if val["item add"] != "":
+        inventory.append(val["item add"])
 
 
-def check_trigger(current_room, inventory, triggers):
+def check_trigger():
     for val in triggers:
-        if ((player["health"] == triggers[val]["health"] or triggers[val]["health"] == -1) and (current_room == triggers[val]["room"] or triggers[val]["room"] == "any") and (triggers[val]["item"] in inventory or triggers[val]["item"] == "")):
-           trigger_trigger(inventory, current_room, triggers[val])
+        if (("health" == triggers[val]["health"] or triggers[val]["health"] == -1) and (current_room["name"] == triggers[val]["room"] or triggers[val]["room"] == "any") and (triggers[val]["item"] in inventory or triggers[val]["item"] == "")):
+           trigger_trigger(triggers[val])
 
 
 def menu(exits, room_items, inv_items):
@@ -472,6 +480,7 @@ def end_game():
     global inventory
     current_room = rooms["Halls"]
     inventory = [item_keys, item_phone, item_id]
+    current_room["inventory"] = []
     global health 
     health = 100
     global alcohol_bar 
@@ -526,13 +535,13 @@ ENJOY!""")
         print_room(current_room)
         print_inventory_items(inventory)
         print_player_attributes(health, alcohol_bar, player_money)
-        #check_trigger()
+
         # Show the menu with possible actions and ask the player
         command = menu(current_room["exits"], current_room["items"], inventory)
 
         # Execute the player's command
         execute_command(command)
-
+        check_trigger()
         check_victory()
 
 

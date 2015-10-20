@@ -59,7 +59,7 @@ what are you going to go for?""",
     "exits":  {"west": "SU", "east": "Halls" , "cab": "Cab"},
 
     "items": [],
-    "victory_points": 2,
+    "victory_points": 1,
 
     "special": "" ,
 
@@ -78,15 +78,11 @@ room_su = {
     """You are standing outside the Students Union, entry costs £5, where do
 you want to go?""",
 
-    "exits":  {"south": "Live Lounge", "east": "Kebab", "cab": "Cab", 
-    #"inside": "Student's Union"
-    "dancefloor": "SU Dancefloor",
-    "bar": "SU Bar"
-    },
+    "exits":  {"south": "Live Lounge", "east": "Kebab", "cab": "Cab", "inside": "SU Tills"},
 
     "items": [],
 
-    "victory_points": 2,
+    "victory_points": 0,
 
     "special": "",
 
@@ -94,6 +90,32 @@ you want to go?""",
 
     "cost": 0
 }
+
+
+room_su_pay = {
+    "name": "SU Tills",
+
+    "description":
+    """You pay the entrance fee of £5 and can now enter the SU.""",
+
+    "exits":  {"dancefloor": "SU Dancefloor", "bar": "SU Bar"},
+
+    "items": [],
+
+    "victory_points": 2,
+
+    "special": """The female worker on the desk requires you to answer her 
+question to prove you are a member of Cardiff University. She asks, 
+"Which of the following is NOT a society that we offer here in Cardiff: 
+The Gliding Society, The Coffee Society or The Sinatra Society?
+
+Answer 'gliding', 'coffee' or 'sinatra'.""",
+
+    "answer": "coffee",
+
+    "cost": 5
+}
+
 
 room_su_dancefloor = {
     "name": "Student's Union Dancefloor",
@@ -103,14 +125,11 @@ room_su_dancefloor = {
 and see a wallet on the floor. The bar is busy but well staffed and drinks
 here are cheaper than elsewhere. What do you do next?""",
 
-    "exits":  {#"south": "Live Lounge", "east": "Mama Kebab", "cab": "Cab",
-    "outside": "SU",
-    "bar": "SU Bar"
-    },
+    "exits":  {"outside": "SU", "bar": "SU Bar"},
 
     "items": [],
 
-    "victory_points": 2,
+    "victory_points": 0,
 
     "special": "",
 
@@ -145,40 +164,41 @@ The young bar man looks at you, “What do you want Fresher?” """,
     "cost": 0
 }
 
-#-------------------------------------------------------
-#This will be an event
-"""
-room_su_wallet = {
-    "name": "Student's Union",
-
-    "description":
-    You pick up the wallet and find that there is no money in it. But what did you
-    expect? You’re in the SU full of very broke students! You do however find an expired
-    condom still in its foil wrapper. You keep the condom as a precaution and toss the
-    wallet back on the floor continuing with your night.,
-
-    "exits":  {"south": "Live Lounge", "east": "Kebab", "cab": "Cab"},
-
-    "items": ['Expired Condom']
-}
-"""
-
 #Tiger Tiger --------------------------------------------
 
 room_tiger = {
     "name": "Tiger Tiger - The entrance",
 
     "description":
-    """Entering Tiger Tiger you have two choices. Go to the ‘Groovy Wonderland’ or
-'The Club’.""",
+    """Do you dare enter Tiger Tiger for £5?""",
 
     "exits":  {"south": "McDonalds",
                "east":"Glam",
                "west":"Live Lounge",
                "cab": "Cab",
-               "wonder": "Tiger Wonder",
-               "club": "Tiger Club"
+               "pay": "Tiger Tiger Tills"
                },
+
+    "items": [],
+
+    "victory_points": 0,
+
+    "special": "",
+
+    "answer": "",
+
+    "cost": 0
+}
+
+
+room_tiger_pay = {
+    "name": "Tiger Tiger Tills",
+
+    "description":
+    """You pay the entrance fee of £5 and can now enter the 
+ever wonderful Tiger Tiger.""",
+
+    "exits":  {"bar": "Tiger Tiger - The Club", "wonder": "Tiger Tiger - The Groovy Wonderland"},
 
     "items": [],
 
@@ -188,7 +208,7 @@ room_tiger = {
 
     "answer": "",
 
-    "cost": 0
+    "cost": 5
 }
 
 
@@ -203,11 +223,11 @@ criminal dance moves in this establishment tonight”. A wave of embarrassment
 rushes over you, you knew you shouldn’t have gone for the moon walk. He slaps
 the cuffs around your wrists and takes you to the police station.""",
 
-    "exits":  { "wonder": "Tiger Wonder", "entrance": "Tiger Tiger"},
+    "exits":  { "bar": "Tiger Tiger - The Club", "entrance": "Tiger Tiger"},
 
     "items": [],
 
-    "victory_points": 2,
+    "victory_points": 0,
 
     "special": "",
 
@@ -225,11 +245,11 @@ room_tiger_club = {
 management do indeed know what a club is. You notice a bag containing a mysterious
 substance on the floor. You can pick up the package or leave it.""",
 
-    "exits": {"club": "Tiger Club", "entrance": "Tiger Tiger"},
+    "exits": {"wonder": "Tiger Tiger - The Groovy Wonderland", "entrance": "Tiger Tiger"},
 
     "items": [],
 
-    "victory_points": 2,
+    "victory_points": 0,
 
     "special": "",
 
@@ -313,7 +333,7 @@ potential trouble makers. Entry here costs £5.""",
 
     "items": [],
 
-    "victory_points": 2,
+    "victory_points": 0,
 
     "special": "",
 
@@ -369,6 +389,8 @@ Water - Free""",
 
     "items": [item_WKD, item_vodka, item_desperados, item_jack_daniels, item_water],
 
+    "victory_points": 0,
+
     "special": "",
 
     "answer": "",
@@ -401,6 +423,7 @@ choice is yours. Entry costs £5.""",
 
     "answer": "",
 
+    "cost": 0
 
 }
 
@@ -469,7 +492,9 @@ you know it you’ve pulled. Great work.""",
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 
@@ -489,7 +514,9 @@ Banterbury Top Lads\' that you usually find in Pryzm.""",
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 
@@ -509,7 +536,9 @@ declining""",
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 #McDonalds ----------------------------------------------------
@@ -560,7 +589,9 @@ great ordeal?!\n
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 
 }
 
@@ -583,7 +614,9 @@ cell and locks the door. \n
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 #Cab---------------------------------------------------------
@@ -594,7 +627,7 @@ room_cab = {
     "description":
     """You get in the taxi and the aroma of faux leather overwhelms your senses. 
 Taxi driver with the ID reading \'Justin Sider\' turns to you and asks where you
-would like to go?.""",
+would like to go?. Trips cost £5.""",
 
     "exits": {"pryzm": "Pryzm Entrance",
               "glam": "Glam",
@@ -609,7 +642,9 @@ would like to go?.""",
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 5
 }
 
 
@@ -621,13 +656,15 @@ rooms = {
     "SU": room_su,
     "SU Bar": room_su_bar,
     "SU Dancefloor": room_su_dancefloor,
+    "SU Tills": room_su_pay,
 
     "Live Lounge": room_lounge,
     #"Live Lounge Bar": room_lounge_bar,
 
     "Tiger Tiger": room_tiger,
-    "Tiger Wonder": room_tiger_wonder,
-    "Tiger Club": room_tiger_club,
+    "Tiger Tiger Tills": room_tiger_pay,
+    "Tiger Tiger - The Groovy Wonderland": room_tiger_wonder,
+    "Tiger Tiger - The Club": room_tiger_club,
 
     "Glam": room_glam,
     "Glam Bar": room_glam_bar,
