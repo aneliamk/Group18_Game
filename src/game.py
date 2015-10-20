@@ -281,7 +281,7 @@ def execute_take(item_id):
             elif len(inventory) > 3:
                 print("You are carrying too many items! What do you want to drop?") 
                 dropped_item = input()
-                normalise_input(dropped_item)
+                dropped_item = normalise_input(dropped_item)
                 execute_drop(dropped_item)
             else:
                 current_room["items"].remove(item)
