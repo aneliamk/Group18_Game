@@ -136,10 +136,8 @@ The young bar man looks at you, “What do you want Fresher?” """,
     "dancefloor": "SU Dancefloor"
     },
 
-    "items": [item_sambuca_shot, item_tequila_shot, item_vodka, item_jagerbomb_shot, item_water], #need to add dictionary of drinks i think, not sure about how the menu will print also.
+    "items": [item_sambuca_shot, item_tequila_shot, item_vodka, item_jagerbomb_shot, item_water], 
     
-    "victory_points": 2,
-
     "special": "",
 
     "answer": "",

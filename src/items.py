@@ -17,7 +17,7 @@ item_keys = {
     "name": "flat keys",
     "description":
     "This key has seen better days, but atleast it can open your door(most of the time).",
-    "mass": 2,
+    "mass": 1,
     "health": -5,
     "alcohol_bar": 10
 }
@@ -27,7 +27,7 @@ item_phone = {
     "name": "phone",
     "description": 
     "This is the 2nd replacement you've had in 2 weeks, who knew phones don't like being dropped.. better not let anything happen to this one.",
-    "mass": 3,
+    "mass": 1,
     "health": -5,
     "alcohol_bar": 10
 }
@@ -136,3 +136,4 @@ item_water={
 # ----------------------------------------------------------------
 # FOOD - INCREASES HEALTH
 # TO BE COMPLETED :)
+

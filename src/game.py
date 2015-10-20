@@ -73,8 +73,8 @@ def print_inventory_items(items):
 
 def print_player_attributes(health, alcohol_bar, player_money):
     print ("You have " + Fore.GREEN + str(health) + Style.RESET_ALL + " health.")
-    print ("You have " + Fore.RED + str(alcohol_bar) + Style.RESET_ALL + " percent alcohol in your system. ")
     print ("You have " + Fore.YELLOW + str(player_money) + Style.RESET_ALL + " pounds. ")
+    print ("You have " + Fore.RED + str(victory_points) + Style.RESET_ALL + "  victory points. ")
     print ("")
 
 def print_room(room):
@@ -279,11 +279,13 @@ def execute_take(item_id):
                 global health
                 global alcohol_bar
                 global player_money
+                global victory_points
                 if (player_money - item["price"]) >= 0:
                     ok = True
                     health += item ["health"]
                     alcohol_bar += item["alcohol_bar"]
                     player_money -= item["price"]
+                    victory_points += item["points"]
                     
                     if health > 100:
                         health = 100
@@ -421,9 +423,7 @@ def check_victory():
             You are unresponsive and have slipped into a state on unconsciousness.""")
         lose()        
     elif current_room == rooms["Your room"] and "keys" not in inventory: 
-        print("""You had a great night out full of adventure and (mostly) drunkness. 
-BUT WAIT YOU DONT HAVE YOUR KEYS, you sleep on the cold hard ground, what a sad 
-way to end your night.""")
+        print("""You had a great night out full of adventure and (mostly) drunkness. BUT WAIT YOU DONT HAVE YOUR KEYS, you sleep on the cold hard ground, what a sad way to end your night.""")
         lose()
     elif current_room == rooms["Police"]:
         print("""What ever you did it must have been serious! 
