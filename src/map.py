@@ -84,7 +84,9 @@ you want to go?""",
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 5
 }
 
 room_su_dancefloor = {
@@ -319,9 +321,19 @@ Water - Free""",
 
     "items": [item_WKD, item_vodka, item_desperados, item_jack_daniels, item_water],
 
-    "special": "" ,
+    "special": 
+"""You want to go into Glam but the bouncer is standing at the front door
+blocking your way. "01001. What’s the password?" the guard asks you. 
 
-    "answer": ""
+You think for a second. A lad goes up to the bouncer. The bouncer says 
+"00010". The lad replies "2" and is let in. 
+
+A young lady approached a second later. The bouncer says 00101, she repies 5. 
+She was also let in. 
+
+You approach the bouncer again, "10011". What is your reply? """,
+
+    "answer": "11"
 }
 
 # Pryzm -------------------------------------------------

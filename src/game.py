@@ -489,7 +489,7 @@ def riddle(val):
     while check == False:
           print(val["special"])
           x = input("What is the answer? ")
-          x = x.lower() #parser
+          x = x.lower()
           if val["answer"] == x:
               check = True
               print("Correct - you are allowed in.")
@@ -506,11 +506,15 @@ def riddle(val):
 # This is the entry point of our program
 def main():
     print("\n" * 40)
-    print("""Welcome to XXX. The aim is to visit many bars and clubs in Cardiff 
-and have a great night returning to your room in Halls safe and sound. But be 
-careful - if you go anywhere you shouldn't, get too drunk, return to your room to 
-early or get into trouble with the law then you will lose the game. Think about 
-each move you make and you will be sure to succeed. ENJOY!""")
+    print("""Welcome to 'Drink But Don't Drop'. 
+The aim is to visit the bars and clubs in Cardiff having a 
+great night returning to your room in Halls safe and sound. 
+But be careful - if you go anywhere you shouldn't, get too 
+drunk, return to your room too early or get into trouble with 
+the law then you will lose the game. Think about each move 
+you make and you will be sure to succeed. 
+
+ENJOY!""")
 
     # Main game loop
     while True:
