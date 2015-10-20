@@ -19,7 +19,9 @@ You can go inside to your room or venture out into Cardiff.""",
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 #Dorm ---------------------------------------------------------
@@ -39,7 +41,9 @@ you are happy to be home. """,
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 #Mama Kebab ---------------------------------------------------
@@ -59,7 +63,9 @@ what are you going to go for?""",
 
     "special": "" ,
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 #Student Union ------------------------------------------------
@@ -86,7 +92,7 @@ you want to go?""",
 
     "answer": "",
 
-    "cost": 5
+    "cost": 0
 }
 
 room_su_dancefloor = {
@@ -108,7 +114,9 @@ here are cheaper than elsewhere. What do you do next?""",
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 room_su_bar = {
@@ -134,7 +142,9 @@ The young bar man looks at you, “What do you want Fresher?” """,
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 #-------------------------------------------------------
@@ -178,7 +188,9 @@ room_tiger = {
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 
@@ -201,7 +213,9 @@ the cuffs around your wrists and takes you to the police station.""",
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 
@@ -221,7 +235,9 @@ substance on the floor. You can pick up the package or leave it.""",
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 # Live Lounge -------------------------------------------------
@@ -242,7 +258,9 @@ them?""",
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 }
 
 #--------------------------------------------------------------
@@ -291,9 +309,9 @@ room_glam = {
     "description":
     """Standing at the entrance to Glam you notice the bouncers here are 
 particularly tough. They stand legs shoulder width apart scanning the queue for 
-potential trouble makers.""",
+potential trouble makers. Entry here costs £5.""",
 
-    "exits":  {"south": "McDonalds", "east":"Pryzm Entrance", "west":"Tiger Tiger", "cab":"Cab", "inside": "Glam Bar"},
+    "exits":  {"south": "McDonalds", "east":"Pryzm Entrance", "west":"Tiger Tiger", "cab":"Cab", "pay": "Glam Tills"},
 
     "items": [],
 
@@ -310,8 +328,31 @@ She was also let in.
 
 You approach the bouncer again, "10011". What is your reply?""",
 
-    "answer": "11"
+    "answer": "11",
+
+    "cost": 0
 }
+
+
+room_glam_pay = {
+    "name": "Glam Tills",
+
+    "description":
+    """You just paid the entrance fee, you can go in now! smile emoticon""",
+
+    "exits":  {"inside": "Glam Bar"},
+
+    "items": [],
+
+    "victory_points": 2,
+
+    "special": """ """,
+
+    "answer": "",
+
+    "cost": 5
+}
+
 
 room_glam_bar = {
     "name": "Glam Bar",
@@ -342,7 +383,9 @@ She was also let in.
 
 You approach the bouncer again, "10011". What is your reply? """,
 
-    "answer": "11"
+    "answer": "11",
+
+    "cost": 0
 }
 
 # Pryzm -------------------------------------------------
@@ -352,14 +395,14 @@ room_pryzm_entrance = {
     "description":
     """Long queues greet you at the Pryzm Entrance and you debate whether or not 
 it is really a good idea to wait or whether you shoud go somewhere quieter. The 
-choice is yours.""",
+choice is yours. Entry costs £5.""",
 
     "exits":  {"north": "Halls",
                "south": "McDonalds",
                "east": "KFC",
                "west": "Glam",
                "cab": "Cab",
-               "inside": "Pryzm"
+               "inside": "Pryzm Tills"
                },
 
     "items": [],
@@ -390,11 +433,33 @@ can head back outside.""",
 
     "items": [],
 
+    "victory_points": 0,
+
+    "special": "",
+
+    "answer": "",
+
+    "cost": 0
+}
+
+
+room_pryzm_pay = {
+    "name": "Pryzm Tills",
+
+    "description":
+    """You pay the entrance fee of £5 and can now enter Pryzm.""",
+
+    "exits":  {"inside": "Pryzm"},
+
+    "items": [],
+
     "victory_points": 2,
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 5
 }
 
 
@@ -406,11 +471,11 @@ room_pryzm_disco = {
 total d*ck. Your mighty fine hips attract a plethora of female attention and before 
 you know it you’ve pulled. Great work.""",
 
-    "exits":  {"entrance": "Pryzm Entrance", "curve": "Pryzm Curve", "house": "Pryzm House"},
+    "exits":  {"entrance": "Pryzm", "curve": "Pryzm Curve", "house": "Pryzm House"},
 
     "items": [],
 
-    "victory_points": 2,
+    "victory_points": 0,
 
     "special": "",
 
@@ -426,11 +491,11 @@ room_pryzm_curve = {
 with good music, a quiet(ish) bar and not being surrounded by \'Cheeky Archbishop of 
 Banterbury Top Lads\' that you usually find in Pryzm.""",
 
-    "exits":  {"entrance": "Pryzm Entrance", "house": "Pryzm House", "disco": "Pryzm Disco"},
+    "exits":  {"entrance": "Pryzm", "house": "Pryzm House", "disco": "Pryzm Disco"},
 
     "items": [],
 
-    "victory_points": 2,
+    "victory_points": 0,
 
     "special": "",
 
@@ -446,11 +511,11 @@ room_pryzm_house = {
 the strobe lighting probably isn\'t good for your epilepsy. You feel your health 
 declining""",
 
-    "exits":  {"entrance": "Pryzm Entrance", "curve": "Pryzm Curve", "disco": "Pryzm Disco"},
+    "exits":  {"entrance": "Pryzm", "curve": "Pryzm Curve", "disco": "Pryzm Disco"},
 
     "items": [],
 
-    "victory_points": 2,
+    "victory_points": 0,
 
     "special": "",
 
@@ -476,11 +541,13 @@ Happy Meal - £5\n
 
     "items": [],
 
-    "victory_points": 2,
+    "victory_points": 1,
 
     "special": "",
 
-    "answer": ""
+    "answer": "",
+
+    "cost": 0
 } #need to add the 'would you like fries with that', im not sure how.
 
 #KFC ----------------------------------------------------------
@@ -574,9 +641,11 @@ rooms = {
 
     "Glam": room_glam,
     "Glam Bar": room_glam_bar,
+    "Glam Tills": room_glam_pay,
 
     "Pryzm Entrance": room_pryzm_entrance,
     "Pryzm": room_pryzm,
+    "Pryzm Tills": room_pryzm_pay,
     "Pryzm Disco": room_pryzm_disco,
     "Pryzm Curve": room_pryzm_curve,
     "Pryzm House": room_pryzm_house,
