@@ -8,9 +8,10 @@ room_halls = {
     "name": "Outside University Halls",
 
     "description":
-    """  """,
+    """You are standing outside your Halls. 
+You can go inside to your room or venture out into Cardiff.""",
 
-    "exits":  {"south": "Pryzm", "west": "Kebab", "cab": "Cab", "room": "Your room"},
+    "exits":  {"south": "Pryzm Entrance", "west": "Kebab", "cab": "Cab", "room": "Your room"},
 
     "items": [item_tequila_shot, item_biscuits, item_pen],
 
@@ -20,10 +21,11 @@ room_halls = {
 #Dorm ---------------------------------------------------------
 
 room_dorm = {
-    "name": "Your dorm",
+    "name": "Your room",
 
     "description":
-    """ """,
+    """The familiar feel of halls. With dirty dishes and empty bottles of vodka 
+you are happy to be home. """,
 
     #when you return here and enter the room, you win
 
@@ -39,9 +41,9 @@ room_kebab = {
     "name": "Mama Kebab",
 
     "description":
-    """Good choice. Kfw (Kebab for the win). You have a choice of buying a
-    \'Thick Sausage Kebab\' or a \'Long Sausage Kebab\'. Mama is getting impatient,
-    what are you going to go for?""",
+    """Good choice. Kfw (Kebab for the win). You have a choice of buying a 
+\'Thick Sausage Kebab\' or a \'Long Sausage Kebab\'. Mama is getting impatient,
+what are you going to go for?""",
 
     "exits":  {"west": "SU", "east": "Halls" , "cab": "Cab"},
 
@@ -57,7 +59,7 @@ room_su = {
 
     "description":
     """You are standing outside the Students Union, entry costs £5, where do
-    you want to go?""",
+you want to go?""",
 
     "exits":  {"south": "Live Lounge", "east": "Kebab", "cab": "Cab", 
     #"inside": "Student's Union"
@@ -74,8 +76,8 @@ room_su_dancefloor = {
 
     "description":
     """The cheap drinks and young girls have drawn you in. You look around Y Plas
-    and see a wallet on the floor. The bar is busy but well staffed and drinks
-    here are cheaper than elsewhere. What do you do next?""",
+and see a wallet on the floor. The bar is busy but well staffed and drinks
+here are cheaper than elsewhere. What do you do next?""",
 
     "exits":  {#"south": "Live Lounge", "east": "Mama Kebab", "cab": "Cab",
     "outside": "SU",
@@ -90,17 +92,17 @@ room_su_bar = {
     "name": "Student's Union Bar",
 
     "description":
-    """CUSU Menu:\n
-       Sambuca - £1\n
-       Tequila - £1\n
-       Vodka - £1\n
-       Jagerbomb - £2\n
-       Water - Free\n
-       The young bar man looks at you, “What do you want Fresher?” """,
+    """CUSU Menu:
+Sambuca - £1
+Tequila - £1
+Vodka - £1
+Jagerbomb - £2
+Water - Free
+The young bar man looks at you, “What do you want Fresher?” """,
 
     "exits":  {#"south": "Live Lounge", "east": "Mama Kebab", "cab": "Cab"
     "outside": "SU",
-    "dacefloor": "SU Dancefloor"
+    "dancefloor": "SU Dancefloor"
     },
 
     "items": [],#need to add dictionary of drinks i think, not sure about how the menu will print also.
@@ -131,7 +133,8 @@ room_tiger = {
     "name": "Tiger Tiger - The entrance",
 
     "description":
-    """Entering Tiger Tiger you have two choices. Go to the ‘Groovy Wonderland’ or ‘The Club’.""",
+    """Entering Tiger Tiger you have two choices. Go to the ‘Groovy Wonderland’ or
+'The Club’.""",
 
     "exits":  {"south": "McDonalds",
                "east":"Glam",
@@ -150,10 +153,11 @@ room_tiger_wonder = {
     "name": "Tiger Tiger - The Groovy Wonderland",
 
     "description":
-    """Really? 80s Disco anthems? You have no choice to crack out some killer moves but people don’t
-seem impressed. After a while a police officer approaches. “Excuse me sir”, he interrupts you mid
-hip thrust, “We have had reports of criminal dance moves in this establishment tonight”. A wave of
-embarrassment rushes over you, you knew you shouldn’t have gone for the moon walk. He slaps
+    """Really? 80s Disco anthems? You have no choice to crack out some killer 
+moves but people don’t seem impressed. After a while a police officer approaches. 
+“Excuse me sir”, he interrupts you mid hip thrust, “We have had reports of 
+criminal dance moves in this establishment tonight”. A wave of embarrassment 
+rushes over you, you knew you shouldn’t have gone for the moon walk. He slaps
 the cuffs around your wrists and takes you to the police station.""",
 
     "exits":  { "wonder": "Tiger Wonder", "entrance": "Tiger Tiger"},
@@ -167,12 +171,11 @@ room_tiger_club = {
     "name": "Tiger Tiger - The Club",
 
     "description":
-    """You enter ‘The Club’ and your initial survey suggest that the Tiger Tiger management do indeed
-know what a club is. You notice a bundle of glow sticks on the floor and go to pick them up but you
-don’t have room to fit them in your pockets, you’ll need to swap either your ID, Phone or Keys to fit
-them in. What are you going to choose?""",
+    """You enter ‘The Club’ and your initial survey suggest that the Tiger Tiger 
+management do indeed know what a club is. You notice a bag containing a mysterious
+substance on the floor. You can pick up the package or leave it.""",
 
-    "exits":  {"club": "Tiger Club", "entrance": "Tiger Tiger"},
+    "exits": {"club": "Tiger Club", "entrance": "Tiger Tiger"},
 
     "items": [],
     "points": 2
@@ -184,8 +187,8 @@ room_lounge = {
     "name": "Live Lounge",
 
     "description":
-    """As soon as you approach the bar, you see Kirill and Matt doing Russian Standard shots
-    counting in binary. Do you run? Or join them?""",
+    """As soon as you approach the bar, you see Kirill and Matt doing Russian 
+Standard shots counting in binary. Do you run? Or join them?""",
 
     "exits":  {"north": "SU", "east": "Tiger Tiger", "cab": "Cab"},
 
@@ -237,9 +240,11 @@ room_glam = {
     "name": "Glam",
 
     "description":
-    """   """,
+    """Standing at the entrance to Glam you notice the bouncers here are 
+particularly tough. They stand legs shoulder width apart scanning the queue for 
+potential trouble makers.""",
 
-    "exits":  {"south": "McDonalds", "east":"Pryzm", "west":"Tiger Tiger", "cab":"Cab", "inside": "Glam Bar"},
+    "exits":  {"south": "McDonalds", "east":"Pryzm Entrance", "west":"Tiger Tiger", "cab":"Cab", "inside": "Glam Bar"},
 
     "items": [],
     "points": 2
@@ -249,8 +254,8 @@ room_glam_bar = {
     "name": "Glam Bar",
 
     "description":
-    """Good ol’ Glam. Some love it, some hate it. You decided to come here so don’t complain. You head
-straight for the bar and look at the menu.""",
+    """Good ol’ Glam. Some love it, some hate it. You decided to come here so 
+complain. You head straight for the bar and look at the menu.""",
 
     "exits": {"outside": "Glam"},
 
@@ -258,20 +263,38 @@ straight for the bar and look at the menu.""",
 }
 
 # Pryzm -------------------------------------------------
-
-room_pryzm = {
-    "name": "Pryzm - The entrance",
+room_pryzm_entrance = {
+    "name": "Pryzm Entrance",
 
     "description":
-    """Ahh Pryzm, the staple club of any freshers night out. With a choice of music and a variety of bars
-to choose from you feel content with your choice of club and feel that the long wait outside with the
-ever annoying Paper reps was probably worth it.""",
+    """Long queues greet you at the Pryzm Entrance and you debate whether or not 
+it is really a good idea to wait or whether you shoud go somewhere quieter. The 
+choice is yours.""",
 
     "exits":  {"north": "Halls",
                "south": "McDonalds",
                "east": "KFC",
                "west": "Glam",
                "cab": "Cab",
+               "inside": "Pryzm"
+               },
+
+    "items": [],
+    "points": 2
+}
+
+
+room_pryzm = {
+    "name": "Pryzm",
+
+    "description":
+    """Ahh Pryzm, the staple club of any freshers night out. With a choice of 
+music and a variety of bars to choose from you feel content with your choice of 
+club and feel that the long wait outside with the ever annoying Paper reps was 
+probably worth it. You have a choice of the House, Curve or Disco room, or you 
+can head back outside.""",
+
+    "exits":  {"outside": "Pryzm Entrance",
                "curve": "Pryzm Curve",
                "house": "Pryzm House",
                "disco": "Pryzm Disco",
@@ -290,7 +313,7 @@ room_pryzm_disco = {
 mighty fine hips attract a plethora of female attention and before you know it you’ve pulled. Great
 work.""",
 
-    "exits":  {"entrance": "Pryzm", "curve": "Pryzm Curve", "house": "Pryzm House"},
+    "exits":  {"entrance": "Pryzm Entrance", "curve": "Pryzm Curve", "house": "Pryzm House"},
 
     "items": [],
     "points": 2
@@ -305,7 +328,7 @@ room_pryzm_curve = {
 quiet(ish) bar and not being surrounded by \'Cheeky Archbishop of Banterbury Top Lads\' that you
 usually find in Pryzm.""",
 
-    "exits":  {"entrance": "Pryzm", "house": "Pryzm House", "disco": "Pryzm Disco"},
+    "exits":  {"entrance": "Pryzm Entrance", "house": "Pryzm House", "disco": "Pryzm Disco"},
 
     "items": [],
     "points": 2
@@ -323,7 +346,7 @@ your epilepsy.
 Nope this really isn’t helping your epilepsy. You collapse to
 the floor and the room goes black. GAME OVER.""",
 
-    "exits":  {"entrance": "Pryzm", "curve": "Pryzm Curve", "disco": "Pryzm Disco"},
+    "exits":  {"entrance": "Pryzm Entrance", "curve": "Pryzm Curve", "disco": "Pryzm Disco"},
 
     "items": [],
     "points": 2
@@ -344,7 +367,7 @@ McFlurry - £1\n
 Happy Meal - £5\n
 “Can I help you?”, the voice of the worker behind the counter screams at you.""",
 
-    "exits":  {"north": "Glam", "east":"Pryzm", "west":"Tiger Tiger", "cab":"Cab"},
+    "exits":  {"north": "Glam", "east":"Pryzm Entrance", "west":"Tiger Tiger", "cab":"Cab"},
 
     "items": [],
     "points": 2
@@ -416,7 +439,7 @@ room_cab = {
 your senses. Taxi driver with the ID reading \'Justin Sider\' turns
 to you and asks Where would you like to go?.""",
 
-    "exits": {"pryzm": "Pryzm",
+    "exits": {"pryzm": "Pryzm Entrance",
               "glam": "Glam",
               "tiger": "Tiger Tiger",
               "lounge": "Live Lounge",
@@ -448,7 +471,7 @@ rooms = {
     "Glam": room_glam,
     "Glam Bar": room_glam_bar,
 
-
+    "Pryzm Entrance": room_pryzm_entrance,
     "Pryzm": room_pryzm,
     "Pryzm Disco": room_pryzm_disco,
     "Pryzm Curve": room_pryzm_curve,

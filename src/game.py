@@ -124,7 +124,7 @@ def print_room(room):
     Note: <BLANKLINE> here means that doctest should expect a blank line.
     """
     # Display room name
-    print("\n" * 40)
+    print("\n" * 3)
     print ("*" * 80 + "\n")
     print(Back.WHITE + Fore.BLACK + " " + room["name"].upper() + " " + Style.RESET_ALL)
     print()
@@ -396,69 +396,62 @@ def move(exits, direction):
     return rooms[exits[direction]]
 
 
-def check_mass_old():
-    global inventory
-    mass = 0
-    check = False
-    while check == False:  
-        mass = 0
-        for val in range(0, len(inventory)):
-            mass = mass + len(inventory)
-        if mass > 4:
-           print("You are carrying too many items! What do you want to drop?") 
-           dropped_item = input()
-           normalise_input(dropped_item)
-           execute_drop(dropped_item)
-        else:
-            check = True
-
-
 def check_victory():
     if victory_points <= 8 and current_room == rooms["Your room"] and "keys" in inventory:
-        win(inventory, current_room)
+        win()
     elif health <= 0:
         print("""You have drunk too much! 
             You are unresponsive and have slipped into a state on unconsciousness.""")
-        lose(inventory, current_room)        
-    elif victory_points <= 8 and current_room == rooms["Your room"] and "keys" not in inventory: 
-        lose(inventory, current_room)
+        lose()        
+    elif current_room == rooms["Your room"] and "keys" not in inventory: 
         print("""You had a great night out full of adventure and (mostly) drunkness. 
-            BUT WAIT YOU DONT HAVE YOUR KEYS, you sleep on the cold hard ground, 
-            what a sad way to end your night.""")
+BUT WAIT YOU DONT HAVE YOUR KEYS, you sleep on the cold hard ground, what a sad 
+way to end your night.""")
+        lose()
     elif current_room == rooms["Police"]:
         print("""What ever you did it must have been serious! 
             You cannot continue your night.""")
-        lose(inventory, current_room)
+        lose()
     elif alcohol_bar >= 100:
         print("to much alcohole")
-        lose(inventory, current_room)
+        lose()
     elif current_room == rooms["KFC"]:
-        print("")
-        lose(inventory, current_room)
+        # Display room name
+        print("\n" * 3)
+        print ("*" * 80 + "\n")
+        print(Back.WHITE + Fore.BLACK + " " + rooms["KFC"]["name"].upper() + " " + Style.RESET_ALL)
+        print()
+        # Display room description
+        print(rooms["KFC"]["description"])
+        print()
+        lose()
 
 
-def lose(inventory, current_room):
+def lose():
     print(" __     ______  _    _   _      ____   _____ ______") 
     print(" \ \   / / __ \| |  | | | |    / __ \ / ____|  ____|")
     print("  \ \_/ / |  | | |  | | | |   | |  | | (___ | |__   ")
     print("   \   /| |  | | |  | | | |   | |  | |\___ \|  __|  ")
     print("    | | | |__| | |__| | | |___| |__| |____) | |____ ")
     print("    |_|  \____/ \____/  |______\____/|_____/|______|")
-    return end_game(inventory, current_room)
+    print(" ")
+    return end_game()
 
 
-def win(inventory, current_room):
+def win():
     print(" __     ______  _    _  __          _______ _   _ ")
     print(" \ \   / / __ \| |  | | \ \        / /_   _| \ | |")
     print("  \ \_/ / |  | | |  | |  \ \  /\  / /  | | |  \| |")
     print("   \   /| |  | | |  | |   \ \/  \/ /   | | | . ` |")
     print("    | | | |__| | |__| |    \  /\  /   _| |_| |\  |")
     print("    |_|  \____/ \____/      \/  \/   |_____|_| \_|")
-    return end_game(inventory, current_room)
+    return end_game()
 
 
-def end_game(inventory, current_room):
+def end_game():
     input("Press any key to continue: ")
+    global current_room
+    global inventory
     current_room = rooms["Halls"]
     inventory = [item_id, item_laptop, item_money]
     global health 

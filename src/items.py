@@ -9,6 +9,16 @@ You wonder why they have printed a suicide hotline number on it?...""",
     "alcohol_bar": 0
 }
 
+item_keys = {
+    "id": "keys",
+    "name": "your keys",
+    "description":
+    """Keys to you room in halls.""",
+    "mass": 0.3,
+    "health": 0,
+    "alcohol_bar": 0
+}
+
 item_laptop = {
     "id": "laptop",
     "name": "laptop",
