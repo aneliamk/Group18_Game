@@ -1,4 +1,4 @@
-__author__ = 'ioana'
+__author__ = 'jake'
 
 from items import *
 
