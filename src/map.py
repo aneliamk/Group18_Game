@@ -319,9 +319,13 @@ Water - Free""",
 
     "items": [item_WKD, item_vodka, item_desperados, item_jack_daniels, item_water],
 
-    "special": "" ,
+    "special": """You want to go into Glam but the bouncer is standing at the front door
+blocking your way. "01001. What’s the password?" the guard asks you. You think for a second. 
+Another lad went up to the bouncer. The bouncer said "00010". The lad said "2" and was let in. 
+A young lady approached a second later. The bouncer said 00101, she replied 5. She was also 
+let in. You approach the bouncer again, "10011". What is your reply? """,
 
-    "answer": ""
+    "answer": "11"
 }
 
 # Pryzm -------------------------------------------------
