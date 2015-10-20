@@ -109,7 +109,7 @@ item_desperados={
 }
 
 item_jack_daniels={
-    "id":"jack daniels",
+    "id":"jack",
     "name":"Jack Daniels shot",
     "description": "a shot of Jack Daniels",
     "mass":0,
