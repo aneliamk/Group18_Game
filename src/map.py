@@ -12,7 +12,7 @@ room_halls = {
 
     "exits":  {"south": "Pryzm", "west": "Kebab", "cab": "Cab", "room": "Your room"},
 
-    "items": [item_tequila_shot],
+    "items": [item_tequila_shot, item_biscuits, item_pen],
 
     "points": 2
 }

@@ -257,9 +257,6 @@ def execute_take(item_id):
     there is no such item in the room, this function prints
     "You cannot take that."
     """
-
-    global max_mass
-
     ok = False
     for item in current_room["items"]:
         if item["id"] == item_id:
@@ -271,19 +268,19 @@ def execute_take(item_id):
                     health += item["health"]
                     alcohol_bar += item["alcohol_bar"]
                     player_money -= item["price"]
-                    ok = True          
-                elif (get_inventory_mass() + item["mass"]) <= max_mass:
-                   current_room["items"].remove(item)
-                   inventory.append(item)
-                elif (get_inventory_mass() + item["mass"]) > max_mass:
-                    print("You are over-encumbered, you will need to drop an item")
-                else:
-                    print("You don't have enough money to buy that.")
-                    return
-            elif (get_inventory_mass() + item["mass"]) <= max_mass:
+                    ok = True 
+                elif player_money - item["price"] < 0:
+                    print("You do not have enough money to get this.")
+            elif len(inventory) > 3:
+                print("You are carrying too many items! What do you want to drop?") 
+                dropped_item = input()
+                normalise_input(dropped_item)
+                execute_drop(dropped_item)
+            else:
                 current_room["items"].remove(item)
                 inventory.append(item)
                 ok = True
+
             taken_item = item["name"]
     if (ok == False):
         print("You cannot take that.")
@@ -397,6 +394,23 @@ def move(exits, direction):
 
     # Next room to go to
     return rooms[exits[direction]]
+
+
+def check_mass_old():
+    global inventory
+    mass = 0
+    check = False
+    while check == False:  
+        mass = 0
+        for val in range(0, len(inventory)):
+            mass = mass + len(inventory)
+        if mass > 4:
+           print("You are carrying too many items! What do you want to drop?") 
+           dropped_item = input()
+           normalise_input(dropped_item)
+           execute_drop(dropped_item)
+        else:
+            check = True
 
 
 def check_victory():
