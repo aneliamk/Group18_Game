@@ -13,6 +13,7 @@ room_halls = {
     "exits":  {"south": "Pryzm", "west": "Kebab", "cab": "Cab", "room": "Your room"},
 
     "items": [item_tequila_shot]
+    "points": 2
 }
 
 #Dorm ---------------------------------------------------------
@@ -28,6 +29,7 @@ room_dorm = {
     "exits": {"outside": "Halls"},
 
     "items": []
+    "points": 2
 }
 
 #Mama Kebab ---------------------------------------------------
@@ -43,6 +45,7 @@ room_kebab = {
     "exits":  {"west": "SU", "east": "Halls" , "cab": "Cab"},
 
     "items": []
+    "points": 2
 }
 
 #Student Union ------------------------------------------------
@@ -62,6 +65,7 @@ room_su = {
     },
 
     "items": []
+    "points": 2
 }
 
 room_su_dancefloor = {
@@ -78,6 +82,7 @@ room_su_dancefloor = {
     },
 
     "items": []
+    "points": 2
 }
 
 room_su_bar = {
@@ -98,6 +103,7 @@ room_su_bar = {
     },
 
     "items": []#need to add dictionary of drinks i think, not sure about how the menu will print also.
+    "points": 2
 }
 
 #-------------------------------------------------------
@@ -135,6 +141,7 @@ room_tiger = {
                },
 
     "items": []
+    "points": 2
 }
 
 
@@ -151,6 +158,7 @@ the cuffs around your wrists and takes you to the police station.""",
     "exits":  { "wonder": "Tiger Wonder", "entrance": "Tiger Tiger"},
 
     "items": []
+    "points": 2
 }
 
 
@@ -166,6 +174,7 @@ them in. What are you going to choose?""",
     "exits":  {"club": "Tiger Club", "entrance": "Tiger Tiger"},
 
     "items": []
+    "points": 2
 }
 
 # Live Lounge -------------------------------------------------
@@ -180,6 +189,7 @@ room_lounge = {
     "exits":  {"north": "SU", "east": "Tiger Tiger", "cab": "Cab"},
 
     "items": []
+    "points": 2
 }
 
 #--------------------------------------------------------------
@@ -202,6 +212,7 @@ room_lounge_bar = {
     "exits":  {},
 
     "items": []
+    "points": 2
 }
 
 room_lounge_hide = {
@@ -214,6 +225,7 @@ room_lounge_hide = {
     "exits":  {"north": "SU", "east": "Tiger Tiger", "cab": "Cab"},
 
     "items": []
+    "points": 2
 }
 
 """
@@ -229,6 +241,7 @@ room_glam = {
     "exits":  {"south": "McDonalds", "east":"Pryzm", "west":"Tiger Tiger", "cab":"Cab", "inside": "Glam Bar"},
 
     "items": []
+    "points": 2
 }
 
 room_glam_bar = {
@@ -264,6 +277,7 @@ ever annoying Paper reps was probably worth it.""",
                },
 
     "items": []
+    "points": 2
 }
 
 
@@ -278,6 +292,7 @@ work.""",
     "exits":  {"entrance": "Pryzm", "curve": "Pryzm Curve", "house": "Pryzm House"},
 
     "items": []
+    "points": 2
 }
 
 
@@ -292,6 +307,7 @@ usually find in Pryzm.""",
     "exits":  {"entrance": "Pryzm", "house": "Pryzm House", "disco": "Pryzm Disco"},
 
     "items": []
+    "points": 2
 }
 
 
@@ -309,6 +325,7 @@ the floor and the room goes black. GAME OVER.""",
     "exits":  {"entrance": "Pryzm", "curve": "Pryzm Curve", "disco": "Pryzm Disco"},
 
     "items": []
+    "points": 2
 }
 
 #McDonalds ----------------------------------------------------
@@ -329,6 +346,7 @@ Happy Meal - £5\n
     "exits":  {"north": "Glam", "east":"Pryzm", "west":"Tiger Tiger", "cab":"Cab"},
 
     "items": []
+    "points": 2
 } #need to add the 'would you like fries with that', im not sure how.
 
 #KFC ----------------------------------------------------------
@@ -348,6 +366,7 @@ GAME OVER.""",
     "exits":  {},
     
     "items": []
+    "points": 2
 
 }
 
@@ -365,6 +384,7 @@ Pryzm with health of 100 but -5 points)""",
     "exits":  {"cab":"Cab"},
 
     "items": []
+    "points": -5
 }
 
 #Police Station ---------------------------------------------
