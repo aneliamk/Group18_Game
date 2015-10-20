@@ -62,6 +62,7 @@ item_tequila_shot = {
     "health": -5,
     "alcohol_bar": 10,
     "price": 2
+    "points": 1
 }
 
 item_tequila_shot = {
@@ -72,6 +73,7 @@ item_tequila_shot = {
     "health": -5,
     "alcohol_bar": 10,
     "price": 2
+    "points": 1
 }
 
 item_WKD={
@@ -82,6 +84,7 @@ item_WKD={
     "health": -10,
     "alcohol_bar": 10,
     "price": 3
+    "points": 1
 }
 
 item_Vodka={
@@ -92,6 +95,7 @@ item_Vodka={
     "health":-10,
     "alcohol_bar": 10,
     "price":2
+    "points": 1
     }
 
 item_Desperados={
@@ -102,6 +106,7 @@ item_Desperados={
     "health":-10,
     "alcohol_bar": 10,
     "price":3
+    "points": 1
 }
 
 item_Jack_Daniels={
@@ -112,6 +117,7 @@ item_Jack_Daniels={
     "health":-10,
     "alcohol_bar": 10,
     "price":3
+    "points": 1
 }
 
 item_Water={
@@ -122,7 +128,7 @@ item_Water={
     "health":+10,
     "alcohol_bar": 10,
     "price":0,
-    "points":-1
+    "points": -1
 }
 
 item_sambuca_shot = {  
@@ -133,6 +139,7 @@ item_sambuca_shot = {
     "health": -10,
     "alcohol_bar": 10,
     "price": 2
+    "points": 1
 }
 
 item_jagerbomb_shot = { 
@@ -143,4 +150,5 @@ item_jagerbomb_shot = {
     "health": -5,
     "alcohol_bar": 10,
     "price": 2
+    "points": 1
 }
