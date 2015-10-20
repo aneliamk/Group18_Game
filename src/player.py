@@ -1,7 +1,7 @@
 from items import *
 from map import rooms
 
-inventory = [item_id, item_money, item_laptop]
+inventory = [item_keys, item_phone, item_id]
 
 health = 100
 

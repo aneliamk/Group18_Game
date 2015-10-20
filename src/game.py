@@ -516,6 +516,8 @@ you make and you will be sure to succeed.
 
 ENJOY!""")
 
+    input("Press enter to continue... ")
+    print ("\n" * 50)
     # Main game loop
     while True:
         # Display game status (room description, inventory etc.)
