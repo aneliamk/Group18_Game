@@ -279,7 +279,7 @@ them?""",
 
     "items": [],
 
-    "victory_points": 2,
+    "victory_points": 0,
 
     "special": """As you enter Live Lounge a group of men run up to you with
 an urgent question. "How many Weatherspoon’s are there in Cardiff?" they ask.
@@ -308,7 +308,7 @@ room_lounge_bar = {
     "exits":  {},
 
     "items": [],
-    "victory_points": 2,
+    "victory_points": 0,
     "cost": 0,
     "special": "",
 
@@ -553,7 +553,7 @@ room_pryzm_house = {
     "name": "Pryzm - House area",
 
     "description":
-    """We’re not actually sure about the name of this room but it’s pretty busy and 
+    """We\'re not actually sure about the name of this room but it\'s pretty busy and 
 the strobe lighting probably isn\'t good for your epilepsy. Ahh well, YOLO.
 
 Drink List:
