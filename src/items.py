@@ -1,13 +1,12 @@
 #author Jake
 # ----------------------------------------------------------------
-#  ITEMS YOU CAN TAKE AND DROP
+#  NON CONSUMABLES
 
 item_id = {
     "id": "id",
     "name": "student id",
     "description":
     "Your brand new Student ID. Expires in June 2019. You admire your student picture taken whilst nursing the biggest hangover you've ever had, it's now stuck with you for the next 3 years.",
-    
     "mass": 1,
     "health": 0,
     "alcohol_bar": 0
@@ -53,6 +52,15 @@ item_disco_ = {
     "points": 1
 }
 
+unknown_substance = {
+    "id": "unknown_substance",
+    "name": "substance",
+    "description": "Some strange powder",
+    "mass": 1,
+    "health": -5,
+    "alcohol_bar": 0
+}
+
 # ----------------------------------------------------------------
 # ALCOHOL - FILLS alcohol_bar, DECREASES HEALTH
 item_tequila_shot = {
@@ -64,15 +72,6 @@ item_tequila_shot = {
     "alcohol_bar": 0,
     "price": 2,
     "points": 0
-}
-
-unknown_substance = {
-    "id": "unknown_substance",
-    "name": "substance",
-    "description": "Some strange powder",
-    "mass": 1,
-    "health": -5,
-    "alcohol_bar": 0
 }
 
 item_WKD={
