@@ -287,7 +287,7 @@ def execute_take(item_id):
                     alcohol_bar += item["alcohol_bar"]
                     player_money -= item["price"]
                     victory_points += item["points"]
-                    
+                    print("You take " + item["name"])
                     if health > 100:
                         health = 100
                 else:
@@ -298,14 +298,14 @@ def execute_take(item_id):
                 if (get_inventory_mass() + item["mass"]) <= max_mass:
                    items.remove(item)
                    inventory.append(item)
-
+                   print("You take " + item["name"])
                 else:
                     print("You are over-encumbered, you will need to drop an item")
 
     if (ok == False):
         print("You cannot take that.")
     else:
-        print("You just toke " + item["name"])
+        pass
     
 
 def execute_drop(item_id):
@@ -437,9 +437,6 @@ def check_victory():
         print("""What ever you did it must have been serious! 
             You cannot continue your night.""")
         lose()
-    elif alcohol_bar >= 100:
-        print("to much alcohole")
-        lose()
     elif current_room == rooms["KFC"]:
         # Display room name
         print("\n" * 3)
@@ -464,6 +461,10 @@ def lose():
 
 
 def win():
+    print("""Congratulations! You went out into Cardiff, had a great night, 
+drank lots but not too much and returned home safely! Make sure 
+you have a big glass of water so you feel fresh in the morning 
+ready for your 9am lecture.""")
     print(" __     ______  _    _  __          _______ _   _ ")
     print(" \ \   / / __ \| |  | | \ \        / /_   _| \ | |")
     print("  \ \_/ / |  | | |  | |  \ \  /\  / /  | | |  \| |")
@@ -516,7 +517,7 @@ def riddle(val):
 
 # This is the entry point of our program
 def main():
-    print("\n" * 40)
+    print("\n" * 50)
     print("""Welcome to 'Drink But Don't Drop'. 
 The aim is to visit the bars and clubs in Cardiff having a 
 great night returning to your room in Halls safe and sound. 
@@ -528,7 +529,7 @@ you make and you will be sure to succeed.
 ENJOY!""")
 
     input("Press enter to continue... ")
-    print ("\n" * 50)
+    print ("\n" * 45)
     # Main game loop
     while True:
         # Display game status (room description, inventory etc.)
