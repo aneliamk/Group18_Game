@@ -5,7 +5,7 @@ from items import *
 #Halls --------------------------------------------------------
 
 room_halls = {
-    "name": "Outside University Halls",
+    "name": "Outside Halls",
 
     "description":
     """You are standing outside your Halls. 
@@ -118,7 +118,7 @@ Answer 'gliding', 'coffee' or 'sinatra'.""",
 
 
 room_su_dancefloor = {
-    "name": "Student's Union Dancefloor",
+    "name": "SU Dancefloor",
 
     "description":
     """The cheap drinks have drawn you in. You look around Y Plas

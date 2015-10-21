@@ -74,7 +74,9 @@ Binary_Drink = {"drink": -1,
 
 }
 
-Fight = {"drink": -1,
+Fight = {
+
+"drink": -1,
 
 "health": -1,
 
@@ -93,8 +95,13 @@ Fight = {"drink": -1,
 "item_add": "",
 
 "description": 
+"""
+You are attacked by a drunken thug standing outside Mamas. 
+You weave and dodge with elegance and speed despite your drunkenness. 
+You escape with only minor injuries. 
+Maybe you should avoid Mamas from now on.
 
-  """ You are attacked by a crazy man. You weave and dodge with elegance and speed. You would have been fine if it wasen't for the fact you got knocked out cold""",
+Press Enter to continue...""",
 
 }
 
@@ -116,11 +123,14 @@ Wallet = {"drink": -1,
 
 "item_change": "" ,
 
-"item_add": Unknown_substance,
+"item_add": unknown_substance,
 
 "description": 
 
-  """ a large bag of unknown substace you find in a wallet you do.""",
+"""You find a bag of an unknown substance on the floor you pick it up. 
+Could this be the stuff to make your night?
+
+Press Enter to continue...""",
 
 }
 
@@ -138,14 +148,22 @@ coca = {"drink": -1,
 
 "room_change": "Police",
 
-"item": Unknown_substance,
+"item": unknown_substance,
 "item_add": "",
 
 "item_change": "",
 
 "description": 
 
-  """ Police search you as part of a random sweep. Good news you now know what the white stuff was. Bad news it was cocain. """,}
+"""The bright lights of McDonalds reveal what you really look like after 
+a night out. You begin attracting attention as you stumble around trying 
+to hold yourself together. 
+
+A police officer walks in and immedietly takes an interest in you. He 
+walks over and decides to search you for anything illegal. 
+
+He discovers the substance you found in the Student's Union and slaps 
+the cuffs on you. You are carried away, head hanging gwith shame. """,}
 
 
 

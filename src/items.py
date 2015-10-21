@@ -65,9 +65,9 @@ item_tequila_shot = {
     "points": 0
 }
 
-Unknown_substance = {
-    "id": "Unknown_substance",
-    "name": "Unknown_substance",
+unknown_substance = {
+    "id": "substance",
+    "name": "an unknown substance",
     "description": "Some strange pouder",
     "mass": 1,
     "health": -5,
