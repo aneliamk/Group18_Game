@@ -73,7 +73,7 @@ what are you going to go for?""",
 
 
 room_su = {
-    "name": "Outside Student's Union",
+    "name": "Outside SU",
 
     "description":
     """You are standing outside the Students Union, entry costs £5, where do
@@ -670,7 +670,7 @@ would like to go?. Trips cost £5.""",
               "glam": "Glam",
               "tiger": "Tiger Tiger",
               "lounge": "Live Lounge",
-              "su": "SU",
+              "su": "Outside SU",
               "kebab": "Mama Kebab",
               "halls": "Halls",
               "kfc": "KFC"},
@@ -690,7 +690,7 @@ rooms = {
     "Halls": room_halls,
     "Mama Kebab": room_kebab,
 
-    "SU": room_su,
+    "Outside SU": room_su,
     "SU Bar": room_su_bar,
     "SU Dancefloor": room_su_dancefloor,
     "SU Tills": room_su_pay,

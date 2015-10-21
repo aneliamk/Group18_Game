@@ -205,15 +205,10 @@ def print_menu(exits, room_items, inv_items):
     for direction in exits:
         # Print the exit name and where it leads to
         print_exit(direction, exit_leads_to(exits, direction))
-
     for item in room_items:
         print (Fore.RED + "TAKE " + item["id"].upper() + " to take " + item["name"] + "." + Style.RESET_ALL)
-
     for item in inv_items:
-        print (Fore.YELLOW + "DROP " + item["id"].upper() + " to drop your " + item["name"] + "." + Style.RESET_ALL)
-
-    #
-    
+        print (Fore.YELLOW + "DROP " + item["id"].upper() + " to drop your " + item["name"] + "." + Style.RESET_ALL) 
     print(Style.BRIGHT + "What do you want to do?" + Style.RESET_ALL)
 
 
@@ -255,33 +250,19 @@ def execute_go(direction):
     moving). Otherwise, it prints "You cannot go there."
     """
     global current_room
-
     global rooms
-
     exits = current_room["exits"]
-
     if is_valid_exit(exits, direction) and enter_club(rooms[exits[direction]]):
-
         if rooms[exits[direction]]["special"] != "":
-
             key = riddle(rooms[exits[direction]])
-
             if key == 1:
-
                 current_room = rooms[exits[direction]]
-
             elif key == 2:
-
                 return
-
         elif rooms[exits[direction]]["special"] == "":
-
             current_room = rooms[exits[direction]]
-
         print(current_room["name"])
-
     else:
-
         print("You cannot go there.")
 
 
@@ -389,28 +370,16 @@ def execute_command(command):
 
 
 def trigger_trigger(val):
-
     global health
-
     global current_room
-
     global alcohol_bar    
-
     global inventory
-
     health = health + val["health effect"]
-
-
     if val["room_change"] != "":
-
        current_room = rooms[val["room_change"]]
-
     alcohol_bar = alcohol_bar + val["drink"]
-
     print(val["description"])
-
     if val["item_add"] != "":
-
         inventory.append(val["item_add"])
     input()
 
@@ -429,16 +398,12 @@ def menu(exits, room_items, inv_items):
     function before being returned.
 
     """
-
     # Display menu
     print_menu(exits, room_items, inv_items)
-
     # Read player's input
     user_input = input(Fore.MAGENTA + "> " + Style.RESET_ALL)
-
     # Normalise the input
     normalised_user_input = normalise_input(user_input)
-
     return normalised_user_input
 
 
@@ -463,8 +428,8 @@ def check_victory():
     if victory_points >= 8 and current_room == rooms["Your room"] and item_keys in inventory:
         win()
     elif health <= 0:
-        print("""You have drunk too much! 
-            You are unresponsive and have slipped into a state on unconsciousness.""")
+        print("""You have drunk way too much! 
+You are unresponsive and have slipped into a state on unconsciousness.""")
         lose()        
     elif current_room == rooms["Your room"] and item_keys not in inventory: 
         print("""You had a great night out full of adventure and (mostly) drunkness. BUT WAIT YOU DONT HAVE YOUR KEYS, you sleep on the cold hard ground, what a sad way to end your night.""")
