@@ -322,7 +322,7 @@ room_lounge_upstairs = {
     '''You move to the other side of the floor away from the two doctors. A wise move, they
     are doing more shots than you could ever handle. What would you like to do next?,''',
 
-    "exits":  {"Outside": "Live Lounge"},
+    "exits":  {"outside": "Live Lounge"},
 
     "items": [],
     "victory_points": 2,
