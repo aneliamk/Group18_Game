@@ -206,7 +206,10 @@ def print_menu(exits, room_items, inv_items):
         # Print the exit name and where it leads to
         print_exit(direction, exit_leads_to(exits, direction))
     for item in room_items:
-        print (Fore.RED + "TAKE " + item["id"].upper() + " to take " + item["name"] + "." + Style.RESET_ALL)
+        if item["health"] != 0:
+            print(Fore.RED + "BUY " + item["id"].upper() + " to take " + item["name"] + "." + Style.RESET_ALL)
+        else:
+            print(Fore.RED + "TAKE " + item["id"].upper() + " to take " + item["name"] + "." + Style.RESET_ALL)
     for item in inv_items:
         print (Fore.YELLOW + "DROP " + item["id"].upper() + " to drop your " + item["name"] + "." + Style.RESET_ALL) 
     print(Style.BRIGHT + "What do you want to do?" + Style.RESET_ALL)
@@ -283,7 +286,7 @@ def execute_take(item_id):
 
             item_name = item["name"]
 
-            if item["health"] != 0 or item["alcohol_bar"] != 0:
+            if item["health"] != 0:
                 global health
                 global alcohol_bar
                 global player_money
@@ -293,7 +296,7 @@ def execute_take(item_id):
                     health += item ["health"]
                     player_money -= item["price"]
                     victory_points += item["points"]
-                    print("You take " + item["name"])
+                    print("You buy " + item["name"])
                     if health > 100:
                         health = 100
                 else:
@@ -352,7 +355,7 @@ def execute_command(command):
         else:
             print("Go where?")
 
-    elif command[0] == "take":
+    elif command[0] == "take" or command[0] == "buy":
         if len(command) > 1:
             execute_take(command[1])
         else:
@@ -562,7 +565,7 @@ ENJOY!\n""")
         # Display game status (room description, inventory etc.)
         print_room(current_room)
         print_inventory_items(inventory)
-        print_player_attributes(health, player_money, victory_points)
+        print_player_attributes(health, victory_points, player_money)
 
         # Show the menu with possible actions and ask the player
         command = menu(current_room["exits"], current_room["items"], inventory)
