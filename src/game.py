@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#author Jake and Viktor
 
 from map import rooms
 from player import *
@@ -125,7 +125,7 @@ def print_room(room):
     Note: <BLANKLINE> here means that doctest should expect a blank line.
     """
     # Display room name
-    print("\n" * 3)
+    print("\n")
     print ("*" * 80 + "\n")
     print(Back.WHITE + Fore.BLACK + " " + room["name"].upper() + " " + Style.RESET_ALL)
     print()
@@ -470,8 +470,8 @@ def check_victory():
         print("""You had a great night out full of adventure and (mostly) drunkness. BUT WAIT YOU DONT HAVE YOUR KEYS, you sleep on the cold hard ground, what a sad way to end your night.""")
         lose()
     elif current_room == rooms["Police"]:
-        print("""What ever you did it must have been serious! 
-            You cannot continue your night.""")
+        print(Back.WHITE + Fore.BLACK + " Police Station " + Style.RESET_ALL + "\n")
+        print(rooms["Police"]["description"])
         lose()
     elif current_room == rooms["KFC"]:
         # Display room name
@@ -511,7 +511,7 @@ ready for your 9am lecture.""")
 
 
 def end_game():
-    input("Press any key to restart game: ")
+    input("Press Enter to restart game... ")
     print("\n" * 40)
     global current_room
     global inventory

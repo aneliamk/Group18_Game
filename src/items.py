@@ -1,3 +1,4 @@
+#author Jake
 # ----------------------------------------------------------------
 #  ITEMS YOU CAN TAKE AND DROP
 
@@ -60,18 +61,18 @@ item_tequila_shot = {
     "description": "bla bla",
     "mass": 0,
     "health": -10,
-    "alcohol_bar": 10,
+    "alcohol_bar": 0,
     "price": 2,
     "points": 0
 }
 
 unknown_substance = {
-    "id": "substance",
-    "name": "an unknown substance",
-    "description": "Some strange pouder",
+    "id": "unknown_substance",
+    "name": "substance",
+    "description": "Some strange powder",
     "mass": 1,
     "health": -5,
-    "alcohol_bar": 10
+    "alcohol_bar": 0
 }
 
 item_WKD={
@@ -80,7 +81,7 @@ item_WKD={
     "description": "this is WKD",
     "mass": 0,
     "health": -10,
-    "alcohol_bar": 10,
+    "alcohol_bar": 0,
     "price": 3,
     "points": 1
 }
@@ -91,7 +92,7 @@ item_vodka={
     "description": "this is Vodka",
     "mass":0,
     "health":-10,
-    "alcohol_bar": 10,
+    "alcohol_bar": 0,
     "price":2,
     "points": 1
     }
@@ -102,7 +103,7 @@ item_desperados={
     "description": "this is Desperados",
     "mass":0,
     "health":-10,
-    "alcohol_bar": 10,
+    "alcohol_bar": 0,
     "price":3,
     "points": 1
 }
@@ -113,7 +114,7 @@ item_jack_daniels={
     "description": "a shot of Jack Daniels",
     "mass":0,
     "health":-10,
-    "alcohol_bar": 10,
+    "alcohol_bar": 0,
     "price":3,
     "points": 1
 }
@@ -124,7 +125,7 @@ item_sambuca_shot = {
     "description": "A shot of Sambuca.",
     "mass": 0,
     "health": -10,
-    "alcohol_bar": 10,
+    "alcohol_bar": 0,
     "price": 2,
     "points": 1
 }
@@ -135,10 +136,66 @@ item_jagerbomb_shot = {
     "description": "A shot of Jagerbomb.",
     "mass": 0,
     "health": -5,
-    "alcohol_bar": 10,
+    "alcohol_bar": 0,
     "price": 2,
     "points": 1
 }
+
+item_bulmers={ 
+    "id" : "bulmers",
+    "name" : "a Bulmers",
+    "description": "A Pint of Bulmers.",
+    "mass": 0,
+    "health": -2,
+    "alcohol_bar": 0,
+    "price": 2,
+    "points": 1
+}
+
+item_budweiser={ 
+    "id" : "budweiser",
+    "name" : "a Budweiser",
+    "description": "A Pint of Budweiser.",
+    "mass": 0,
+    "health": -4,
+    "alcohol_bar": 0,
+    "price": 3,
+    "points": 1
+}
+
+item_crabbies={ 
+    "id" : "crabbie's",
+    "name" : "a Crabbie's",
+    "description": "A Bottle of Crabbie's.",
+    "mass": 0,
+    "health": -2,
+    "alcohol_bar": 0,
+    "price": 2,
+    "points": 1
+}
+
+item_stella={ 
+    "id" : "stella",
+    "name" : "a Stella",
+    "description": "A Pint of Stella.",
+    "mass": 0,
+    "health": -4,
+    "alcohol_bar": 0,
+    "price": 3,
+    "points": 1
+}
+
+item_coors={ 
+    "id" : "coors",
+    "name" : "a Coors",
+    "description": "A Pint of Coors.",
+    "mass": 0,
+    "health": -4,
+    "alcohol_bar": 0,
+    "price": 2,
+    "points": 1
+}
+
 
 # ----------------------------------------------------------------
 # WATER - INCREASES HEALTH
@@ -195,6 +252,28 @@ item_happy_meal = {
     "points": 0
 }
 
+item_thick_sausage_kebab = {
+    "id": "thicksausagekebab",
+    "name": "a Thick Sausage Kebab",
+    "description": ".",
+    "health": +15,
+    "alcohol_bar": 0,
+    "price": 5,
+    "points": 0
+}
+
+item_long_sausage_kebab = {
+    "id": "longsausagekebab",
+    "name": "a Long Sausage Kebab",
+    "description": ".",
+    "health": +15,
+    "alcohol_bar": 0,
+    "price": 5,
+    "points": 0
+}
+
+
 
 # TO BE COMPLETED :)
+
 

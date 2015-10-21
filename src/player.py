@@ -1,3 +1,5 @@
+#author Viktor and Jake
+
 from items import *
 from map import rooms
 

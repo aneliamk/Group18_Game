@@ -1,4 +1,4 @@
-__author__ = 'jake'
+#author Jake
 
 from items import *
 
@@ -58,7 +58,8 @@ what are you going to go for?""",
 
     "exits":  {"west": "SU", "east": "Halls" , "cab": "Cab"},
 
-    "items": [],
+    "items": [item_thick_sausage_kebab, item_long_sausage_kebab],
+
     "victory_points": 1,
 
     "special": "" ,
@@ -78,7 +79,7 @@ room_su = {
     """You are standing outside the Students Union, entry costs £5, where do
 you want to go?""",
 
-    "exits":  {"south": "Live Lounge", "east": "Mama Kebab", "cab": "Cab", "inside": "SU Tills"},
+    "exits":  {"south": "Live Lounge", "east": "Mama Kebab", "cab": "Cab", "pay": "SU Tills"},
 
     "items": [],
 
@@ -121,13 +122,13 @@ room_su_dancefloor = {
     "name": "SU Dancefloor",
 
     "description":
-    """The cheap drinks have drawn you in. You look around Y Plas
-and see a wallet on the floor. The bar is busy but well staffed and drinks
-here are cheaper than elsewhere. What do you do next?""",
+    """The cheap drinks have drawn you in. The bar is busy but well 
+staffed. You see a small bag containing an unknown substance, a
+white powder. Could this be the thing you need to make your night?""",
 
     "exits":  {"outside": "SU", "bar": "SU Bar"},
 
-    "items": [],
+    "items": [unknown_substance],
 
     "victory_points": 0,
 
@@ -242,12 +243,17 @@ room_tiger_club = {
 
     "description":
     """You enter ‘The Club’ and your initial survey suggest that the Tiger Tiger 
-management do indeed know what a club is. You notice a bag containing a mysterious
-substance on the floor. You can pick up the package or leave it.""",
+management do indeed know what a club is. 
+Drink List:
+Sambuca Shot - £2
+Vodka - £2
+Jack Daniels - £3
+Jagerbomb Shot - £2
+Water - Free""",
 
     "exits": {"wonder": "Tiger Tiger - The Groovy Wonderland", "entrance": "Tiger Tiger"},
 
-    "items": [],
+    "items": [item_sambuca_shot, item_jagerbomb_shot, item_vodka, item_jack_daniels, item_water],
 
     "victory_points": 0,
 
@@ -257,6 +263,7 @@ substance on the floor. You can pick up the package or leave it.""",
 
     "cost": 0
 }
+
 
 # Live Lounge -------------------------------------------------
 
@@ -268,7 +275,7 @@ room_lounge = {
 Kirill and Matt doing Russian Standard shots counting in binary. Do you run? Or join 
 them?""",
 
-    "exits":  {"north": "SU", "east": "Tiger Tiger", "cab": "Cab"},
+    "exits":  {"north": "Outside SU", "east": "Tiger Tiger", "cab": "Cab", "bar": "Live Lounge Bar", "upstairs": "Upstairs Live Lounge"},
 
     "items": [],
 
@@ -281,43 +288,47 @@ them?""",
     "cost": 0
 }
 
-#--------------------------------------------------------------
-#MIGHT NOT BE GOOD---------------------------------------------
-"""
+
 room_lounge_bar = {
-    "name": "Live Lounge",
+    "name": "Live Lounge Bar",
 
     "description":
-    - 001 shot down.\n
+    '''- 001 shot down.\n
     - 010 shots down.\n
-    - 011 and you begin to regret this decision but it’s too late to leave now.\n
+    - 011 and you begin to regret this decision but its too late to leave now.\n
     - 100 shots.\n
     - 101.\n
     - 111.........and spew. You projectile vomit across the bar.\n
     Matt and Kirill continue drinking laughing at your feeble attempt to keep
     up with them.?\n
-    - GAME OVER!,
+    - GAME OVER!,''',
 
     "exits":  {},
 
-    "items": []
-    "victory_points": 2
+    "items": [],
+    "victory_points": 2,
+    "cost": 0,
+    "special": "",
+
+    "answer": "",
 }
 
-room_lounge_hide = {
-    "name": "Live Lounge",
+room_lounge_upstairs = {
+    "name": "Upstairs Live Lounge",
 
     "description":
-    You move to the other side of the floor away from the two doctors. A wise move, they
-    are doing more shots than you could ever handle. What would you like to do next?,
+    '''You move to the other side of the floor away from the two doctors. A wise move, they
+    are doing more shots than you could ever handle. What would you like to do next?,''',
 
-    "exits":  {"north": "SU", "east": "Tiger Tiger", "cab": "Cab"},
+    "exits":  {"Outside": "Live Lounge"},
 
-    "items": []
-    "victory_points": 2
+    "items": [],
+    "victory_points": 2,
+    "cost": 0,
+    "special": "",
+
+    "answer": "",
 }
-
-"""
 
 # Glam ---------------------------------------------------------
 
@@ -482,11 +493,20 @@ room_pryzm_disco = {
     "description":
     """Great choice. Only here can you do the Macarena and YMCA and not look like a 
 total d*ck. Your mighty fine hips attract a plethora of female attention and before 
-you know it you’ve pulled. Great work.""",
+you know it you’ve pulled. Great work.
+
+Drink List:
+Sambuca Shot - £2
+Vodka - £2
+Jack Daniels - £3
+Jagerbomb Shot - £2
+Crabbie's - £2
+Bulmers - £3
+Water - Free""",
 
     "exits":  {"entrance": "Pryzm", "curve": "Pryzm Curve", "house": "Pryzm House"},
 
-    "items": [],
+    "items": [item_sambuca_shot, item_jagerbomb_shot, item_vodka, item_jack_daniels, item_crabbies, item_bulmers, item_water],
 
     "victory_points": 0,
 
@@ -532,12 +552,22 @@ room_pryzm_house = {
 
     "description":
     """We’re not actually sure about the name of this room but it’s pretty busy and 
-the strobe lighting probably isn\'t good for your epilepsy. You feel your health 
-declining""",
+the strobe lighting probably isn\'t good for your epilepsy. Ahh well, YOLO.
+
+Drink List:
+Jack Daniels - £3
+Stella - £3
+Coors - £2
+Bulmers - £3
+Crabbie's - £2
+Budweiser - £3
+Jagerbomb Shot - £2
+Sambuca Shot - £2
+Water - Free""",
 
     "exits":  {"entrance": "Pryzm", "curve": "Pryzm Curve", "disco": "Pryzm Disco"},
 
-    "items": [],
+    "items": [item_stella, item_coors, item_crabbies, item_budweiser, item_bulmers, item_jagerbomb_shot, item_sambuca_shot, item_jack_daniels, item_water],
 
     "victory_points": 0,
 
@@ -666,7 +696,8 @@ rooms = {
     "SU Tills": room_su_pay,
 
     "Live Lounge": room_lounge,
-    #"Live Lounge Bar": room_lounge_bar,
+    "Live Lounge Bar": room_lounge_bar,
+    "Upstairs Live Lounge": room_lounge_upstairs,
 
     "Tiger Tiger": room_tiger,
     "Tiger Tiger Tills": room_tiger_pay,
