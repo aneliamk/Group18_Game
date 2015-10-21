@@ -281,9 +281,11 @@ them?""",
 
     "victory_points": 2,
 
-    "special": "",
+    "special": """As you enter Live Lounge a group of men run up to you with
+an urgent question. "How many Weatherspoon’s are there in Cardiff?" they ask.
+They won't let you in until you answer correctly. """,
 
-    "answer": "",
+    "answer": "9",
 
     "cost": 0
 }
