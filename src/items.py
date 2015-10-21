@@ -53,8 +53,8 @@ item_disco_ = {
 }
 
 unknown_substance = {
-    "id": "unknown_substance",
-    "name": "substance",
+    "id": "substance",
+    "name": "unknown substance",
     "description": "Some strange powder",
     "mass": 1,
     "health": -5,
