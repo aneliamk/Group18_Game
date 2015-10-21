@@ -8,8 +8,8 @@ item_id = {
     "Your brand new Student ID. Expires in June 2019. You admire your student picture taken whilst nursing the biggest hangover you've ever had, it's now stuck with you for the next 3 years.",
     
     "mass": 1,
-    "health": -5,
-    "alcohol_bar": 10
+    "health": 0,
+    "alcohol_bar": 0
 }
 
 item_keys = {
@@ -18,8 +18,8 @@ item_keys = {
     "description":
     "This key has seen better days, but atleast it can open your door(most of the time).",
     "mass": 1,
-    "health": -5,
-    "alcohol_bar": 10
+    "health": 0,
+    "alcohol_bar": 0
 }
 
 item_phone = {
@@ -28,8 +28,8 @@ item_phone = {
     "description": 
     "This is the 2nd replacement you've had in 2 weeks, who knew phones don't like being dropped.. better not let anything happen to this one.",
     "mass": 1,
-    "health": -5,
-    "alcohol_bar": 10
+    "health": 0,
+    "alcohol_bar": 0
 }
 
 item_glowstick = {
@@ -37,8 +37,19 @@ item_glowstick = {
     "name": "a glowstick",
     "description": "Ah yes, a good ol' glowstick, nothing brings back memories of school discos and bad decisions better than these.",
     "mass": 1,
+    "health": 0,
+    "alcohol_bar": 0
+}
+
+item_disco_ = { 
+    "id" : "jagerbomb",
+    "name" : "a Jagerbomb shot",
+    "description": "A shot of Jagerbomb.",
+    "mass": 0,
     "health": -5,
-    "alcohol_bar": 10
+    "alcohol_bar": 10,
+    "price": 2,
+    "points": 1
 }
 
 # ----------------------------------------------------------------
@@ -48,18 +59,16 @@ item_tequila_shot = {
     "name" : "a Tequila shot",
     "description": "bla bla",
     "mass": 0,
-    "health": -30,
+    "health": -10,
     "alcohol_bar": 10,
     "price": 2,
-    "points": 1
+    "points": 0
 }
 
 Unknown_substance = {
     "id": "Unknown_substance",
     "name": "Unknown_substance",
-    "description":
-    "Some strange pouder",
-    
+    "description": "Some strange pouder",
     "mass": 1,
     "health": -5,
     "alcohol_bar": 10
@@ -134,13 +143,13 @@ item_jagerbomb_shot = {
 # ----------------------------------------------------------------
 # WATER - INCREASES HEALTH
 item_water={
-    "id":"water",
-    "name":"a glass of Water",
+    "id": "water",
+    "name": "a glass of Water",
     "description": "bal bla",
-    "mass":0,
-    "health":+10,
+    "mass": 0,
+    "health": +10,
     "alcohol_bar": 00,
-    "price":0,
+    "price": 0,
     "points": -1
 }
 
@@ -151,7 +160,7 @@ item_nuggets = {
     "name": "9 McNuggets",
     "description": "Whether these are made with chicken or not, no one knows.",
     "health": +15,
-    "alcohol_bar": -5,
+    "alcohol_bar": 0,
     "price": 5,
     "points": 0
 }
@@ -161,7 +170,7 @@ item_big_mac = {
     "name": "a Big Mac",
     "description": "The triple bun, double patty legendary burger that is basically the ultimate drunk snack and hangover cure.",
     "health": +15,
-    "alcohol_bar": -5,
+    "alcohol_bar": 0,
     "price": 5,
     "points": 0
 }
@@ -171,7 +180,7 @@ item_mcflurry = {
     "name": "a McFlurry",
     "description": "",
     "health": +5,
-    "alcohol_bar": -5,
+    "alcohol_bar": 0,
     "price": 1,
     "points": 0
 }
@@ -181,7 +190,7 @@ item_happy_meal = {
     "name": "a Happy Meal",
     "description": "A Small burger, no more than 10 chips and a tiny drink. Happy meal? more like inadequate meal.",
     "health": +15,
-    "alcohol_bar": -5,
+    "alcohol_bar": 0,
     "price": 5,
     "points": 0
 }

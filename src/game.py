@@ -236,6 +236,18 @@ def is_valid_exit(exits, chosen_exit):
     return chosen_exit in exits
 
 
+def enter_club(room):
+    global player_money
+    enter = True
+    if room["cost"] <= player_money:
+        player_money = player_money-room["cost"]
+        enter = True
+    else:
+        print("too little cash")
+        enter = False
+    return enter
+
+
 def execute_go(direction):
     """This function, given the direction (e.g. "south") updates the current room
     to reflect the movement of the player if the direction is a valid exit
@@ -243,19 +255,33 @@ def execute_go(direction):
     moving). Otherwise, it prints "You cannot go there."
     """
     global current_room
+
     global rooms
+
     exits = current_room["exits"]
-    if is_valid_exit(exits, direction):
+
+    if is_valid_exit(exits, direction) and enter_club(rooms[exits[direction]]):
+
         if rooms[exits[direction]]["special"] != "":
+
             key = riddle(rooms[exits[direction]])
+
             if key == 1:
+
                 current_room = rooms[exits[direction]]
+
             elif key == 2:
+
                 return
+
         elif rooms[exits[direction]]["special"] == "":
+
             current_room = rooms[exits[direction]]
+
         print(current_room["name"])
+
     else:
+
         print("You cannot go there.")
 
 
@@ -363,20 +389,30 @@ def execute_command(command):
 
 
 def trigger_trigger(val):
+
     global health
+
     global current_room
+
     global alcohol_bar    
+
     global inventory
+
     health = health + val["health effect"]
-    if val["item"] != "":
-        
-       destroy(val, inventory)
-    if val["room change"] != "":
-       current_room = rooms["room change"]
+
+
+    if val["room_change"] != "":
+
+       current_room = rooms[val["room_change"]]
+
     alcohol_bar = alcohol_bar + val["drink"]
+
     print(val["description"])
-    if val["item add"] != "":
-        inventory.append(val["item add"])
+
+    if val["item_add"] != "":
+
+        inventory.append(val["item_add"])
+    input()
 
 
 def check_trigger():
@@ -524,9 +560,9 @@ great night returning to your room in Halls safe and sound.
 But be careful - if you go anywhere you shouldn't, get too 
 drunk, return to your room too early or get into trouble with 
 the law then you will lose the game. Think about each move 
-you make and you will be sure to succeed. 
+you make and you will be sure to succeed.
 
-ENJOY!""")
+ENJOY!\n""")
 
     input("Press enter to continue... ")
     print ("\n" * 45)

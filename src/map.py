@@ -11,7 +11,7 @@ room_halls = {
     """You are standing outside your Halls. 
 You can go inside to your room or venture out into Cardiff.""",
 
-    "exits":  {"south": "Pryzm Entrance", "west": "Kebab", "cab": "Cab", "room": "Your room"},
+    "exits":  {"south": "Pryzm Entrance", "west": "Mama Kebab", "cab": "Cab", "room": "Your room"},
 
     "items": [],
 
@@ -78,7 +78,7 @@ room_su = {
     """You are standing outside the Students Union, entry costs £5, where do
 you want to go?""",
 
-    "exits":  {"south": "Live Lounge", "east": "Kebab", "cab": "Cab", "inside": "SU Tills"},
+    "exits":  {"south": "Live Lounge", "east": "Mama Kebab", "cab": "Cab", "inside": "SU Tills"},
 
     "items": [],
 
@@ -326,7 +326,7 @@ room_glam = {
 
     "description":
     """Standing at the entrance to Glam you notice the bouncers here are 
-particularly tough. They stand legs shoulder width apart scanning the queue for 
+particularly tough. They stand with legs shoulder width apart scanning the queue for 
 potential trouble makers. Entry here costs £5.""",
 
     "exits":  {"south": "McDonalds", "east":"Pryzm Entrance", "west":"Tiger Tiger", "cab":"Cab", "pay": "Glam Tills"},
@@ -504,11 +504,18 @@ room_pryzm_curve = {
     "description":
     """Interesting choice. Many do not even know this room exists. You are rewarded 
 with good music, a quiet(ish) bar and not being surrounded by \'Cheeky Archbishop of 
-Banterbury Top Lads\' that you usually find in Pryzm.""",
+Banterbury Top Lads\' that you usually find in Pryzm.
+
+Drink List:
+WKD - £3
+Vodka - £2
+Sambuca - £2
+Jack Daniels - £3
+Water - Free""",
 
     "exits":  {"entrance": "Pryzm", "house": "Pryzm House", "disco": "Pryzm Disco"},
 
-    "items": [],
+    "items": [item_WKD, item_vodka, item_sambuca_shot, item_jack_daniels, item_water],
 
     "victory_points": 0,
 
@@ -599,7 +606,7 @@ great ordeal?!\n
 #Police Station ---------------------------------------------
 
 room_police = {
-    "name": "Police Station",
+    "name": "Police",
 
     "description":
     """Bright lights blind you as PC Bacon unlocks your handcuffs and hands your 
@@ -634,7 +641,7 @@ would like to go?. Trips cost £5.""",
               "tiger": "Tiger Tiger",
               "lounge": "Live Lounge",
               "su": "SU",
-              "kebab": "Kebab",
+              "kebab": "Mama Kebab",
               "halls": "Halls",
               "kfc": "KFC"},
 
@@ -651,7 +658,7 @@ would like to go?. Trips cost £5.""",
 rooms = {
     "Your room": room_dorm,
     "Halls": room_halls,
-    "Kebab": room_kebab,
+    "Mama Kebab": room_kebab,
 
     "SU": room_su,
     "SU Bar": room_su_bar,
