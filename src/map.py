@@ -126,7 +126,7 @@ room_su_dancefloor = {
 staffed. You see a small bag containing an unknown substance, a
 white powder. Could this be the thing you need to make your night?""",
 
-    "exits":  {"outside": "SU", "bar": "SU Bar"},
+    "exits":  {"outside": "Outside SU", "bar": "SU Bar"},
 
     "items": [unknown_substance],
 
@@ -152,7 +152,7 @@ Water - Free
 The young bar man looks at you, “What do you want Fresher?” """,
 
     "exits":  {#"south": "Live Lounge", "east": "Mama Kebab", "cab": "Cab"
-    "outside": "SU",
+    "outside": "Outside SU",
     "dancefloor": "SU Dancefloor"
     },
 

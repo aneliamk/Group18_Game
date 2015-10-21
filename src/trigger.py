@@ -4,6 +4,7 @@ from items import *
 
 Disco = {"drink": -1,
 
+"exe": "no",
 "health": -1,
 
 "health effect": 0,
@@ -26,6 +27,7 @@ Disco = {"drink": -1,
 
 Binary_Drink = {"drink": -1,
 
+"exe": "no",
 "health": -1,
 
 "health effect": -100000,
@@ -60,6 +62,7 @@ Press Enter to continue...""",
 
 Fight = {
 
+"exe": "no",
 "drink": -1,
 
 "health": -1,
@@ -92,6 +95,7 @@ Press Enter to continue...""",
 
 coca = {"drink": -1,
 
+"exe": "no",
 "health": -1,
 
 "health effect": 0,

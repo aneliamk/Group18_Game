@@ -374,6 +374,8 @@ def trigger_trigger(val):
     global current_room
     global alcohol_bar    
     global inventory
+    global triggers
+    val["exe"] = "yes"
     health = health + val["health effect"]
     if val["room_change"] != "":
        current_room = rooms[val["room_change"]]
@@ -386,7 +388,7 @@ def trigger_trigger(val):
 
 def check_trigger():
     for val in triggers:
-        if (("health" == triggers[val]["health"] or triggers[val]["health"] == -1) and (current_room["name"] == triggers[val]["room"] or triggers[val]["room"] == "any") and (triggers[val]["item"] in inventory or triggers[val]["item"] == "")):
+        if (("health" == triggers[val]["health"] or triggers[val]["health"] == -1) and (current_room["name"] == triggers[val]["room"] or triggers[val]["room"] == "any") and (triggers[val]["item"] in inventory or triggers[val]["item"] == "") and (triggers[val]["exe"] == "no")):
            trigger_trigger(triggers[val])
 
 
