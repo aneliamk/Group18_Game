@@ -20,7 +20,7 @@ Disco = {"drink": -1,
 
 "item_add": "",
 
-"description": "To prison criminal scum" ,
+"description": "Press Enter to continue..." ,
 
 }
 
