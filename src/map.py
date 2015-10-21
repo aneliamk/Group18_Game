@@ -56,7 +56,7 @@ room_kebab = {
 \'Thick Sausage Kebab\' or a \'Long Sausage Kebab\'. Mama is getting impatient,
 what are you going to go for?""",
 
-    "exits":  {"west": "SU", "east": "Halls" , "cab": "Cab"},
+    "exits":  {"west": "Outside SU", "east": "Halls" , "cab": "Cab"},
 
     "items": [item_thick_sausage_kebab, item_long_sausage_kebab],
 
