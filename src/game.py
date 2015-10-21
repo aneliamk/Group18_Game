@@ -291,7 +291,6 @@ def execute_take(item_id):
                 if (player_money - item["price"]) >= 0:
                     ok = True
                     health += item ["health"]
-                    alcohol_bar += item["alcohol_bar"]
                     player_money -= item["price"]
                     victory_points += item["points"]
                     print("You take " + item["name"])
@@ -379,7 +378,6 @@ def trigger_trigger(val):
     health = health + val["health effect"]
     if val["room_change"] != "":
        current_room = rooms[val["room_change"]]
-    alcohol_bar = alcohol_bar + val["drink"]
     print(val["description"])
     if val["item_add"] != "":
         inventory.append(val["item_add"])
@@ -487,14 +485,40 @@ def end_game():
     current_room["inventory"] = []
     global health 
     health = 100
-    global alcohol_bar 
-    alcohol_bar = 35
     global player_money 
     player_money = 50
     global max_mass
     max_mass = 4
     global victory_points 
+    global rooms
     victory_points = 0
+    rooms["Halls"]["items"] = []
+    rooms["Your room"]["items"] = []
+    rooms["Mama Kebab"]["items"] = [item_thick_sausage_kebab, item_long_sausage_kebab]
+    rooms["Outside SU"]["items"] = []
+    rooms["SU Tills"]["items"] = []
+    rooms["SU Dancefloor"]["items"] = [unknown_substance]
+    rooms["SU Bar"]["items"] = [item_sambuca_shot, item_tequila_shot, item_vodka, item_jagerbomb_shot, item_water]
+    rooms["Tiger Tiger"]["items"] = []
+    rooms["Tiger Tiger Tills"]["items"] = []
+    rooms["Upstairs Live Lounge"]["items"] =[item_sambuca_shot, item_jagerbomb_shot, item_vodka, item_jack_daniels, item_water]
+    rooms["Tiger Tiger - The Groovy Wonderland"]["items"] = []
+    rooms["Tiger Tiger - The Club"]["items"] = [item_sambuca_shot, item_jagerbomb_shot, item_vodka, item_jack_daniels, item_water]
+    rooms["Live Lounge"]["items"] = []
+    rooms["Live Lounge Bar"]["items"] = []
+    rooms["Glam"]["items"] = []
+    rooms["Glam Tills"]["items"] = []
+    rooms["Glam Bar"]["items"] = [item_WKD, item_vodka, item_desperados, item_jack_daniels, item_water]
+    rooms["Pryzm Entrance"]["items"] = []
+    rooms["Pryzm"]["items"] = []
+    rooms["Pryzm Tills"]["items"] = []
+    rooms["Pryzm Disco"]["items"] = [item_WKD, item_vodka, item_sambuca_shot, item_jack_daniels, item_water]
+    rooms["Pryzm Curve"]["items"] = [item_WKD, item_vodka, item_sambuca_shot, item_jack_daniels, item_water]
+    rooms["Pryzm House"]["items"] = [item_stella, item_coors, item_crabbies, item_budweiser, item_bulmers, item_jagerbomb_shot, item_sambuca_shot, item_jack_daniels, item_water]
+    rooms["McDonalds"]["items"] = [item_nuggets, item_big_mac, item_mcflurry, item_happy_meal]
+    rooms["Cab"]["items"] = []
+    for val in triggers:
+        triggers[val]["exe"] = "no"
 
 
 def riddle(val):
@@ -538,7 +562,7 @@ ENJOY!\n""")
         # Display game status (room description, inventory etc.)
         print_room(current_room)
         print_inventory_items(inventory)
-        print_player_attributes(health, alcohol_bar, player_money)
+        print_player_attributes(health, player_money, victory_points)
 
         # Show the menu with possible actions and ask the player
         command = menu(current_room["exits"], current_room["items"], inventory)

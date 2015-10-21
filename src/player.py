@@ -7,8 +7,6 @@ inventory = [item_keys, item_phone, item_id]
 
 health = 100
 
-alcohol_bar = 35
-
 player_money = 50
 
 max_mass = 4

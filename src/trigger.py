@@ -20,7 +20,14 @@ Disco = {"drink": -1,
 
 "item_add": "",
 
-"description": "Press Enter to continue..." ,
+"description": """\nReally? 80s Disco anthems? You have no choice to crack out some killer 
+moves but people don’t seem impressed. After a while a police officer approaches. 
+“Excuse me sir”, he interrupts you mid hip thrust, “We have had reports of 
+criminal dance moves in this establishment tonight”. A wave of embarrassment 
+rushes over you, you knew you shouldn’t have gone for the moon walk. He slaps
+the cuffs around your wrists and takes you to the police station.
+
+Press Enter to continue...""",
 
 }
 

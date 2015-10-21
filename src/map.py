@@ -281,11 +281,9 @@ them?""",
 
     "victory_points": 0,
 
-    "special": """As you enter Live Lounge a group of men run up to you with
-an urgent question. "How many Weatherspoon’s are there in Cardiff?" they ask.
-They won't let you in until you answer correctly. """,
+    "special": """""",
 
-    "answer": "9",
+    "answer": "",
 
     "cost": 0
 }
@@ -297,7 +295,7 @@ room_lounge_bar = {
     "description":
     '''- 001 shot down.\n
     - 010 shots down.\n
-    - 011 and you begin to regret this decision but its too late to leave now.\n
+    - 011 and you begin to regret this decision but it's too late to leave now.\n
     - 100 shots.\n
     - 101.\n
     - 111.........and spew. You projectile vomit across the bar.\n
@@ -320,16 +318,18 @@ room_lounge_upstairs = {
 
     "description":
     '''You move to the other side of the floor away from the two doctors. A wise move, they
-    are doing more shots than you could ever handle. What would you like to do next?,''',
+are doing more shots than you could ever handle. What would you like to do next?,''',
 
     "exits":  {"outside": "Live Lounge"},
 
     "items": [],
     "victory_points": 2,
     "cost": 0,
-    "special": "",
+    "special": """As you head upstairs a group of men block your path and require you
+to answer their question. "How many Weatherspoon’s are there in Cardiff?" they ask.
+They won't let you in until you answer correctly. """,
 
-    "answer": "",
+    "answer": "9",
 }
 
 # Glam ---------------------------------------------------------
