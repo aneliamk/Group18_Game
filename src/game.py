@@ -261,7 +261,7 @@ def execute_go(direction):
                 return
         elif rooms[exits[direction]]["special"] == "":
             current_room = rooms[exits[direction]]
-        print(current_room["name"])
+        print("\n" + Back.WHITE + Fore.BLACK + " " + current_room["name"].upper() + " " + Style.RESET_ALL)
     else:
         print("You cannot go there.")
 
@@ -435,7 +435,7 @@ You are unresponsive and have slipped into a state on unconsciousness.""")
         print("""You had a great night out full of adventure and (mostly) drunkness. BUT WAIT YOU DONT HAVE YOUR KEYS, you sleep on the cold hard ground, what a sad way to end your night.""")
         lose()
     elif current_room == rooms["Police"]:
-        print(Back.WHITE + Fore.BLACK + " Police Station " + Style.RESET_ALL + "\n")
+        print(Back.WHITE + Fore.BLACK + " POLICE STATION " + Style.RESET_ALL + "\n")
         print(rooms["Police"]["description"])
         lose()
     elif current_room == rooms["KFC"]:
@@ -546,8 +546,8 @@ def riddle(val):
 def main():
     print("\n" * 50)
     print("""Welcome to 'Drink But Don't Drop'. 
-The aim is to visit the bars and clubs in Cardiff having a 
-great night returning to your room in Halls safe and sound. 
+The aim is to visit the bars and clubs in Cardiff and have a 
+great night, returning to your room in Halls safe and sound. 
 But be careful - if you go anywhere you shouldn't, get too 
 drunk, return to your room too early or get into trouble with 
 the law then you will lose the game. Think about each move 
@@ -556,7 +556,7 @@ you make and you will be sure to succeed.
 ENJOY!\n""")
 
     input("Press enter to continue... ")
-    print ("\n" * 45)
+    print ("\n" * 50)
     # Main game loop
     while True:
         # Display game status (room description, inventory etc.)
