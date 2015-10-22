@@ -6,6 +6,7 @@ from items import *
 from gameparser import *
 from colorama import Fore, Back, Style
 from trigger import *
+from map_display import *
 
 def list_of_items(items):
     """This function takes a list of items (see items.py for the definition) and
@@ -236,10 +237,13 @@ def is_valid_exit(exits, chosen_exit):
 
 def enter_club(room):
     global player_money
+    global victory_points
     enter = True
     if room["cost"] <= player_money:
         player_money = player_money-room["cost"]
         enter = True
+        if "victory_points" in room:
+            victory_points = victory_points + room["victory_points"]
     else:
         print("too little cash")
         enter = False
@@ -366,6 +370,8 @@ def execute_command(command):
             execute_drop(command[1])
         else:
             print("Drop what?")
+    elif command[0] == "map":
+        map_creation()
 
     else:
         print("This makes no sense.")
@@ -555,6 +561,9 @@ But be careful - if you go anywhere you shouldn't, get too
 drunk, return to your room too early or get into trouble with 
 the law then you will lose the game. Think about each move 
 you make and you will be sure to succeed.
+
+Type your commands when prompted. Type 'map' at any time to
+display a map of the game.
 
 ENJOY!\n""")
 
