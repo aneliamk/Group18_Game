@@ -1,0 +1,2059 @@
+<zuiprezi>
+  <version>10</version>
+  <zui-table>
+    <settings>
+      
+      <autoplay>
+        
+        <delay>4000</delay>
+        
+      </autoplay>
+      
+      <bounds x="-324223.38608122815" y="-182072.0747211766" width="648446.7721624563" height="364144.14944235317"/>
+      <aspectratio>16:9</aspectratio>
+      <languages>
+        <language>en</language>
+      </languages>
+      <mode type="normal"/>
+    </settings>
+    <object id="183_4601944" type="button" x="-7.14080523449493e-12" y="-1.5916997296604605e-11" r="0" s="216.84282108161327" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>2996.8782187438264</w>
+        <h>1685.7439980434028</h>
+      </size>
+    </object>
+    <object id="12_4601944" type="image" x="5305.211055243679" y="1304.5354185989452" r="0" s="420.3558675952341">
+      <source w="429" h="669">3593161514<url>3593161514.swf</url></source>
+      <sourceUrl>Red%20Bulb.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593161514</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/f/3/ebbc96109193113637139839f66d8921901cc.swf</url></resource></object>
+    <object id="166_4601944" type="image" x="58760.888926522864" y="6124.121798852071" r="0" s="76.28932419501153">
+      <source w="813" h="813">2056597654<url>2056597654.swf</url></source>
+      <sourceUrl>CircleDotsWhite.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056597654</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/c/4/92a30e009e759b0f63b1be79d8296b113c36e.swf</url></resource></object>
+    <object id="45_4601944" type="image" x="5469.085051351787" y="-41110.769277558255" r="0" s="17.14606358846068">
+      <source w="813" h="813">2054024386<url>2054024386.swf</url></source>
+      <sourceUrl>CircleDotsWhite.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054024386</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/7/6/a3e51cd4ad38992385bf096c000a2857d46d8.swf</url></resource></object>
+    <object id="38_4601944" type="button" x="2738.269423746339" y="-48341.84074135182" r="0" s="3.942523122962502" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>2297.404114047768</w>
+        <h>1292.28981415187</h>
+      </size>
+    </object>
+    <object id="131_4601944" type="button" x="5467.629060167507" y="-34081.51036878546" r="0" s="10.945349536907486" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>909.5837771055182</w>
+        <h>511.640874621854</h>
+      </size>
+    </object>
+    <object id="44_4601944" type="image" x="5470.882911383701" y="-34184.79609815144" r="0" s="4.684778524051031">
+      <source w="739" h="739">2054018332<url>2054018332.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054018332</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/e/2/401b119e1d5452eb6e56611a70b3017af7809.swf</url></resource></object>
+    <object id="43_4601944" type="image" x="12359.991145915235" y="-41007.09082361569" r="0" s="4.684778524051031">
+      <source w="739" h="739">2054018332<url>2054018332.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054018332</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/e/2/401b119e1d5452eb6e56611a70b3017af7809.swf</url></resource></object>
+    <object id="17_4601944" type="button" x="-2638.312811458984" y="-40895.2623961983" r="0" s="3.890190132804971" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1826.926837546683</w>
+        <h>1027.6463461200096</h>
+      </size>
+    </object>
+    <object id="42_4601944" type="image" x="-1127.8794481373702" y="-40959.544274128086" r="0" s="4.684778524051031">
+      <source w="739" h="739">2054018332<url>2054018332.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054018332</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/e/2/401b119e1d5452eb6e56611a70b3017af7809.swf</url></resource></object>
+    <object id="41_4601944" type="image" x="5469.68108482377" y="-41110.72535930245" r="0" s="3.8197074810435354">
+      <source w="739" h="739">2054018332<url>2054018332.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054018332</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/e/2/401b119e1d5452eb6e56611a70b3017af7809.swf</url></resource></object>
+    <object id="121_4601944" type="image" x="5470.476504241464" y="-41110.929215288146" r="0" s="3.209913761354342">
+      <source w="429" h="669">3593164772<url>3593164772.swf</url></source>
+      <sourceUrl>Red%20Bulb.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593164772</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/b/c/bef5e255ac75362b91fc01d61713cec2cfbb1.swf</url></resource></object>
+    <object id="1_4601944" type="button" x="5470.375691008385" y="-41310.92618389479" r="0" s="0.6876172717418955" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1074.6268656716418</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="14_4601944" type="image" x="5459.598708092424" y="-48646.269886981594" r="0" s="1.9902851501545364">
+      <source w="1340" h="18">2053078993<url>2053078993.swf</url></source>
+      <sourceUrl>Dots%20red.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2053078993</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/b/c/7112dd087d5657fcafd0979e77d423c145463.swf</url></resource></object>
+    <object id="182_4601944" type="image" x="-1128.336780741332" y="-41758.76026823872" r="0" s="3.249869989609401">
+      <source w="524" h="439">3593474573<url>3593474573.swf</url></source>
+      <sourceUrl>BadgeWhiteBlue.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593474573</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/6/7/13f6e1318b15ed68cfdbcccccc34b6a1506c7.swf</url></resource></object>
+    <object id="186_4601944" type="image" x="-1128.1387157257545" y="-39799.06539111284" r="0" s="3.1566643130354595">
+      <source w="515" h="471">3593487197<url>3593487197.swf</url></source>
+      <sourceUrl>Vector%20Silhouettes.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593487197</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/2/e/8678ac427f064da3d546dd07ccfa63be425b6.swf</url></resource></object>
+    <object id="20_4601944" type="text" x="-1151.65" y="-41709.55" r="-18.105316070716448" s="11.713238247766824" class="head">
+      <height>27.59765625</height>
+      <width>-94.27734375</width>
+      <p>
+        <text><![CDATA[Team 18]]></text>
+      </p>
+    </object>
+    <object id="129_4601944" type="image" x="5472.457154397237" y="-41232.818425874495" r="0" s="0.3655256188542144">
+      <source w="524" h="439">3593463128<url>3593463128.swf</url></source>
+      <sourceUrl>Investor%20Pitch%20logo.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593463128</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/4/1/2ef0225dcf2906eb622580eec1e7a1ff0362a.swf</url></resource></object>
+    <object id="199_4601944" type="image" x="5459.780993400284" y="-47798.83214427767" r="0" s="4.8281839593005165">
+      <source w="736" h="736">3593488244<url>3593488244.swf</url></source>
+      <sourceUrl>Blue%20Earth.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593488244</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/0/2/81de66ac44bcc794145bc28889049d91fae0c.swf</url></resource></object>
+    <object id="150_4601944" type="image" x="12360.24729710747" y="-40157.444230298584" r="0" s="3.249869989609401">
+      <source w="524" h="439">3593474573<url>3593474573.swf</url></source>
+      <sourceUrl>BadgeWhiteBlue.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593474573</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/6/7/13f6e1318b15ed68cfdbcccccc34b6a1506c7.swf</url></resource></object>
+    <object id="184_4601944" type="image" x="5548.989476416349" y="-46988.03319651004" r="0" s="3.249869989609401">
+      <source w="524" h="439">3593474573<url>3593474573.swf</url></source>
+      <sourceUrl>BadgeWhiteBlue.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593474573</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/6/7/13f6e1318b15ed68cfdbcccccc34b6a1506c7.swf</url></resource></object>
+    <object id="10_4601944" type="text" x="5547.7" y="-46929.75" r="-18.219896167905627" s="11.713238247766823" class="head">
+      <height>27.59765625</height>
+      <width>-105.31640625</width>
+      <p>
+        <text><![CDATA[CARDIFF]]></text>
+      </p>
+    </object>
+    <object id="5_4601944" type="image" x="7507.198244126252" y="-41110.49188149242" r="0" s="3.382318017422772">
+      <source w="210" h="321">606582515<url>606582515.swf</url></source>
+      <sourceUrl>factory_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606582515</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/8/8/2a00ff4e1c03193a3eadb6e2d834a2c722e67.swf</url></resource></object>
+    <object id="7_4601944" type="image" x="7145.211468125378" y="-39763.09363559453" r="-90" s="2.209589062292555">
+      <source w="377" h="269">606570065<url>606570065.swf</url></source>
+      <sourceUrl>camera_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606570065</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/4/9/696e5469a5203fc4d3f2b5980e4492ef83ff0.swf</url></resource></object>
+    <object id="13_4601944" type="image" x="7110.019821405892" y="-42425.21152169718" r="0" s="1.7055668811054048">
+      <source w="343" h="293">606638233<url>606638233.swf</url></source>
+      <sourceUrl>video_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606638233</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/2/2/89c703dff40455b9175d65ee3fecdfa1a5464.swf</url></resource></object>
+    <object id="22_4601944" type="image" x="8149.901682358244" y="-42208.19183075186" r="0" s="5.428620417963547">
+      <source w="280" h="280">606610069<url>606610069.swf</url></source>
+      <sourceUrl>plane_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606610069</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/9/5/c582d542fbc6dd5b7297c8968f0c65fd449d8.swf</url></resource></object>
+    <object id="23_4601944" type="image" x="6430.455424003714" y="-43745.80097253027" r="90" s="9.382800722406138">
+      <source w="208" h="162">606623561<url>606623561.swf</url></source>
+      <sourceUrl>screen_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606623561</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/2/7/378d1210aa9e9b1c1f882b66ee28af4b8745e.swf</url></resource></object>
+    <object id="24_4601944" type="image" x="7905.220395422294" y="-43770.9404551443" r="0" s="10.136354219734024">
+      <source w="88" h="133">606605685<url>606605685.swf</url></source>
+      <sourceUrl>music2_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606605685</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/3/1/d7f4712e273303dd380dad4afed3955c695a5.swf</url></resource></object>
+    <object id="25_4601944" type="image" x="8444.081712398456" y="-40406.45028304636" r="0" s="5.507296076194902">
+      <source w="151" h="276">606607841<url>606607841.swf</url></source>
+      <sourceUrl>pencil_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606607841</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/0/c/e8a416b1b2e435b77f1e56a48ba259746adf4.swf</url></resource></object>
+    <object id="26_4601944" type="image" x="6246.948994976882" y="-38985.493421113024" r="0" s="5.519324602872126">
+      <source w="228" h="200">606567817<url>606567817.swf</url></source>
+      <sourceUrl>book_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606567817</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/e/e/6cf844aa2e940d333f7298bdb795e53ebc66e.swf</url></resource></object>
+    <object id="27_4601944" type="image" x="7718.357196793489" y="-38779.36055049855" r="0" s="4.654965201477917">
+      <source w="197" h="119">606599281<url>606599281.swf</url></source>
+      <sourceUrl>mail_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606599281</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/d/1/d0fbe7180b076b3511c99789dca6f440a8c1a.swf</url></resource></object>
+    <object id="28_4601944" type="image" x="5096.466111813333" y="-43239.69084004945" r="0" s="2.1784191083320814">
+      <source w="458" h="356">606629151<url>606629151.swf</url></source>
+      <sourceUrl>stock_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606629151</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/5/6/b0a96d0f26d94db20b641258ccf163dcb4094.swf</url></resource></object>
+    <object id="39_4601944" type="image" x="4189.8207870101005" y="-42837.47726292605" r="-90" s="2.3778640695558284">
+      <source w="483" h="273">606567115<url>606567115.swf</url></source>
+      <sourceUrl>bike_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606567115</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/9/c/b7b3db9c0b298c2f61d408ef7dcd54507bef3.swf</url></resource></object>
+    <object id="46_4601944" type="image" x="3576.4482572195216" y="-42425.21152169718" r="0" s="5.073477026134156">
+      <source w="197" h="214">606601753<url>606601753.swf</url></source>
+      <sourceUrl>microphone_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606601753</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/b/f/93d5974290e312e4d23b80468818fbd6e26e1.swf</url></resource></object>
+    <object id="49_4601944" type="image" x="3313.341026873585" y="-41178.37120625526" r="90" s="5.049879458570743">
+      <source w="209" h="215">606589417<url>606589417.swf</url></source>
+      <sourceUrl>headphone_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606589417</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/5/8/a6c5ec5a7ff1c7272eb486865c18bf063c615.swf</url></resource></object>
+    <object id="50_4601944" type="image" x="4935.577052023855" y="-38985.493421113024" r="0" s="4.78641360082407">
+      <source w="134" h="183">750619355<url>750619355.swf</url></source>
+      <sourceUrl>clip_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>750619355</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/b/8/ce0c5d4984d7fb6332b6691a51257b0d962f8.swf</url></resource></object>
+    <object id="51_4601944" type="image" x="3748.22413733979" y="-40156.92436106317" r="0" s="4.506197933971146">
+      <source w="137" h="180">606591997<url>606591997.swf</url></source>
+      <sourceUrl>ipad_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606591997</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/f/6/1f10fd0cf1d64727c32a9c53d00668f8c6427.swf</url></resource></object>
+    <object id="52_4601944" type="image" x="4204.899033168352" y="-39444.68135796787" r="90" s="3.5012177022521027">
+      <source w="95" h="184">606592729<url>606592729.swf</url></source>
+      <sourceUrl>iphone_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606592729</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/e/6/0f80df5c1505555f2c137887bf7596088fe88.swf</url></resource></object>
+    <object id="53_4601944" type="image" x="4934.6879616968445" y="-44771.375737097864" r="0" s="8.000072194893647">
+      <source w="93" h="190">654384731<url>654384731.swf</url></source>
+      <sourceUrl>professional-white_suitcase_w.swf</sourceUrl>
+    <resource><id>654384731</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/0/3/81f496974364c32c6dfa3a152d08b36a46778.swf</url></resource></object>
+    <object id="54_4601944" type="image" x="7904.5036797505245" y="-45138.93293616805" r="0" s="2.2282291021914165">
+      <source w="438" h="190">606602343<url>606602343.swf</url></source>
+      <sourceUrl>money-mix_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606602343</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/a/9/bc760fd21fb1b2509c45557bec9235112dad4.swf</url></resource></object>
+    <object id="55_4601944" type="image" x="5470.310449624592" y="-37742.81731444769" r="0" s="5.054640504451215">
+      <source w="380" h="181">786447009<url>786447009.swf</url></source>
+      <sourceUrl>money_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>786447009</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/6/4/06392e60ff5d05738dc5d29827de1ec64dc8b.swf</url></resource></object>
+    <object id="56_4601944" type="image" x="3199.4285968117697" y="-43771.62995376525" r="0" s="3.5231019365383553">
+      <source w="521" h="246">606588337<url>606588337.swf</url></source>
+      <sourceUrl>handshake_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606588337</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/3/7/1b0ac7a0d07df0c6f1493de3e93da5e3cad67.swf</url></resource></object>
+    <object id="57_4601944" type="image" x="9268.232156144675" y="-43771.62995376525" r="0" s="4.674863954143473">
+      <source w="278" h="236">606595149<url>606595149.swf</url></source>
+      <sourceUrl>leaf_W.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606595149</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/8/0/bf63c79bb6ffbc27a07df1e65234ec9134e36.swf</url></resource></object>
+    <object id="58_4601944" type="image" x="6246.468160412273" y="-45357.62193956406" r="0" s="3.333135628936129">
+      <source w="343" h="331">606619391<url>606619391.swf</url></source>
+      <sourceUrl>recycle_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606619391</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/5/7/d23b0e715023e1440b61cad756e0f90063ab2.swf</url></resource></object>
+    <object id="59_4601944" type="image" x="3576.121652609586" y="-38315.55478735335" r="0" s="4.466671632299026">
+      <source w="268" h="247">606637453<url>606637453.swf</url></source>
+      <sourceUrl>vault_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606637453</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/5/e/c067520fe24f3b1254e6bcd04f65473c7a56e.swf</url></resource></object>
+    <object id="60_4601944" type="image" x="2454.3890474697614" y="-39799.67335190622" r="0" s="11.992042317150647">
+      <source w="116" h="92">786451987<url>786451987.swf</url></source>
+      <sourceUrl>old_suitcase_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>786451987</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/4/9/6ed8afd14c25a5cf4c8d8c838d44380d8e167.swf</url></resource></object>
+    <object id="61_4601944" type="image" x="8945.18390752716" y="-39561.26105901077" r="0" s="2.0645627548397036">
+      <source w="245" h="358">786471773<url>786471773.swf</url></source>
+      <sourceUrl>trash_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>786471773</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/0/9/dff02658124680b89fd2faeb322ec9912b9b1.swf</url></resource></object>
+    <object id="62_4601944" type="image" x="2686.8408062340404" y="-42205.261461612805" r="-180" s="2.1846884279275085">
+      <source w="343" h="291">606626331<url>606626331.swf</url></source>
+      <sourceUrl>speaker_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606626331</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/4/c/bc562fc27c5886a51332b4fce0a463559ef5b.swf</url></resource></object>
+    <object id="63_4601944" type="image" x="5470.383028426774" y="-36376.412494722215" r="0" s="3.073060483103492">
+      <source w="323" h="335">606635953<url>606635953.swf</url></source>
+      <sourceUrl>tree_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606635953</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/f/9/19ec26527a79267fa0bff13c97b1a009756a2.swf</url></resource></object>
+    <object id="64_4601944" type="image" x="3576.8655853322084" y="-45138.660765659755" r="0" s="2.9718895501868388">
+      <source w="486" h="174">606587545<url>606587545.swf</url></source>
+      <sourceUrl>glasses2_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606587545</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/0/8/259ffea4f26563fc3902cffe1754a09058b09.swf</url></resource></object>
+    <object id="167_4601944" type="button" x="24785.795480131706" y="-47437.07636080277" r="0" s="8.82094405531003" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>871.4342446280716</w>
+        <h>490.1817626032897</h>
+      </size>
+    </object>
+    <object id="65_4601944" type="image" x="9242.003991497597" y="-45357.077598547534" r="0" s="6.265964045756796">
+      <source w="177" h="193">606604161<url>606604161.swf</url></source>
+      <sourceUrl>moon_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606604161</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/a/a/272416bdd1c21d939e5f2b4a6bca3c39576b0.swf</url></resource></object>
+    <object id="66_4601944" type="image" x="7775.767029338163" y="-37323.756382862295" r="0" s="10.954432981907827">
+      <source w="149" h="141">786462915<url>786462915.swf</url></source>
+      <sourceUrl>storm_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>786462915</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/b/b/bf826fd96279c70da3e90de520e89b3a69198.swf</url></resource></object>
+    <object id="67_4601944" type="image" x="9268.232156144675" y="-38315.55478735335" r="0" s="2.5503187544564474">
+      <source w="414" h="309">606568431<url>606568431.swf</url></source>
+      <sourceUrl>brain_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606568431</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/f/2/9ab9020d5786b11674875ff331dab031336b2.swf</url></resource></object>
+    <object id="68_4601944" type="image" x="9838.683396780858" y="-42425.33853460104" r="0" s="2.663210286931567">
+      <source w="449" h="251">606573589<url>606573589.swf</url></source>
+      <sourceUrl>chocolate_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606573589</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/8/e/98cbb79c543385322e8812f3ff0a6ffedcd32.swf</url></resource></object>
+    <object id="69_4601944" type="image" x="9662.87939313813" y="-41295.38638011141" r="0" s="3.694061226756433">
+      <source w="240" h="274">606576615<url>606576615.swf</url></source>
+      <sourceUrl>coffee_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606576615</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/4/d/dad16c71d9bd6570062f576f58476b49c58f4.swf</url></resource></object>
+    <object id="70_4601944" type="image" x="3199.3469456592798" y="-45901.264385135546" r="0" s="3.423230341172105">
+      <source w="383" h="215">606613443<url>606613443.swf</url></source>
+      <sourceUrl>podium1_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606613443</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/c/e/6224b1e09dd243f554d3f38ca21b596ed8fcc.swf</url></resource></object>
+    <object id="71_4601944" type="image" x="10102.670645103497" y="-43384.21337994153" r="0" s="2.9625883275452716">
+      <source w="162" h="266">606579579<url>606579579.swf</url></source>
+      <sourceUrl>drop_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606579579</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/8/5/859ca6111de3362cef7864281cde310dbf537.swf</url></resource></object>
+    <object id="72_4601944" type="image" x="9639.137052466582" y="-45573.73439548181" r="0" s="4.682385921751766">
+      <source w="174" h="174">606574915<url>606574915.swf</url></source>
+      <sourceUrl>clock_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606574915</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/4/6/82c62184c14605a8d3c63e5d94105b55e8335.swf</url></resource></object>
+    <object id="73_4601944" type="image" x="7766.631172610542" y="-46058.95090527772" r="0" s="3.416757019341486">
+      <source w="176" h="263">750606211<url>750606211.swf</url></source>
+      <sourceUrl>lightbulb_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>750606211</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/1/4/65da4608930bb65dada070ec7f9a8366ca4aa.swf</url></resource></object>
+    <object id="74_4601944" type="image" x="8786.971191068975" y="-46398.02092448213" r="0" s="3.661219351294491">
+      <source w="205" h="206">606632693<url>606632693.swf</url></source>
+      <sourceUrl>sun_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606632693</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/a/1/7c63b6d291ddb166423eb0effd37443c16a7d.swf</url></resource></object>
+    <object id="75_4601944" type="image" x="7766.694679062486" y="-46988.78515738563" r="0" s="2.5405144940878808">
+      <source w="304" h="217">750606369<url>750606369.swf</url></source>
+      <sourceUrl>planet_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>750606369</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/a/2/b00ab89389547771ca7ba292278898e0a3168.swf</url></resource></object>
+    <object id="76_4601944" type="image" x="2977.2262472003995" y="-46787.614167848114" r="0" s="2.1880357768341807">
+      <source w="401" h="233">606620871<url>606620871.swf</url></source>
+      <sourceUrl>schoolhat_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606620871</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/f/b/12e01cf4277a9698716fdb6c8bf72b9d01501.swf</url></resource></object>
+    <object id="77_4601944" type="image" x="1980.86679717928" y="-41110.528170893514" r="0" s="3.9994792674341393">
+      <source w="241" h="232">606590157<url>606590157.swf</url></source>
+      <sourceUrl>heart_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606590157</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/7/f/393ba26239221b5cee043967604bcac7a7e35.swf</url></resource></object>
+    <object id="78_4601944" type="image" x="2454.116876961485" y="-43081.042650778094" r="0" s="1.7669474695939307">
+      <source w="356" h="344" bt="-5.85" bl="-7.55">885143825<url>885143825.swf</url></source>
+      <sourceUrl>star_w.swf</sourceUrl>
+    <resource><id>885143825</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/a/4/531a39575fccc111b59df7572391dcac9621f.swf</url></resource></object>
+    <object id="79_4601944" type="image" x="2454.116876961485" y="-44815.467359437826" r="0" s="1.6211785019723621">
+      <source w="356" h="344" bt="-5.85" bl="-7.55">885143825<url>885143825.swf</url></source>
+      <sourceUrl>star_w.swf</sourceUrl>
+    <resource><id>885143825</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/a/4/531a39575fccc111b59df7572391dcac9621f.swf</url></resource></object>
+    <object id="80_4601944" type="image" x="10299.595080188117" y="-44613.85251926069" r="0" s="1.6211785019723621">
+      <source w="356" h="344" bt="-5.85" bl="-7.55">885143825<url>885143825.swf</url></source>
+      <sourceUrl>star_w.swf</sourceUrl>
+    <resource><id>885143825</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/a/4/531a39575fccc111b59df7572391dcac9621f.swf</url></resource></object>
+    <object id="81_4601944" type="image" x="10965.197130515977" y="-43771.094685099" r="0" s="3.7535284843825902">
+      <source w="183" h="269">606584567<url>606584567.swf</url></source>
+      <sourceUrl>flame_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606584567</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/0/5/deb04815f15589a2461db9fe4c71e54120d47.swf</url></resource></object>
+    <object id="82_4601944" type="image" x="10102.380329894677" y="-39799.66427955594" r="0" s="5.407206825878027">
+      <source w="135" h="208">606583295<url>606583295.swf</url></source>
+      <sourceUrl>flag_rect_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606583295</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/8/2/ab67a524e846da6efc80229c942af0819aa04.swf</url></resource></object>
+    <object id="83_4601944" type="image" x="2183.3344382823425" y="-37918.21306232802" r="0" s="6.511867023139505">
+      <source w="151" h="235">606583967<url>606583967.swf</url></source>
+      <sourceUrl>flag_triangel_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606583967</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/9/8/aa87837cbc9ae39cac839d102e1626d6e42be.swf</url></resource></object>
+    <object id="84_4601944" type="image" x="979.6331484014423" y="-37116.643698418055" r="0" s="4.07125138228733">
+      <source w="343" h="61">654384119<url>654384119.swf</url></source>
+      <sourceUrl>professional-white_banner_w.swf</sourceUrl>
+    <resource><id>654384119</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/8/4/8b4ed4c64edf8edbba466be92c81ea05f5852.swf</url></resource></object>
+    <object id="85_4601944" type="image" x="3952.3610908936234" y="-37238.267626214256" r="44.99999999999999" s="3.7383432641594894">
+      <source w="73" h="169">654384643<url>654384643.swf</url></source>
+      <sourceUrl>professional-white_pushpin_w.swf</sourceUrl>
+    <resource><id>654384643</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/2/8/11e89bf17259e726f1ed1634d798503bfd523.swf</url></resource></object>
+    <object id="86_4601944" type="image" x="2735.0422032488873" y="-37323.475140003735" r="0" s="2.4151836320413045">
+      <source w="199" h="199">606606433<url>606606433.swf</url></source>
+      <sourceUrl>no_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606606433</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/d/f/3b0e5888c4eb84312af46497a52199a809894.swf</url></resource></object>
+    <object id="87_4601944" type="image" x="1143.715675487982" y="-42825.819292821776" r="0" s="3.1355805885537746">
+      <source w="326" h="249">606639881<url>606639881.swf</url></source>
+      <sourceUrl>yes_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606639881</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/2/b/0b879406308e18fc442bd4f58b55509d2d6a1.swf</url></resource></object>
+    <object id="88_4601944" type="image" x="1744.6681577511024" y="-43772.17429478182" r="0" s="3.682828144103254">
+      <source w="122" h="212">606608869<url>606608869.swf</url></source>
+      <sourceUrl>pin_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606608869</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/6/6/d/9a2bc5bfa13af58d1936cacd11de557595a86.swf</url></resource></object>
+    <object id="89_4601944" type="image" x="885.0266797263383" y="-43383.88677533163" r="0" s="4.142125116454584">
+      <source w="224" h="108">786464319<url>786464319.swf</url></source>
+      <sourceUrl>fish_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>786464319</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/d/b/9063b2041adb2f803916a771d679af138dada.swf</url></resource></object>
+    <object id="90_4601944" type="image" x="-236.11622264558136" y="-43383.88677533163" r="0" s="3.0145157009648247">
+      <source w="259" h="259">606563809<url>606563809.swf</url></source>
+      <sourceUrl>arrow_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606563809</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/6/a/40f381a94a89110c54eda41b92fe06a6bae1c.swf</url></resource></object>
+    <object id="91_4601944" type="image" x="582.1734828225217" y="-44354.864135939926" r="0" s="4.354834235736438">
+      <source w="251" h="251">606578627<url>606578627.swf</url></source>
+      <sourceUrl>dont_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606578627</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/2/6/9dc714bdc33e8352dc8b5bad61e3bc34793b0.swf</url></resource></object>
+    <object id="92_4601944" type="image" x="10456.918706319246" y="-38779.351478148295" r="0" s="4.045386355180773">
+      <source w="193" h="193">606586019<url>606586019.swf</url></source>
+      <sourceUrl>gear_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606586019</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/8/1/34a9b7a7a86258288ac6f78e000c9b3d4a6d0.swf</url></resource></object>
+    <object id="93_4601944" type="image" x="1744.659085400818" y="-45901.18273398305" r="0" s="5.1915386286275815">
+      <source w="323" h="272">606562429<url>606562429.swf</url></source>
+      <sourceUrl>alert_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606562429</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/e/5/d5d0704dc7661bea938bbda1cfa8506c02e4e.swf</url></resource></object>
+    <object id="94_4601944" type="image" x="1725.5073539688015" y="-44704.34014091063" r="6.999606926655064" s="2.3036112545865195">
+      <source w="154" h="232">606597465<url>606597465.swf</url></source>
+      <sourceUrl>lock_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606597465</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/0/4/a3d5d169ef84282f5e6e293386663d8b7f20d.swf</url></resource></object>
+    <object id="95_4601944" type="image" x="1841.5154969443363" y="-42208.264409554075" r="0" s="1.7125077718578343">
+      <source w="356" h="344" bt="-5.85" bl="-7.55">885143825<url>885143825.swf</url></source>
+      <sourceUrl>star_w.swf</sourceUrl>
+    <resource><id>885143825</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/a/4/531a39575fccc111b59df7572391dcac9621f.swf</url></resource></object>
+    <object id="96_4601944" type="image" x="979.7783060058531" y="-39232.25227626209" r="0" s="3.7601361341730133">
+      <source w="191" h="268">606593403<url>606593403.swf</url></source>
+      <sourceUrl>key_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606593403</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/9/4/d7aa2ed53a4ef76304d9a0a228f91aaa5109c.swf</url></resource></object>
+    <object id="97_4601944" type="image" x="3576.6024871741934" y="-36398.53088469437" r="0" s="4.419726143442397">
+      <source w="169" h="250">606598209<url>606598209.swf</url></source>
+      <sourceUrl>magnglass_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606598209</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/6/e/20aeda4043138e010d2d9e988679a5b715a97.swf</url></resource></object>
+    <object id="98_4601944" type="image" x="1143.507011431627" y="-37918.64853514127" r="0" s="2.3945535077786695">
+      <source w="395" h="290">606585201<url>606585201.swf</url></source>
+      <sourceUrl>food_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606585201</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/2/2/0dce92936846d5e063647541621b1f3706450.swf</url></resource></object>
+    <object id="99_4601944" type="image" x="7177.908218519046" y="-36000.789976256914" r="0" s="5.597424193822689">
+      <source w="200" h="141">786453397<url>786453397.swf</url></source>
+      <sourceUrl>image_w.swf</sourceUrl>
+    <resource><id>786453397</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/6/2/f/6ffdd1508c562b0bbc6aea8de543c96ef5f7f.swf</url></resource></object>
+    <object id="100_4601944" type="image" x="9838.792264984153" y="-37116.86143482467" r="0" s="3.601974065007741">
+      <source w="268" h="218">606636645<url>606636645.swf</url></source>
+      <sourceUrl>twitter_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606636645</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/0/a/d49683048f8cbb5127d7b136b588e7c96c1ee.swf</url></resource></object>
+    <object id="101_4601944" type="image" x="8689.171255096833" y="-36192.07140947001" r="90" s="3.8872789414439977">
+      <source w="315" h="202">606622435<url>606622435.swf</url></source>
+      <sourceUrl>scissor_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606622435</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/2/b/ba4682be910fbd251f79426c1447f01d1d32f.swf</url></resource></object>
+    <object id="105_4601944" type="button" x="4460.5784111657695" y="-41349.77170840678" r="0" s="94.39896464383196" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>356.6850800524718</w>
+        <h>200.63535752951543</h>
+      </size>
+    </object>
+    <object id="102_4601944" type="image" x="1981.048244184782" y="-36398.44923354191" r="0" s="4.829244604033466">
+      <source w="332" h="107">606571423<url>606571423.swf</url></source>
+      <sourceUrl>car_new_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606571423</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/5/5/44d6e2601931c5c2acf23c7cd526be1aaf59b.swf</url></resource></object>
+    <object id="103_4601944" type="image" x="3218.0541319277795" y="-35537.33803477244" r="0" s="3.333711768991215">
+      <source w="241" h="231">606590925<url>606590925.swf</url></source>
+      <sourceUrl>house_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606590925</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/1/c/ca57de93d3be9c6d87423178516a818b45c15.swf</url></resource></object>
+    <object id="104_4601944" type="image" x="1285.9429107603125" y="-40406.63173005187" r="0" s="1.6603839942656298">
+      <source w="394" h="357">606564945<url>606564945.swf</url></source>
+      <sourceUrl>bank_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606564945</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/1/c/23a880f2924566bdc40fd022c1c9052cbcfc4.swf</url></resource></object>
+    <object id="106_4601944" type="button" x="6226.133316171941" y="-24410.02424700027" r="0" s="45.172432676921574" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>2194.4176234568104</w>
+        <h>1234.359913194456</h>
+      </size>
+    </object>
+    <object id="107_4601944" type="text" x="12359.562933791207" y="-40125.348045928564" r="-17.64005695206052" s="11.713238247766832" class="head">
+      <height>27.59765625</height>
+      <width>-95.9765625</width>
+      <p>
+        <text><![CDATA[Solution]]></text>
+      </p>
+    </object>
+    <object id="108_4601944" type="image" x="10839.617657999588" y="-37918.30378583078" r="0" s="2.663546730465494">
+      <source w="193" h="193">606586019<url>606586019.swf</url></source>
+      <sourceUrl>gear_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606586019</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/8/1/34a9b7a7a86258288ac6f78e000c9b3d4a6d0.swf</url></resource></object>
+    <object id="109_4601944" type="image" x="-0.979048199701478" y="-38315.87231961301" r="0" s="1.9706741361182396">
+      <source w="486" h="174">606587545<url>606587545.swf</url></source>
+      <sourceUrl>glasses2_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606587545</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/0/8/259ffea4f26563fc3902cffe1754a09058b09.swf</url></resource></object>
+    <object id="110_4601944" type="image" x="1143.507011431627" y="-41636.524895178714" r="0" s="7.956369162783605">
+      <source w="88" h="133">606605685<url>606605685.swf</url></source>
+      <sourceUrl>music2_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606605685</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/3/1/d7f4712e273303dd380dad4afed3955c695a5.swf</url></resource></object>
+    <object id="111_4601944" type="image" x="3199.4830309134063" y="-44500.83825187613" r="0" s="2.0560695734758125">
+      <source w="278" h="236">606595149<url>606595149.swf</url></source>
+      <sourceUrl>leaf_W.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606595149</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/8/0/bf63c79bb6ffbc27a07df1e65234ec9134e36.swf</url></resource></object>
+    <object id="112_4601944" type="image" x="4479.673305968792" y="-36747.58048920212" r="0" s="2.2751760637132707">
+      <source w="230" h="136">606576039<url>606576039.swf</url></source>
+      <sourceUrl>cloud_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606576039</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/4/6/5e85c6650a4f575f230adc4a7871b9b83168b.swf</url></resource></object>
+    <object id="113_4601944" type="image" x="6360.915859140404" y="-36901.2570305224" r="0" s="2.1375767083959527">
+      <source w="205" h="206">606632693<url>606632693.swf</url></source>
+      <sourceUrl>sun_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606632693</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/a/1/7c63b6d291ddb166423eb0effd37443c16a7d.swf</url></resource></object>
+    <object id="114_4601944" type="image" x="5462.399360184178" y="-23992.34590846639" r="0" s="23.39535320263373">
+      <source w="96" h="735">2054323288<url>2054323288.swf</url></source>
+      <sourceUrl>Arrow%20Dotted.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054323288</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/2/9/8364f29e032487e00651f937231516260ab80.swf</url></resource></object>
+    <object id="115_4601944" type="image" x="5444.1588670547335" y="-7282.323497696181" r="0" s="20.41466005402888">
+      <source w="739" h="739">2054343949<url>2054343949.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054343949</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/b/8/5d917e1787c927fbd705cc9d6af28edeabb55.swf</url></resource></object>
+    <object id="116_4601944" type="text" x="-1700.5569981858976" y="-23338.95787789752" r="0" s="162.62986641000657" class="strong">
+      <height>82.79296875</height>
+      <width>-86.66015625</width>
+      <p align="right">
+        <text color="16777215" style="normal"><![CDATA[LIKE]]></text>
+      </p>
+      <p align="right">
+        <text color="16777215" style="normal"><![CDATA[THE ]]></text>
+      </p>
+      <p align="right">
+        <text color="16777215" style="normal"><![CDATA[GAME?]]></text>
+      </p>
+    </object>
+    <object id="117_4601944" type="button" x="6720.5745155648065" y="-14618.742374070445" r="0" s="52.49955393861011" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1137.7571662381847</w>
+        <h>639.9884060089789</h>
+      </size>
+    </object>
+    <object id="118_4601944" type="text" x="17605.62330924244" y="-27940.90618969137" r="0" s="46.45043341164377" class="strong">
+      <height>55.1953125</height>
+      <width>469.559564401363</width>
+      <p>
+        <text><![CDATA[We hope you enjoy the game as much as we have enjyed making it.]]></text>
+      </p>
+    </object>
+    <object id="119_4601944" type="image" x="5484.972687944873" y="26559.961560740176" r="0" s="21.430594723334245">
+      <source w="813" h="813">2054411278<url>2054411278.swf</url></source>
+      <sourceUrl>CircleDotsWhite.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054411278</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/3/3/b3ece1d26a687998911a25b6a9cb9a14ec6ba.swf</url></resource></object>
+    <object id="120_4601944" type="image" x="5451.976549992097" y="8935.24276536922" r="0" s="23.74339092041785">
+      <source w="96" h="735">2054412022<url>2054412022.swf</url></source>
+      <sourceUrl>Arrow%20Dotted.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054412022</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/5/4/46187565f99d84961fdc5f29cbe4eee03f882.swf</url></resource></object>
+    <object id="123_4601944" type="button" x="7196.28016138434" y="25449.23888960237" r="0" s="41.83725567429687" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1500.831168198985</w>
+        <h>844.2175321119297</h>
+      </size>
+    </object>
+    <object id="124_4601944" type="text" x="6737.1" y="26435.5" r="-6.1492293025682665" s="57.43905288913986" class="body">
+      <height>193.18359375</height>
+      <width>229.90443107544104</width>
+      <p>
+        <text color="16777215"><![CDATA["Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible."]]></text>
+      </p>
+    </object>
+    <object id="185_4601944" type="image" x="13517.66002213553" y="-41904.456893697454" r="0" s="7.057143070668134">
+      <source w="277" h="383">3593485385<url>3593485385.swf</url></source>
+      <sourceUrl>Jigsaw%20Blue.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593485385</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/8/3/36b9689344e34dd1f86bd0cbfb55a83a59765.swf</url></resource></object>
+    <object id="4_4601944" type="button" x="14651.73352658054" y="-41111.22115790565" r="0" s="6.958150623679176" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1218.7084561443014</w>
+        <h>685.523506581169</h>
+      </size>
+    </object>
+    <object id="132_4601944" type="button" x="-6833.874183394079" y="-38599.872357725435" r="0" s="8.36717378167926" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1777.448486685411</w>
+        <h>999.8147737605436</h>
+      </size>
+    </object>
+    <object id="133_4601944" type="image" x="-11088.436528842816" y="-38793.74474317322" r="0" s="1.6682885100828542">
+      <source w="739" h="739">2054987707<url>2054987707.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054987707</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/3/e/6a183df91486127970a0d66ef6a0ba373ba5b.swf</url></resource></object>
+    <object id="134_4601944" type="image" x="-8784.408027749374" y="-38793.76519361437" r="0" s="1.7176213735062482">
+      <source w="739" h="739">2054988394<url>2054988394.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054988394</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/6/b/847d585de0f2f73a3f7bb31da3104127cdc52.swf</url></resource></object>
+    <object id="135_4601944" type="image" x="-6440.398914218562" y="-38793.744743173236" r="0" s="1.7047965495098725">
+      <source w="739" h="739">2054988772<url>2054988772.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054988772</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/0/8/3a564968f7c01105366ac6dea528bfaf642bf.swf</url></resource></object>
+    <object id="136_4601944" type="image" x="-4153.364729716036" y="-38793.76519361437" r="0" s="1.7089820782593574">
+      <source w="739" h="739">2054989420<url>2054989420.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054989420</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/a/a/85cf0417343f32afe70fd43ca7eed7126aa49.swf</url></resource></object>
+    <object id="137_4601944" type="image" x="-9893.271847481408" y="-36367.29990138933" r="90" s="1.9247763221989562">
+      <source w="1515" h="20">2054991274<url>2054991274.swf</url></source>
+      <sourceUrl>White%20Dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054991274</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/d/9/2847bf0363da2ae58442ae031524948f090e1.swf</url></resource></object>
+    <object id="138_4601944" type="image" x="-7593.721992998483" y="-36367.2999013893" r="90" s="1.9247763221989562">
+      <source w="1515" h="20">2054991934<url>2054991934.swf</url></source>
+      <sourceUrl>White%20Dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054991934</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/f/a/7bbf372c47d83f7ac478c75648cb55c415052.swf</url></resource></object>
+    <object id="139_4601944" type="image" x="-5363.131026054625" y="-36367.29990138933" r="90" s="1.9508064072626865">
+      <source w="1515" h="20">2054992606<url>2054992606.swf</url></source>
+      <sourceUrl>White%20Dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054992606</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/a/4/ebb560a075441c7f339f1237490638f8f77bd.swf</url></resource></object>
+    <object id="140_4601944" type="image" x="-3085.437901684386" y="-36367.2999013893" r="90" s="1.9332159216459124">
+      <source w="1515" h="20">2054995159<url>2054995159.swf</url></source>
+      <sourceUrl>White%20Dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2054995159</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/8/f/8c5a40a045484c40c386148159c93a8f4bd6f.swf</url></resource></object>
+    <object id="141_4601944" type="text" x="-10948.140708256702" y="-36465.09661343554" r="0" s="6.460416919867725" class="body">
+      <height>248.37890625</height>
+      <width>230.38818772504635</width>
+      <p>
+        <text color="16777215"><![CDATA[You begin the game outside halls. This is the base for the game. From here you can walk or get a taxi into town and begin the great adventure that is a Cardiff night out.]]></text>
+      </p>
+    </object>
+    <object id="142_4601944" type="text" x="-11580.060512845757" y="-37700.2" r="0" s="13.088282332420594" class="strong">
+      <height>27.59765625</height>
+      <width>-57.36328125</width>
+      <p>
+        <text><![CDATA[Halls]]></text>
+      </p>
+    </object>
+    <object id="19_4601944" type="button" x="25745.922148462647" y="-34356.014925540374" r="0" s="7.852303197926154" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1074.6268656716418</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="171_4601944" type="button" x="-4918.789525537034" y="-53910.60555326687" r="0" s="6.335373255600146" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1074.6268656716418</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="21_4601944" type="image" x="-2458.794955025414" y="-53165.8628660577" r="0" s="2.083516654133078">
+      <source w="739" h="739">2055684190<url>2055684190.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2055684190</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/c/7/587f6fff93d0caaa759b93b98ba222afb6b25.swf</url></resource></object>
+    <object id="29_4601944" type="image" x="22577.928417843632" y="-46488.87413735675" r="0" s="3.0021125961601407">
+      <source w="739" h="739">2055684736<url>2055684736.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2055684736</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/e/b/b1cf6680009ddb5ac8842965a7db41f009ea1.swf</url></resource></object>
+    <object id="172_4601944" type="button" x="2386.29913213438" y="-57933.64062171813" r="0" s="8.088142814771425" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1074.6268656716418</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="30_4601944" type="image" x="5445.007490106353" y="-56248.47840224028" r="0" s="2.8576976105453857">
+      <source w="739" h="739">2055685015<url>2055685015.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2055685015</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/0/8/c58be931872c541f46e3c1922ad1b44fce053.swf</url></resource></object>
+    <object id="31_4601944" type="image" x="12515.725875643779" y="-53533.05079491749" r="0" s="3.002112596160143">
+      <source w="739" h="739">2055686227<url>2055686227.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2055686227</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/9/6/6f8f4b79de59c4e1a53bb913d328fd1859b7b.swf</url></resource></object>
+    <object id="33_4601944" type="image" x="22664.637643643066" y="-35656.93999220478" r="0" s="1.8556041043399465">
+      <source w="739" h="739">2055689494<url>2055689494.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2055689494</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/6/8/5d2b44f21e204674c603700a30a1c8d84ba91.swf</url></resource></object>
+    <object id="169_4601944" type="button" x="-15367.988871350475" y="-49063.644353269214" r="0" s="4.39712065245682" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1125.0716925473455</w>
+        <h>632.8528270578822</h>
+      </size>
+    </object>
+    <object id="34_4601944" type="image" x="-13815.631613433012" y="-48477.027175433286" r="0" s="1.7916177559144315">
+      <source w="739" h="739">2055689758<url>2055689758.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2055689758</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/b/9/cb21f68b90b764d104ab7cb97fd6ad8fab956.swf</url></resource></object>
+    <object id="48_4601944" type="image" x="-34958.68786709583" y="57559.53954386585" r="0" s="79.73272366560158">
+      <source w="739" h="739">2055690097<url>2055690097.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2055690097</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/3/3/41b939325577f1bd8a1ccc1910c48a3dd1aeb.swf</url></resource></object>
+    <object id="233_4601944" type="image" x="5470.3007173350115" y="-41425.472998104204" r="0" s="0.11864789024451174">
+      <source w="739" h="739">2056933453<url>2056933453.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056933453</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/e/f/460669db57ec974ed5e1914eac5e4683d81ec.swf</url></resource></object>
+    <object id="2_166685775" type="image" x="27534.2" y="-47809.65" r="0" s="1.9265407540393282">
+      <source w="155" h="179" bt="10.65" bl="29.9">2819031766<url>2819031766.swf</url></source>
+      <sourceUrl>prezilight_beer.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819031766</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/f/5/2841c3b4fd1508662c72696bd22d7484a98ee.swf</url></resource></object>
+    <object id="147_4601944" type="text" x="22595.6" y="-46558.8" r="0" s="9.281151264837824" class="head">
+      <height>55.1953125</height>
+      <width>-96.0234375</width>
+      <p>
+        <text><![CDATA[The ]]></text>
+      </p>
+      <p>
+        <text><![CDATA[Problem]]></text>
+      </p>
+    </object>
+    <object id="170_4601944" type="button" x="-12312.770036529844" y="-52756.48727897491" r="0" s="5.271424435726288" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1074.6268656716418</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="149_4601944" type="image" x="-10372.785976537305" y="-52181.23402627787" r="0" s="2.1775184679737145">
+      <source w="739" h="739">2056520773<url>2056520773.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056520773</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/d/1/d327aa219a3813ac86a81e62e6b3267d98bd2.swf</url></resource></object>
+    <object id="151_4601944" type="text" x="-8648.506646253405" y="-36401.02737702864" r="0" s="6.2450506685790135" class="body">
+      <height>275.9765625</height>
+      <width>230.38818772504635</width>
+      <p>
+        <text color="16777215"><![CDATA[Clubs are the highlight of any night out. In the game we have a variety of clubs to choose from. You'll learn about where things are and what differences each of them offer by playing out game.]]></text>
+      </p>
+    </object>
+    <object id="152_4601944" type="text" x="-9071.956518052657" y="-37697.03314420023" r="0" s="12.651967720421938" class="strong">
+      <height>27.59765625</height>
+      <width>-66.66796875</width>
+      <p>
+        <text><![CDATA[Clubs]]></text>
+      </p>
+    </object>
+    <object id="155_4601944" type="text" x="-6311.65" y="-36228.80980464164" r="0" s="6.2450506685790135" class="body">
+      <height>331.171875</height>
+      <width>230.38818772504635</width>
+      <p>
+        <text color="16777215"><![CDATA[A major part of the game is the various fast food outlets that the game offers. From local kebab shops to KFC, our game will take the player on an adventure discovering the options of a post-night scoff.]]></text>
+      </p>
+    </object>
+    <object id="156_4601944" type="text" x="-6935.401185607573" y="-37696.75" r="0" s="12.651967720421938" class="strong">
+      <height>27.59765625</height>
+      <width>-58.640625</width>
+      <p>
+        <text><![CDATA[Food]]></text>
+      </p>
+    </object>
+    <object id="159_4601944" type="text" x="-4025.1458156958265" y="-36229.013978575866" r="0" s="6.2450506685790135" class="body">
+      <height>331.171875</height>
+      <width>230.38818772504635</width>
+      <p>
+        <text color="16777215"><![CDATA[Finally we have Dragon Taxis. This taxi firm works closely with Cardiff Uni and is the sole taxi company in our game. Give them a call anytime for a safe lift to another location saving you from walking long distances.]]></text>
+      </p>
+    </object>
+    <object id="160_4601944" type="text" x="-4737.2474171111035" y="-37697.00963665037" r="0" s="12.651967720421933" class="strong">
+      <height>27.59765625</height>
+      <width>-47.1328125</width>
+      <p>
+        <text><![CDATA[Taxi]]></text>
+      </p>
+    </object>
+    <object id="161_4601944" type="text" x="5462.176683314868" y="-56336.28702136096" r="0" s="9.281151264837824" class="head">
+      <height>55.1953125</height>
+      <width>-132.890625</width>
+      <p>
+        <text><![CDATA[The]]></text>
+      </p>
+      <p>
+        <text><![CDATA[Technology]]></text>
+      </p>
+    </object>
+    <object id="173_4601944" type="button" x="14797.016052097011" y="-54538.86833090496" r="0" s="5.9479102214271915" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1074.6268656716418</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="162_4601944" type="text" x="12515.615817845377" y="-53607.156959068816" r="0" s="9.281151264837824" class="head">
+      <height>27.59765625</height>
+      <width>-113.34375</width>
+      <p align="center">
+        <text><![CDATA[The cost?]]></text>
+      </p>
+    </object>
+    <object id="164_4601944" type="text" x="22664.55" y="-35619.05" r="0" s="6.523630839355714" class="head">
+      <height>55.1953125</height>
+      <width>-94.6640625</width>
+      <p align="center">
+        <text><![CDATA[Alcohol ]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[Levels]]></text>
+      </p>
+    </object>
+    <object id="192_4601944" type="image" x="-10221.205489378352" y="-46944.08253874712" r="-68.44877056873156" s="11.450270258384014">
+      <source w="10" h="570">2056735750<url>2056735750.swf</url></source>
+      <sourceUrl>White%20dotted%20dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056735750</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/a/8/e86673587d66b861ecaa7b15ce0c558c8537e.swf</url></resource></object>
+    <object id="174_4601944" type="image" x="883.1323636957422" y="-52776.53082522696" r="0" s="1.7295466531698405">
+      <source w="739" h="739">2056634701<url>2056634701.swf</url></source>
+      <sourceUrl>White%20Circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056634701</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/f/4/a19eed1233afe113a772a7bfc329bb59f0cd3.swf</url></resource></object>
+    <object id="175_4601944" type="text" x="883.1" y="-52737.649999999994" r="0" s="6.6634930432621164" class="head">
+      <height>55.1953125</height>
+      <width>-112.01953125</width>
+      <p>
+        <text><![CDATA[Customer]]></text>
+      </p>
+      <p>
+        <text><![CDATA[Feedback]]></text>
+      </p>
+    </object>
+    <object id="177_4601944" type="button" x="2608.3339379947033" y="-52331.08534510841" r="0" s="1.2751504530739695" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>3532.4800273796773</w>
+        <h>1987.0200154010688</h>
+      </size>
+    </object>
+    <object id="188_4601944" type="image" x="14078.946470425934" y="-44834.86561925327" r="74.99999999999999" s="8.89280551986719">
+      <source w="10" h="570">2056729354<url>2056729354.swf</url></source>
+      <sourceUrl>White%20dotted%20dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056729354</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/6/0/b/ea1c78de75a9794a50e93a4df176056a99a09.swf</url></resource></object>
+    <object id="189_4601944" type="image" x="10436.342044963712" y="-49906.79966060354" r="29.999999999999993" s="11.191855517524615">
+      <source w="10" h="570">2056731520<url>2056731520.swf</url></source>
+      <sourceUrl>White%20dotted%20dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056731520</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/0/9/55a1ecaa8b05fcdc09e905bf2f28baa5344c9.swf</url></resource></object>
+    <object id="190_4601944" type="image" x="14283.530096591208" y="-37680.246338579374" r="-73.56422695062837" s="9.22923664941548">
+      <source w="10" h="570">2056732768<url>2056732768.swf</url></source>
+      <sourceUrl>White%20dotted%20dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056732768</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/8/c/a59715589a868e1ccdd4d8768fa270489a741.swf</url></resource></object>
+    <object id="191_4601944" type="image" x="27955.900818206563" y="-46109.951266585005" r="0" s="3.613539690164887">
+      <source w="94" h="240">750606237<url>750606237.swf</url></source>
+      <sourceUrl>professional-white_man_w.swf</sourceUrl>
+    <resource><id>750606237</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/2/2/376203e0db30102e2347133e0fb9085eb63b8.swf</url></resource></object>
+    <object id="165_4601944" type="text" x="-13816.181203410872" y="-48467.973547207665" r="0" s="8.409686839126948" class="head">
+      <height>27.59765625</height>
+      <width>-74.6953125</width>
+      <p align="center">
+        <text><![CDATA[Drinks]]></text>
+      </p>
+    </object>
+    <object id="193_4601944" type="image" x="-3176.389229863571" y="-46527.36536077273" r="-55.09223640902774" s="11.716264274943615">
+      <source w="10" h="570">2056737850<url>2056737850.swf</url></source>
+      <sourceUrl>White%20dotted%20dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056737850</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/a/4/cd4cd35cc1a29ed59bb230fb45cab49d0bc4c.swf</url></resource></object>
+    <object id="194_4601944" type="image" x="5459.182542673696" y="-52477.53829851969" r="0" s="9.909911067861268">
+      <source w="10" h="570">2056739473<url>2056739473.swf</url></source>
+      <sourceUrl>White%20dotted%20dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056739473</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/3/b/02834dac1921af1f7c83d756608104bc0951c.swf</url></resource></object>
+    <object id="195_4601944" type="button" x="5564.925228230988" y="-46339.98629816967" r="0" s="23.720890942012325" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>2206.936865305502</w>
+        <h>1241.401986734345</h>
+      </size>
+    </object>
+    <object id="196_4601944" type="shape" x="24298.232911244762" y="-34148.23669402659" r="90" s="2.741405231834799" class="line1">
+      <geom type="line">
+        <sp>-470.3112899454499 0</sp>
+        <ep>470.3112899454499 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="197_4601944" type="shape" x="26796.17533794579" y="-32858.92286317916" r="0" s="2.741405231834799" class="line1">
+      <geom type="line">
+        <sp>-911.1905083179462 0</sp>
+        <ep>911.1905083179462 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="212_4601944" type="image" x="23598.250032746022" y="-36283.93970360315" r="0" s="1.4620931978027585">
+      <source w="458" h="356">606629151<url>606629151.swf</url></source>
+      <sourceUrl>stock_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606629151</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/5/6/b0a96d0f26d94db20b641258ccf163dcb4094.swf</url></resource></object>
+    <object id="213_4601944" type="image" x="-14632.589493821277" y="-48022.085562935004" r="0" s="3.316604743300435">
+      <source w="116" h="92">786451987<url>786451987.swf</url></source>
+      <sourceUrl>old_suitcase_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>786451987</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/4/9/6ed8afd14c25a5cf4c8d8c838d44380d8e167.swf</url></resource></object>
+    <object id="215_4601944" type="image" x="-3571.3803244196993" y="-52636.82545639127" r="0" s="1.749802204328788">
+      <source w="94" h="240">750606237<url>750606237.swf</url></source>
+      <sourceUrl>professional-white_man_w.swf</sourceUrl>
+    <resource><id>750606237</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/2/2/376203e0db30102e2347133e0fb9085eb63b8.swf</url></resource></object>
+    <object id="216_4601944" type="image" x="-3291.946079198416" y="-52636.82545639127" r="0" s="1.7571235524640545">
+      <source w="121" h="239">654384171<url>654384171.swf</url></source>
+      <sourceUrl>professional-white_girl_w.swf</sourceUrl>
+    <resource><id>654384171</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/0/c/032004becefb330e08ce13da5d1e0a2618dca.swf</url></resource></object>
+    <object id="217_4601944" type="image" x="1557.5530244068955" y="-53304.773176324474" r="0" s="0.9535675130418804">
+      <source w="343" h="291">606626331<url>606626331.swf</url></source>
+      <sourceUrl>speaker_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606626331</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/4/c/bc562fc27c5886a51332b4fce0a463559ef5b.swf</url></resource></object>
+    <object id="218_4601944" type="image" x="3957.872518400446" y="-56000.46650245891" r="0" s="1.9638764314081534">
+      <source w="273" h="273">606633645<url>606633645.swf</url></source>
+      <sourceUrl>target_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606633645</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/a/9/c/c0f5d356756731358a614a61548ee997978ba.swf</url></resource></object>
+    <object id="219_4601944" type="image" x="13942.516614577555" y="-52982.950620573814" r="0" s="1.7126774414149817">
+      <source w="383" h="215">606613443<url>606613443.swf</url></source>
+      <sourceUrl>podium1_w.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>606613443</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/c/e/6224b1e09dd243f554d3f38ca21b596ed8fcc.swf</url></resource></object>
+    <object id="37_4601944" type="image" x="-34632.420620767065" y="57558.16888282895" r="0" s="67.60554865244897">
+      <source w="813" h="813">3593542301<url>3593542301.swf</url></source>
+      <sourceUrl>Blue%20dotted%20circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593542301</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/0/6/86b75c50f9e9e7871dfd2075bb49ccc0a7059.swf</url></resource></object>
+    <object id="223_4601944" type="text" x="-128504.98316540378" y="28985.034451451284" r="0" s="423.0770364009122" class="head">
+      <height>27.59765625</height>
+      <width>-163.53515625</width>
+      <p>
+        <text><![CDATA[CONTACT US:]]></text>
+      </p>
+    </object>
+    <object id="224_4601944" type="text" x="-143090.65000000002" y="45666.4" r="0" s="342.61551642648544" class="body">
+      <height>27.59765625</height>
+      <width>-286.96875</width>
+      <p align="right">
+        <text><![CDATA[We're standing at the front.]]></text>
+      </p>
+    </object>
+    <object id="127_4601944" type="image" x="5469.803083188496" y="-35056.51743212141" r="0" s="2.0854257900523456">
+      <source w="524" h="439">3593443352<url>3593443352.swf</url></source>
+      <sourceUrl>BadgeWhiteBlue.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593443352</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/e/9/604cc6a5c2157725208cc5f43da67b725e985.swf</url></resource></object>
+    <object id="238_4601944" type="text" x="5445.120514437137" y="-35027.49173415648" r="-18.01047473314958" s="7.522415956154678" class="head">
+      <height>27.59765625</height>
+      <width>-110.6953125</width>
+      <p>
+        <text><![CDATA[Handover]]></text>
+      </p>
+    </object>
+    <object id="239_4601944" type="text" x="5573.399999999999" y="-33933.790659805054" r="0" s="7.522415956154678" class="head">
+      <height>110.390625</height>
+      <width>463.9602271187315</width>
+      <p align="center">
+        <text><![CDATA[Technical specifications ]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[of the game.]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[]]></text>
+      </p>
+      <p align="center">
+        <text><![CDATA[Answer questions.]]></text>
+      </p>
+    </object>
+    <object id="241_4601944" type="text" x="26827.890893672287" y="-49006.14146114233" r="0" s="11.299194149964205" class="head">
+      <height>27.59765625</height>
+      <width>-212.07421875</width>
+      <p>
+        <text color="16777215"><![CDATA[Fresher Problems:]]></text>
+      </p>
+    </object>
+    <object id="242_4601944" type="text" x="14345.3" y="-55579.4" r="0" s="9.281151264837824" class="head head-background">
+      <height>27.59765625</height>
+      <width>148.03909348280462</width>
+      <p>
+        <text><![CDATA[Free on Git!]]></text>
+      </p>
+    </object>
+    <object id="243_4601944" type="text" x="9.619323525808396" y="-59486.980642096525" r="0" s="10.506592354433005" class="head head-background">
+      <height>27.59765625</height>
+      <width>250.8188747499467</width>
+      <p>
+        <text><![CDATA[But how did we do it?]]></text>
+      </p>
+    </object>
+    <object id="244_4601944" type="text" x="-6056.011428551524" y="-55210.94746529599" r="0" s="9.281151264837824" class="head head-background">
+      <height>27.59765625</height>
+      <width>-394.03125</width>
+      <p>
+        <text><![CDATA[Customizable Code = Future Proof]]></text>
+      </p>
+    </object>
+    <object id="245_4601944" type="text" x="3150.35" y="-53276.95" r="0" s="4.75963788804437" class="head head-background">
+      <height>55.1953125</height>
+      <width>551.8505261402171</width>
+      <p>
+        <text><![CDATA[But don't take it from us, listen to what customers had to say...]]></text>
+      </p>
+    </object>
+    <object id="246_4601944" type="text" x="-11297.48990670817" y="-53626.15706397649" r="0" s="11.264655141867207" class="head head-background">
+      <height>27.59765625</height>
+      <width>638.4824695456506</width>
+      <p>
+        <text><![CDATA[Clubs - The Good, the Bad and the Ugly]]></text>
+      </p>
+    </object>
+    <object id="247_4601944" type="text" x="-15589.127320086662" y="-49680.52159117144" r="0" s="10.240595583515642" class="head head-background">
+      <height>27.59765625</height>
+      <width>-317.26171875</width>
+      <p>
+        <text><![CDATA[Drinking - but not dropping.]]></text>
+      </p>
+    </object>
+    <object id="11_4601944" type="image" x="-2949.700195764215" y="-39853.23960945109" r="-135" s="5.0391260471353645">
+      <source w="10" h="570">2056735750<url>2056735750.swf</url></source>
+      <sourceUrl>White%20dotted%20dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056735750</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/a/8/e86673587d66b861ecaa7b15ce0c558c8537e.swf</url></resource></object>
+    <object id="15_4601944" type="image" x="-720.2516783309677" y="-52835.792847035125" r="-84.02718820619243" s="3.7469711063195708">
+      <source w="10" h="570">2056739473<url>2056739473.swf</url></source>
+      <sourceUrl>White%20dotted%20dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056739473</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/3/b/02834dac1921af1f7c83d756608104bc0951c.swf</url></resource></object>
+    <object id="130_4601944" type="image" x="-4035.3771802993538" y="-44509.67677062306" r="-68.44877056873156" s="11.32574410329833">
+      <source w="10" h="570">2056735750<url>2056735750.swf</url></source>
+      <sourceUrl>White%20dotted%20dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056735750</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/a/8/e86673587d66b861ecaa7b15ce0c558c8537e.swf</url></resource></object>
+    <object id="144_4601944" type="image" x="-8327.800290597062" y="-50121.67201320024" r="-55.09223640902774" s="11.573825108920635">
+      <source w="10" h="570">2056735750<url>2056735750.swf</url></source>
+      <sourceUrl>White%20dotted%20dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056735750</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/a/8/e86673587d66b861ecaa7b15ce0c558c8537e.swf</url></resource></object>
+    <object id="146_4601944" type="image" x="19488.216530073267" y="-36144.90120315472" r="-73.56422695062837" s="9.418310269355072">
+      <source w="10" h="570">2056735750<url>2056735750.swf</url></source>
+      <sourceUrl>White%20dotted%20dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056735750</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/a/8/e86673587d66b861ecaa7b15ce0c558c8537e.swf</url></resource></object>
+    <object id="153_4601944" type="image" x="19096.588335776956" y="-46156.25747720077" r="-104.52154063727691" s="8.863014209588302">
+      <source w="10" h="570">2056735750<url>2056735750.swf</url></source>
+      <sourceUrl>White%20dotted%20dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2056735750</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/a/8/e86673587d66b861ecaa7b15ce0c558c8537e.swf</url></resource></object>
+    <object id="163_4601944" type="text" x="-10372.85" y="-52174.15" r="0" s="10.240595583515642" class="head">
+      <height>27.59765625</height>
+      <width>-66.66796875</width>
+      <p align="center">
+        <text><![CDATA[Clubs]]></text>
+      </p>
+    </object>
+    <object id="154_4601944" type="text" x="24974.556683799583" y="-48227.762974618934" r="0" s="7.522415956154689" class="head head-background">
+      <height>27.59765625</height>
+      <width>-266.63671875</width>
+      <p>
+        <text><![CDATA[Where should I go out?]]></text>
+      </p>
+    </object>
+    <object id="157_4601944" type="text" x="25553.09685108645" y="-47790.09959267872" r="0" s="7.522415956154689" class="head head-background">
+      <height>27.59765625</height>
+      <width>-420.41015625</width>
+      <p>
+        <text><![CDATA[I don't know if I can handle my drink!]]></text>
+      </p>
+    </object>
+    <object id="158_4601944" type="text" x="24965.61494628698" y="-47332.88383919919" r="0" s="7.522415956154689" class="head head-background">
+      <height>27.59765625</height>
+      <width>-264.08203125</width>
+      <p>
+        <text><![CDATA[What if I lose my keys?]]></text>
+      </p>
+    </object>
+    <object id="168_4601944" type="text" x="24814.260140168815" y="-46855.38186517115" r="0" s="7.522415956154689" class="head head-background">
+      <height>27.59765625</height>
+      <width>-224.05078125</width>
+      <p>
+        <text><![CDATA[How do I stay safe?]]></text>
+      </p>
+    </object>
+    <object id="176_4601944" type="text" x="1333.537128365515" y="-50040" r="0" s="11.713238247766824" class="head head-background">
+      <height>27.59765625</height>
+      <width>-478.88671875</width>
+      <p>
+        <text><![CDATA[These problems face every single Fresher]]></text>
+      </p>
+    </object>
+    <object id="178_4601944" type="text" x="122.55080764284591" y="-49233.0432886782" r="0" s="11.713238247766824" class="head head-background">
+      <height>27.59765625</height>
+      <width>-272.05078125</width>
+      <p>
+        <text><![CDATA[But we are here to help!]]></text>
+      </p>
+    </object>
+    <object id="179_4601944" type="text" x="15332" y="-42402.1" r="0" s="8.894401870704424" class="head head-background">
+      <height>27.59765625</height>
+      <width>-242.6484375</width>
+      <p>
+        <text><![CDATA[What is the solution?]]></text>
+      </p>
+    </object>
+    <object id="180_4601944" type="text" x="15337.781361215959" y="-41786.6" r="0" s="8.894401870704424" class="head head-background">
+      <height>27.59765625</height>
+      <width>-237.6796875</width>
+      <p>
+        <text><![CDATA[Drink But Don't Drop]]></text>
+      </p>
+    </object>
+    <object id="181_4601944" type="text" x="26827.61783552734" y="-36008.63206598801" r="0" s="9.00763832164619" class="head head-background">
+      <height>55.1953125</height>
+      <width>552</width>
+      <p>
+        <text><![CDATA[Blood alcohol level can rise rapidly when you are pressured to drink.]]></text>
+      </p>
+    </object>
+    <object id="8_166685775" type="image" x="-12245.95" y="-51802.4" r="9.814985688214552" s="0.9876870837154884">
+      <source w="1200" h="800">3898193573<url>3898193573.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2Fd%2Fe%2F2%2F39c7cc2e5c4e51a400f156aa9b75f09dffc19.png</sourceUrl>
+    <resource><id>3898193573</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/e/2/39c7cc2e5c4e51a400f156aa9b75f09dffc19.png</url></resource></object>
+    <object id="198_4601944" type="shape" x="-6071.030721724717" y="-54437.1320761036" r="0" s="2.8448490523728904" class="poly4">
+      <style borderThickness="NaN"/>
+      <style borderThickness="NaN"/>
+      <geom type="circle">
+        <r>146.94978781563685</r>
+      </geom>
+    </object>
+    <object id="211_4601944" type="shape" x="-7148.656802728116" y="-53698.485608101364" r="0" s="3.826965005310216" class="poly4">
+      <style borderThickness="NaN"/>
+      <style borderThickness="NaN"/>
+      <geom type="circle">
+        <r>146.94978781563685</r>
+      </geom>
+    </object>
+    <object id="214_4601944" type="shape" x="-5386.697717850523" y="-53222.40711635542" r="0" s="5.0213613910069395" class="poly4">
+      <style borderThickness="NaN"/>
+      <style borderThickness="NaN"/>
+      <geom type="circle">
+        <r>146.94978781563685</r>
+      </geom>
+    </object>
+    <object id="222_4601944" type="image" x="27457.79931354792" y="-46094.696545027655" r="0" s="3.5020371048769707">
+      <source w="121" h="239">654384171<url>654384171.swf</url></source>
+      <sourceUrl>professional-white_girl_w.swf</sourceUrl>
+    <resource><id>654384171</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/0/c/032004becefb330e08ce13da5d1e0a2618dca.swf</url></resource></object>
+    <object id="122_4601944" type="shape" x="26711.31119392113" y="-33929.30941929487" r="-29.999999999999993" s="4.424864846226306" class="line2">
+      <geom type="arrow">
+        <sp>-533.4592464808936 -73.37220851928146</sp>
+        <ep>533.4592464808936 -73.37220851928146</ep>
+        <b>146.74441703856291</b>
+        <t>10</t>
+      </geom>
+    </object>
+    <object id="9_4601944" type="image" x="58057.30930718259" y="58709.41518047347" r="0" s="127.06450149025352">
+      <source w="524" h="439">3593433962<url>3593433962.swf</url></source>
+      <sourceUrl>BadgeWhiteBlue.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593433962</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/a/9/937603505c12aa60e328a4411f9819b632861.swf</url></resource></object>
+    <object id="221_4601944" type="text" x="58580.65180882801" y="60746.816362190955" r="-18.03388202886913" s="294.5646540130655" class="head">
+      <height>27.59765625</height>
+      <width>145.33046875000002</width>
+      <p>
+        <text><![CDATA[THANK YOU]]></text>
+      </p>
+    </object>
+    <object id="125_4601944" type="persistentgroup" x="58057.30930718259" y="58709.41518047347" r="0" s="521.2511349402704">
+      <m o="9_4601944"/>
+      <m o="221_4601944"/>
+    </object>
+    <object id="143_4601944" type="image" x="5697.3401730838195" y="-41232.77881287138" r="0" s="0.15948837687509756">
+      <source w="1515" h="20">3593466116<url>3593466116.swf</url></source>
+      <sourceUrl>White%20Dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593466116</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/9/a/5a17e718d6db33a114b87b55baceae33b5a44.swf</url></resource></object>
+    <object id="145_4601944" type="image" x="5242.147154283854" y="-41232.818425874495" r="0" s="0.1594883768750976">
+      <source w="1515" h="20">3593466116<url>3593466116.swf</url></source>
+      <sourceUrl>White%20Dots.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593466116</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/9/a/5a17e718d6db33a114b87b55baceae33b5a44.swf</url></resource></object>
+    <object id="0_4601944" type="image" x="-1128.0594897195188" y="-40783.210840513806" r="0" s="2.965845484956943">
+      <source w="991" h="10">3593537198<url>3593537198.swf</url></source>
+      <sourceUrl>Dotted%20Blue%20line.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593537198</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/d/2/331fa642ccd19ce46f71ad0c4bf1c1b29c09d.swf</url></resource></object>
+    <object id="8_4601944" type="image" x="5469.723857182284" y="-41110.45385925079" r="0" s="3.2522062267360634">
+      <source w="813" h="813">3593537855<url>3593537855.swf</url></source>
+      <sourceUrl>Blue%20dotted%20circle.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593537855</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/d/c/bf5dbd54dc88e8001ee8f8331ecb4823ad6fa.swf</url></resource></object>
+    <object id="2_4601944" type="text" x="5473.549999999999" y="-41248.6" r="-13.51700425174099" s="0.8716991944186718" class="strong">
+      <height>27.59765625</height>
+      <width>-105.31640625</width>
+      <p>
+        <text color="16777215"><![CDATA[CARDIFF]]></text>
+      </p>
+    </object>
+    <object id="3_4601944" type="text" x="5483.549999999999" y="-41207.15" r="-13.51700425174099" s="0.8716991944186718" class="strong">
+      <height>27.59765625</height>
+      <width>-97.3359375</width>
+      <p>
+        <text color="16777215"><![CDATA[EDITION]]></text>
+      </p>
+    </object>
+    <object id="128_4601944" type="text" x="5472.45" y="-41349.45" r="0" s="1.0032353623286758" class="strong">
+      <height>27.59765625</height>
+      <width>-282.65625</width>
+      <p>
+        <text style="normal"><![CDATA[DRINK BUT DONT DROP]]></text>
+      </p>
+    </object>
+    <object id="40_4601944" type="image" x="-82919.08689841184" y="36154.15413544818" r="0" s="62.25598396296917">
+      <source w="991" h="10">3593542841<url>3593542841.swf</url></source>
+      <sourceUrl>Dotted%20Blue%20line.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>3593542841</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/b/4/8/0b712db628ff8694f073f0f9c2093238cbbab.swf</url></resource></object>
+    <object id="0_166685775" type="image" x="5470.32896198233" y="-41422.77618389479" r="0" s="0.32273818841595336">
+      <source w="109" h="178" bt="9.4" bl="51.3">2819116213<url>2819116213.swf</url></source>
+      <sourceUrl>prezilight_glass.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819116213</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/a/2/d5f26aeec7d01f63aae7586d378ed08e37440.swf</url></resource></object>
+    <object id="3_166685775" type="image" x="26289.295480131706" y="-47377.976360802764" r="0" s="1.8869924612990685">
+      <source w="157" h="176" bt="8.55" bl="21.25">2819126212<url>2819126212.swf</url></source>
+      <sourceUrl>prezilight_key.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819126212</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/c/a/1e699a751b8dec82b4d23879ee9378b5b80e8.swf</url></resource></object>
+    <object id="4_166685775" type="image" x="25971.795480131706" y="-46906.726360802764" r="0" s="1.8591443827473844">
+      <source w="122" h="178" bt="8.9" bl="38.85">2819131684<url>2819131684.swf</url></source>
+      <sourceUrl>prezilight_lock.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819131684</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/d/5/dfb072536b8c959841577718b3d16a034a69a.swf</url></resource></object>
+    <object id="5_166685775" type="image" x="26416.05" y="-48246.7" r="0" s="2.811711487833902">
+      <source w="191" h="61" bt="74.65" bl="7.15">2819247502<url>2819247502.swf</url></source>
+      <sourceUrl>prezilight_taxi.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819247502</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/5/8/5/1dcac9b1096bd5cd404c7589c358899fce279.swf</url></resource></object>
+    <object id="6_166685775" type="image" x="-13885.438871350474" y="-49956.19435326921" r="0" s="2.1975516153296444">
+      <source w="103" h="175" bt="7.9" bl="47.3">2819093647<url>2819093647.swf</url></source>
+      <sourceUrl>prezilight_drop.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819093647</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/e/f/320cb0a1fbe38c25d808c3f4ce082738c75ee.swf</url></resource></object>
+    <object id="7_166685775" type="text" x="-16022" y="-48803.45" r="0" s="5.780549235118428" class="body">
+      <height>165.5859375</height>
+      <width>513.9381951768542</width>
+      <p listType="bullet" indent="1">
+        <text color="16777215" weight="bold"><![CDATA[Drinking is a central part of the game. ]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="16777215" weight="bold"><![CDATA[Drink too little and your night will not be deemed a success but drink to excess and a trip to A&E is inevitable. ]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="16777215" weight="bold"><![CDATA[Get the balance right though and you'll succeed in our game.]]></text>
+      </p>
+    </object>
+    <object id="9_166685775" type="text" x="-13025.209442087724" y="-52684.237138929784" r="0" s="8.463302135136892" class="body">
+      <height>137.98828125</height>
+      <width>411.9356539188734</width>
+      <p>
+        <text weight="bold" color="16777215"><![CDATA[Our game will showcase Cardiffs clubs in their true light, allowing Freshers to make more informed decisions when choosing where to go on a night out.]]></text>
+      </p>
+    </object>
+    <object id="10_166685775" type="text" x="3038.4" y="-52766.8" r="0" s="4.75963788804437" class="body">
+      <height>110.390625</height>
+      <width>552</width>
+      <p>
+        <text color="16777215" weight="bold"><![CDATA["Drink Till You Drop gave me the confidence to explore Cardiff without having to make the fatal error of entering Tiger Tiger and having to pay with real money!" - Alice, English Literature]]></text>
+      </p>
+    </object>
+    <object id="11_166685775" type="text" x="3642" y="-52020.5" r="0" s="4.75963788804437" class="body">
+      <height>137.98828125</height>
+      <width>510.890625</width>
+      <p>
+        <text color="16777215" weight="bold"><![CDATA["I wish I had this last year when I was a Fresher, to be able to learn how to handle your drink in a safe environment has given me the confidence to go out and mee more people!" - Ruth, Accounting and Finance]]></text>
+      </p>
+    </object>
+    <object id="12_166685775" type="shape" x="3495.990346971571" y="-52423.9" r="-7.867199227294115e-15" s="2.857142857142857" class="line3">
+      <style gradEndAlpha="1" gradStartColor="16777215" color="16777215" gradStartAlpha="1" gradEndColor="16777215" borderColor="16777215"/>
+      <style gradEndAlpha="1" gradStartColor="16777215" color="16777215" gradStartAlpha="1" gradEndColor="16777215" borderColor="16777215"/>
+      <geom type="line">
+        <sp>402.66464828707984 0</sp>
+        <ep>-402.66464828707984 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="13_166685775" type="text" x="1953.75" y="-51412.8" r="0" s="4.75963788804437" class="body">
+      <height>55.1953125</height>
+      <width>552</width>
+      <p>
+        <text color="16777215" weight="bold"><![CDATA["I wish my team had thought of this game." - George, Computer Science]]></text>
+      </p>
+    </object>
+    <object id="14_166685775" type="shape" x="1857.1" y="-51608.95" r="-2.1900617824363867e-14" s="2.857142857142857" class="line3">
+      <style gradEndAlpha="1" gradStartColor="16777215" color="16777215" gradStartAlpha="1" gradEndColor="16777215" borderColor="16777215"/>
+      <style gradEndAlpha="1" gradStartColor="16777215" color="16777215" gradStartAlpha="1" gradEndColor="16777215" borderColor="16777215"/>
+      <geom type="line">
+        <sp>436.31061542337176 0</sp>
+        <ep>-436.31061542337176 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="15_166685775" type="image" x="-34623.149999999994" y="57574.200000000004" r="0" s="183.5302828376834">
+      <source w="109" h="178" bt="9.4" bl="51.3">2819116213<url>2819116213.swf</url></source>
+      <sourceUrl>prezilight_glass.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819116213</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/a/2/d5f26aeec7d01f63aae7586d378ed08e37440.swf</url></resource></object>
+    <object id="16_166685775" type="text" x="1407.35" y="-57829.90902550882" r="0" s="10.506592354433005" class="body">
+      <height>220.78125</height>
+      <width>528.9436472954901</width>
+      <p listType="bullet" indent="1">
+        <text color="16777215" weight="bold"><![CDATA[Implemented an advanced input reader.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="16777215" weight="bold"><![CDATA[Created a detailed map with over 25 rooms and 20 consumables.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="16777215" weight="bold"><![CDATA[Created real life trigger events.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="16777215" weight="bold"><![CDATA[Virtually unlimited combinations of story.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="16777215" weight="bold"><![CDATA[Quick reset button.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="16777215" weight="bold"><![CDATA[Beautiful colours.]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text color="16777215" weight="bold"><![CDATA[And hundreds of other details.]]></text>
+      </p>
+    </object>
+    <object id="18_166685775" type="image" x="5570.55" y="-59523.05" r="0" s="7.602478471163511">
+      <source w="188" h="131" bt="35.25" bl="5.6">2819128678<url>2819128678.swf</url></source>
+      <sourceUrl>prezilight_laptop.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819128678</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/2/2/7fdb72b73a0cd663486c85b23889e38964801.swf</url></resource></object>
+    <object id="19_166685775" type="text" x="5685" y="-7735.5" r="0" s="72.2526630468835" class="body">
+      <height>55.1953125</height>
+      <width>-152.91796875</width>
+      <p>
+        <text weight="bold"><![CDATA[BUY NOW.]]></text>
+      </p>
+      <p>
+        <text weight="bold"><![CDATA[PLAY LATER.]]></text>
+      </p>
+    </object>
+    <object id="20_166685775" type="image" x="-5393.9" y="-53165.9" r="0" s="4.906430369548255">
+      <source w="77" h="135" bt="30.7" bl="66.8">2819272714<url>2819272714.swf</url></source>
+      <sourceUrl>prezilight_wine.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819272714</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/1/f/b/f83253e1b4eddd6a077a09e8577940370641c.swf</url></resource></object>
+    <object id="21_166685775" type="image" x="-7132.439525537034" y="-53688.00555326687" r="0" s="2.956941675212668">
+      <source w="155" h="179" bt="10.65" bl="29.9">2819031766<url>2819031766.swf</url></source>
+      <sourceUrl>prezilight_beer.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819031766</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/f/5/2841c3b4fd1508662c72696bd22d7484a98ee.swf</url></resource></object>
+    <object id="22_166685775" type="image" x="-6052.439525537034" y="-54479.50555326687" r="0" s="2.25659248364553">
+      <source w="126" h="178" bt="9.4" bl="42.8">2819152600<url>2819152600.swf</url></source>
+      <sourceUrl>prezilight_mug_1.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819152600</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/0/4/6e268858c55dbf187231e5deb741e9f5492ca.swf</url></resource></object>
+    <object id="23_166685775" type="image" x="14622.05" y="-54449.35" r="0" s="3.324317028134073">
+      <source w="106" h="173" bt="18.35" bl="48.75">2819092567<url>2819092567.swf</url></source>
+      <sourceUrl>prezilight_dollar.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819092567</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/d/5/4931b8e21cbab1d34c40879bd2c3f6eb64d7f.swf</url></resource></object>
+    <object id="24_166685775" type="image" x="15221.15" y="-54451.65" r="0" s="2.9578674297337355">
+      <source w="161" h="168" bt="16.4" bl="20.1">2819100991<url>2819100991.swf</url></source>
+      <sourceUrl>prezilight_euro.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819100991</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/d/5/ad269d1427cde82042eedf67017b355a61760.swf</url></resource></object>
+    <object id="25_166685775" type="image" x="15842.3" y="-54451.65" r="0" s="2.923068989383927">
+      <source w="117" h="170" bt="14" bl="42.85">2819209846<url>2819209846.swf</url></source>
+      <sourceUrl>prezilight_pound.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819209846</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/7/e/417637a72e0cf966b4a7f14719ae4560d07d4.swf</url></resource></object>
+    <object id="26_166685775" type="image" x="16444.166052097014" y="-54451.418330904955" r="0" s="2.99350438671848">
+      <source w="159" h="166" bt="16.1" bl="21.7">2819291713<url>2819291713.swf</url></source>
+      <sourceUrl>prezilight_yen.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819291713</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/e/1/e/b95d96bbfca533f9cb4bfbd2ccdf3627bb85b.swf</url></resource></object>
+    <object id="27_166685775" type="image" x="13942.85" y="-53267.8" r="0" s="0.7352406228082812">
+      <source w="172" h="172" bt="14.45" bl="10.3">2819149843<url>2819149843.swf</url></source>
+      <sourceUrl>prezilight_moneycoin.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819149843</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/9/e/33f718459045a79dba1cc00b4e7fa50dcf40e.swf</url></resource></object>
+    <object id="28_166685775" type="image" x="-2804.75" y="-54883.2" r="0" s="3.0073440901310655">
+      <source w="176" h="176" bt="7.6" bl="11.35">2819094118<url>2819094118.swf</url></source>
+      <sourceUrl>prezilight_earth.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819094118</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/a/8/e5af8100dc695cb8144776e9fc42aeab756db.swf</url></resource></object>
+    <object id="29_166685775" type="image" x="-2484.45" y="-53151.05" r="0" s="3.059494565682471">
+      <source w="152" h="173" bt="12.55" bl="25">2819229232<url>2819229232.swf</url></source>
+      <sourceUrl>prezilight_share.swf</sourceUrl>
+      <extra>
+        <fixed_avm1_pos>1</fixed_avm1_pos>
+      </extra>
+    <resource><id>2819229232</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/0/5/0ce604febf9a4c7eb506f0de15da4be1ac01b.swf</url></resource></object>
+  </zui-table>
+  <path>
+    <s>
+      <eagle o="1_4601944"/>
+    </s>
+    <s>
+      <eagle o="105_4601944"/>
+    </s>
+    <s>
+      <eagle o="167_4601944"/>
+    </s>
+    <s>
+      <eagle o="38_4601944"/>
+    </s>
+    <s>
+      <eagle o="4_4601944"/>
+    </s>
+    <s>
+      <eagle o="19_4601944"/>
+    </s>
+    <s>
+      <eagle o="132_4601944"/>
+    </s>
+    <s>
+      <eagle o="169_4601944"/>
+    </s>
+    <s>
+      <eagle o="170_4601944"/>
+    </s>
+    <s>
+      <eagle o="171_4601944"/>
+    </s>
+    <s>
+      <eagle o="177_4601944"/>
+    </s>
+    <s>
+      <eagle o="172_4601944"/>
+    </s>
+    <s>
+      <eagle o="173_4601944"/>
+    </s>
+    <s>
+      <eagle o="195_4601944"/>
+    </s>
+    <s>
+      <eagle o="131_4601944"/>
+    </s>
+    <s>
+      <eagle o="117_4601944"/>
+    </s>
+    <s>
+      <eagle o="123_4601944"/>
+    </s>
+    <s>
+      <eagle o="183_4601944"/>
+    </s>
+    <s>
+      <buildin o="125_4601944"/>
+    </s>
+  </path>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('Arimo-Regular.keg');
+	fontFamily: body;
+	font-class: body;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Arimo;
+}
+
+@font-face
+{
+	src: url('Arimo-Bold.keg');
+	fontFamily: head;
+	font-class: head;
+	font-style: normal;
+	font-weight: bold;
+	font-family: Arimo;
+}
+
+@font-face
+{
+	src: url('Arimo-BoldItalic.keg');
+	fontFamily: strong;
+	font-class: strong;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Arimo;
+}
+
+@font-face
+{
+	src: url('Arimo-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: Arimo;
+}
+
+.line1
+{
+	color: #fff;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+.line2
+{
+	color: #0a4e59;
+	gradEndColor: #0a4e59;
+	gradStartColor: #0a4e59;
+}
+
+.line3
+{
+	color: #5374ec;
+	gradEndColor: #5374ec;
+	gradStartColor: #5374ec;
+}
+
+.line4
+{
+	color: #66e186;
+	gradEndColor: #66e186;
+	gradStartColor: #66e186;
+}
+
+.line5
+{
+	color: #fa5151;
+	gradEndColor: #fa5151;
+	gradStartColor: #fa5151;
+}
+
+.poly1
+{
+	color: #fff;
+	gradEndColor: #363636;
+	gradStartColor: #363636;
+}
+
+.poly2
+{
+	color: #fff;
+	gradEndColor: #e54c3a;
+	gradStartColor: #e54c3a;
+}
+
+.poly3
+{
+	color: #fff;
+	gradEndColor: #a02d27;
+	gradStartColor: #a02d27;
+}
+
+.poly4
+{
+	color: #fff;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+.poly5
+{
+	color: #fff;
+	gradEndColor: #fa5151;
+	gradStartColor: #fa5151;
+}
+
+Background
+{
+	gradEnd: #fff;
+	gradStart: #fff;
+}
+
+Grid
+{
+	color: #b8b8b8;
+}
+
+ZArrow
+{
+	borderAlpha: 0;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradEndColor: #fff;
+	gradStartAlpha: 1;
+	gradStartColor: #fff;
+	thickness: 10;
+}
+
+ZCircle
+{
+	borderAlpha: 0;
+	gradEndAlpha: 1;
+	gradStartAlpha: .9;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+ZCurveLine
+{
+	color: #fff;
+}
+
+ZFrame.bracket
+{
+	borderAlpha: 0;
+	borderColor: #318bff;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradEndColor: #318bff;
+	gradStartAlpha: 1;
+	gradStartColor: #318bff;
+	padding: 1.03;
+	thickness: 3;
+}
+
+ZFrame.circle
+{
+	borderAlpha: 0;
+	borderColor: #333;
+	borderThickness: 3;
+	gradEndAlpha: 1;
+	gradEndColor: #318bff;
+	gradStartAlpha: 1;
+	gradStartColor: #318bff;
+	padding: 1.03;
+	thickness: 3;
+}
+
+ZFrame.roundrect
+{
+	borderAlpha: 1;
+	borderColor: #318bff;
+	borderThickness: 10;
+	gradEndAlpha: 0.2;
+	gradEndColor: #318bff;
+	gradStartAlpha: 0;
+	gradStartColor: #318bff;
+	padding: 1.03;
+	radius: 1;
+	thickness: 3;
+}
+
+ZLabel
+{
+	lockTintAlpha: 0.15;
+	padding: 1.2;
+}
+
+ZLabel.body
+{
+	color: #333;
+	fontFamily: body;
+}
+
+ZLabel.body-background
+{
+	background-alpha: 0.9;
+	background-color: #e4e4dd;
+	background-padding: 10;
+}
+
+ZLabel.head
+{
+	color: #12bce5;
+	fontFamily: head;
+}
+
+ZLabel.head-background
+{
+	background-alpha: 1;
+	background-color: #fff;
+	background-padding: 6;
+}
+
+ZLabel.strong
+{
+	color: #0a4e59;
+	fontFamily: strong;
+}
+
+ZLabel.strong-background
+{
+	background-alpha: 0.9;
+	background-color: #d3e2ee;
+	background-padding: 8;
+}
+
+ZLine
+{
+	color: #fff;
+}
+
+ZMarker
+{
+	alpha: .65;
+	color: #f0ea82;
+}
+
+ZPath
+{
+	alpha: 1;
+	color: #333;
+	textColor: #fff;
+	thickness: 3;
+}
+
+ZPath Ball.base
+{
+	alpha: 1;
+	fillColor: #333;
+	radius: 12;
+}
+
+ZPath Ball.mid
+{
+	alpha: .5;
+	fillColor: #333;
+	radius: 8;
+}
+
+ZPoly
+{
+	borderAlpha: 1;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 1;
+	radius: 1;
+	thickness: 100;
+}
+
+]]></style>
+  <hash>-2008cb41</hash>
+<sync><oid>j3wktf5rzotw</oid><title>copy-of-business-pitch-template</title><hash>-2008cb41</hash></sync><config>ED/VWEQc+Lw0JfkOEZ6CD7lPSf1M5mVcsMq03jZ75fVhC5dD+V6+R8+p6gB8KvQIO/QtO4SlVbil8sr7nrJk1c4QMCqgIpKEoAUMWu9RHnop0QACArfxdfE74jSwxU/pQF3pVjZ8nliXYbv++aXqETnYnLr8jGk/bMKAXvk6OjWfOhw+IVnFNzUeH7kJ+16u+59dA7b9lvPW0JKQgPXieyUxAhih6VgqhaKX8BR1WF6tVrI+r646ieMdpxaPeRRKVeGWYe7PcNG15OII0iileLTaM86GUGLrdKZypIqnIwA51wesjiqXSPzJIQJqxpprczBORm3+i1z6LTHsdL6CjA==</config></zuiprezi>
