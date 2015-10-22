@@ -430,7 +430,7 @@ choice is yours. Entry costs £5.""",
 
     "items": [],
 
-    "victory_points": 2,
+    "victory_points": 0,
 
     "special": "",
 
