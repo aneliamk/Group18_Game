@@ -46,7 +46,8 @@ unknown_substance = {
 }
 
 # ----------------------------------------------------------------
-# ALCOHOL - FILLS alcohol_bar, DECREASES HEALTH
+# ALCOHOL - DECREASES HEALTH
+
 item_tequila_shot = {
     "id" : "tequila",
     "name" : "a Tequila shot",
@@ -167,9 +168,9 @@ item_coors={
     "points": 1
 }
 
-
 # ----------------------------------------------------------------
 # WATER - INCREASES HEALTH
+
 item_water={
     "id": "water",
     "name": "a glass of Water",
@@ -182,6 +183,7 @@ item_water={
 
 # ----------------------------------------------------------------
 # FOOD - INCREASES HEALTH
+
 item_nuggets = { 
     "id": "nuggets",
     "name": "9 McNuggets",
@@ -235,9 +237,3 @@ item_long_sausage_kebab = {
     "price": 5,
     "points": 0
 }
-
-
-
-# TO BE COMPLETED :)
-
-

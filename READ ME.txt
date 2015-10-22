@@ -1,0 +1,7 @@
+Drink But Don’t Drop
+
+Drink But Don’t Drop (DBDD) allows players to play as a computer science fresher in Cardiff University who has to have an enjoyable night out without getting into trouble with the law, getting too drunk or losing their keys.
+
+The game is played in the cmd or terminal of your operating system and requires that you have colorama 0.3.3 in the folder in which the game.py file is held. Without colorama 0.3.3 the game will display numerical codes at the beginning of titles and variables. The game is still fully playable without colorama however it will be harder to read the text due to these codes being present in the game.
+
+We hope you enjoy the game. 

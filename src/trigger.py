@@ -1,4 +1,4 @@
-#author Viktor
+#author Wiktor
 
 from items import *
 
